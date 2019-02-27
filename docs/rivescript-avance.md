@@ -1,4 +1,4 @@
-# Uttilisation avancée de RiveScript
+# Uttilisation avancée de RiveScript
 
 ## Des déclancheurs plus puissants (Les Jokers)
 
