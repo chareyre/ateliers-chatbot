@@ -1,4 +1,4 @@
-## Ateliers chatbot
+## Ateliers chatbot
 
 Ce dépot contient un modèle pour organiser le travail et le rendu des ateliers chatbots.
 
