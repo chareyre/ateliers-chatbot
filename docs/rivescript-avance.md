@@ -8,7 +8,7 @@ Mais pour pouvoir être capable de répondre à un maximum de message, il va fal
 
 C'est là qu'interviennent les Jokers.
 
-### L'étoile `*`
+### L'étoile `*`
 
 Essayons ce bout de code :
 
