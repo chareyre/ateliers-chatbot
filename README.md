@@ -4,7 +4,7 @@ Ce dépot contient un modèle pour organiser le travail et le rendu des ateliers
 
 Il contient deux dossiers :
 
-- `docs/` : la documentation pour pendant le déroulement de l'atelier
+- `docs/` : [la documentation](https://leonlenclos.github.io/ateliers-chatbot/) pour pendant le déroulement de l'atelier
 - `www/` : les pages web qui permettent de faire tourner le chatbot créé pendant l'atelier.
 
 ### Usage
