@@ -14,3 +14,8 @@ Faire un fork de ce dépot et modifier directement les fichiers source :
 - Mettre tous les fichiers `.rive` dans le dossier `brain/`
 - Lister ces fichiers dans `riveList.js`
 - Compléter `index.html` et `about.html` avec les bonnes informations.
+
+### Ressources
+
+- https://play.rivescript.com/
+- https://www.rivescript.com/
