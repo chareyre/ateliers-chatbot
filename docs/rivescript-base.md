@@ -1,4 +1,4 @@
-# Les bases de RiveScript
+# Les bases de RiveScript
 
 ## C'est quoi RiveScript ?
 
