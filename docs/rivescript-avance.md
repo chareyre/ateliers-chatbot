@@ -1,10 +1,10 @@
-# Uttilisation avancée de RiveScript
+# Utilisation avancée de RiveScript
 
-## Des déclancheurs plus puissants (Les Jokers)
+## Des déclencheurs plus puissants (Les Jokers)
 
-Pour l'instant on avait des déclancheurs qui ne marchaient que quand l'utilisataur écrivait exactement le même message.
+Pour l'instant on n'a vu que des déclencheurs qui ne marchaient que quand l'utilisataur écrivait exactement le même message.
 
-Mais pour pouvoir être capable de répondre à un maximum de message, il va falloir trouver un moyer d'écrire des déclancheurs plus souples.
+Mais pour pouvoir être capable de répondre à un maximum de messages, il va falloir trouver un moyen d'écrire des déclencheurs plus souples.
 
 C'est là qu'interviennent les Jokers.
 
@@ -13,19 +13,19 @@ C'est là qu'interviennent les Jokers.
 Essayons ce bout de code :
 
 ```
-+ je mappelle *
++ je m'appelle *
 - Oh ! C'est un très joli prénom !
 ```
 
-Si je test ce code je verrai que le robot répondra "Oh ! C'est un très joli prénom !" quelque soit mon prénom. Que j'écrive "Je m'appelle Sofiane", "Je m'appelle Lola" ou encore "Je m'appelle voiture de course"
+Si je teste ce code je verrai que le robot répondra "Oh ! C'est un très joli prénom !" quelque soit mon prénom. Que j'écrive "Je m'appelle Sofiane", "Je m'appelle Lola" ou encore "Je m'appelle voiture de course"
 
-Enfait, le symbole `*` veut dire "n'importe quoi"
+En fait, le symbole `*` veut dire "n'importe quelle suite de lettres"
 
-#### Autres exemples 
+#### Autres exemples d'utilisation de `*`
 
 ```
 + * est très beau
-- Je ne le trouve pas si beau que ça
+- Je ne le trouve pas si beau que ça.
 ```
 
 ```
@@ -38,11 +38,11 @@ Enfait, le symbole `*` veut dire "n'importe quoi"
 - Le rouge c'est ma couleur préféré !
 ```
 
-#### Le déclancheur *fourre-tout*
+#### Le déclencheur *fourre-tout*
 
 Jusqu'à maintenant, quand on disait au robot une phrase à laquelle il ne savait pas répondre, il y avait une erreur (`ERR: No Reply Matched`).
 
-L'étoile peut nous permette de crééer un déclancheur qui se déclanche à chaque fois que le robot n'a rien à dire :
+L'étoile peut nous permette de créer un déclencheur qui se déclenche à chaque fois que le robot n'a rien à dire :
 
 ```
 + *
@@ -52,9 +52,13 @@ L'étoile peut nous permette de crééer un déclancheur qui se déclanche à ch
 
 #### Récupérer le contenu de l'étoile
 
+Nous avons vu que l'étoile voulait dire "n'importe quelle suite de lettres". On peut récupérer la suite de lettres qui a déclenché une étoile et s'en servir dans la réponse. Par exemple:
+
 ```
-+ je mappelle *
++ je m'appelle *
 - Tu es la première personne que je rencontre qui s'appelle <star>
 ```
 
-Ça donnera la discussion : "Je m'appelle Kévin", "Tu es la première personne que je rencontre qui s'appelle Kévin"
+Ça donnera la discussion :
+"Je m'appelle Kévin"
+"Tu es la première personne que je rencontre qui s'appelle Kévin"
