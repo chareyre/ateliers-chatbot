@@ -41,7 +41,7 @@ La commande `-` sert à définir les réponses au déclencheur.
 
 **Un déclencheur doit toujours être écrit en minuscule et sans ponctuation !**
 
-Les apostrophes `'` et les tirets `-` ne posent pas de problèmes, mais si vous mettez une majuscule, une virgule ou encore un point dans un déclencheur, cela va créer une erreur qui vous empêchera de tester le code. 
+Les apostrophes `'` et les tirets `-` ne posent pas de problèmes, mais si vous mettez une majuscule ou un point dans un déclencheur, cela va créer une erreur qui vous empêchera de tester le code. 
 Par contre on peut mettre des majuscules et des signes de ponctuation dans les commandes de réponse.
 Par exemple, le code suivant contient des erreurs :
 ```
