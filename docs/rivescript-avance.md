@@ -29,7 +29,7 @@ En fait, le symbole `*` veut dire "n'importe quelle suite de lettres"
 ```
 
 ```
-+ jai * ans
++ j'ai * ans
 - Moi je suis beaucoup plus jeune que ça !
 ```
 
