@@ -8,7 +8,7 @@ RiveScript est un **langage de programmation** qui sert à programmer des **chat
 
 Pour commencer à utiliser RiveScript, une bonne solution est d'aller sur l'*aire de jeu RiveScript* : [play.rivescript.com](http://play.rivescript.com).
 
-Une fois sur cette page, vous pouvez supprimer tout le contenu de la zone jaune et cocher la case `UTF-8 Mode`.
+Une fois sur cette page, supprimez tout le contenu de la zone jaune et cochez la case `UTF-8 Mode`.
 
 Pour la suite on écrira notre code dans la partie de gauche (jaune), et on appuiera sur `Run` pour le tester dans la partie droite.
 
@@ -40,6 +40,24 @@ La commande `-` sert à définir les réponses au déclencheur.
 ### Important !
 
 **Un déclencheur doit toujours être écrit en minuscule et sans ponctuation !**
+
+Les apostrophes `'` et les tirets `-` ne posent pas de problèmes, mais vous mettez une majuscule, une virgule ou encore un point dans un déclencheur, cela va créer une erreur qui vous empêchera de tester le code. 
+Par contre on peut mettre des majuscules et des signes de ponctuation dans les commandes de réponse.
+Par exemple, le code suivant contient des erreurs :
+```
++ Et toi, comment tu vas ?
+- Oui je vais super bien !
+- Bof...
+- Bien et toi ?
+```
+On corrige les erreurs en remplaçant dans la ligne du déclencheur les majuscules par des minuscules, et en supprimant les signes de ponctuation. Le code suivant est le code corrigé, il ne contient plus d'erreurs:
+```
++ et toi comment tu vas
+- Oui je vais super bien !
+- Bof...
+- Bien et toi ?
+```
+
 
 ### Plusieurs réponse pour un même déclancheur
 
