@@ -60,5 +60,7 @@ Nous avons vu que l'étoile voulait dire "n'importe quelle suite de lettres". On
 ```
 
 Ça donnera la discussion :
+
 "Je m'appelle Kévin"
+
 "Tu es la première personne que je rencontre qui s'appelle Kévin"
