@@ -32,7 +32,7 @@ Maintenant écrivez "Salut robot." et appuyez sur `Send`. Le robot vous répond 
 Dans un code RiveScript, chaque ligne est une commande. Pour savoir de quelle type de commande il s'agît il suffit de regarder le symbole en début de ligne (dans cet exemple on voit les symboles `+` et `-`).
 
 #### Commande de déclencheur `+`
-La commande `+` sers à définir un **déclencheur**. Un déclencheur est une ligne de texte qui sert à reconnaître le message de l'utilisateur.
+La commande `+` sert à définir un **déclencheur**. Un déclencheur est une ligne de texte qui sert à reconnaître le message de l'utilisateur.
 
 #### Commande de réponse `-`
 La commande `-` sert à définir les réponses au déclencheur.
