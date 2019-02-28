@@ -59,7 +59,7 @@ On corrige les erreurs en remplaçant dans la ligne du déclencheur les majuscul
 ```
 
 
-### Plusieurs réponse pour un même déclancheur
+### Plusieurs réponse pour un même déclencheur
 
 Un même déclencheur peut avoir plusieurs réponses possible, il suffit de mettre plusieurs *commandes de réponse*.
 
