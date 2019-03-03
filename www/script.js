@@ -65,6 +65,7 @@ function addToDiscussion(txt, speaker) {
 function talk() {
     // human entry
     var entry = $("#msg").val();
+    $("#msg").val("");
     disable_input();
     addToDiscussion(entry, 'human');
     
