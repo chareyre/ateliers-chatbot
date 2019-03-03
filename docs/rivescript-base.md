@@ -8,7 +8,7 @@ RiveScript est un **langage de programmation** qui sert à programmer des **chat
 
 Pour commencer à utiliser RiveScript, une bonne solution est d'aller sur l'*aire de jeu RiveScript* : [play.rivescript.com](http://play.rivescript.com).
 
-Une fois sur cette page, supprimez tout le contenu de la zone jaune et cochez la case `UTF-8 Mode`.
+Une fois sur cette page, supprimez tout le contenu de la zone jaune et cochez la case *UTF-8 Mode*.
 
 Pour la suite on écrira notre code dans la partie de gauche (jaune), et on appuiera sur `Run` pour le tester dans la partie droite.
 
