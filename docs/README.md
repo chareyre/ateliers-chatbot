@@ -1,7 +1,7 @@
 # Documentation
 
 - [Les bases de RiveScript](rivescript-base.html)
-- [Uttilisation avancée de RiveScript](rivescript-avance.html)
+- [Utilisation avancée de RiveScript](rivescript-avance.html)
 
 
 ---

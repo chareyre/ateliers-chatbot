@@ -1,35 +1,35 @@
-# Uttilisation avancée de RiveScript
+# Utilisation avancée de RiveScript
 
-## Des déclancheurs plus puissants (Les Jokers)
+## Des déclencheurs plus puissants (Les Jokers)
 
-Pour l'instant on avait des déclancheurs qui ne marchaient que quand l'utilisataur écrivait exactement le même message.
+Pour l'instant on n'a vu que des déclencheurs qui ne marchaient que quand l'utilisataur écrivait exactement le même message.
 
-Mais pour pouvoir être capable de répondre à un maximum de message, il va falloir trouver un moyer d'écrire des déclancheurs plus souples.
+Mais pour pouvoir être capable de répondre à un maximum de messages, il va falloir trouver un moyen d'écrire des déclencheurs plus souples.
 
 C'est là qu'interviennent les Jokers.
 
-### L'étoile `*`
+### L'étoile `*`
 
 Essayons ce bout de code :
 
 ```
-+ je mappelle *
++ je m'appelle *
 - Oh ! C'est un très joli prénom !
 ```
 
-Si je test ce code je verrai que le robot répondra "Oh ! C'est un très joli prénom !" quelque soit mon prénom. Que j'écrive "Je m'appelle Sofiane", "Je m'appelle Lola" ou encore "Je m'appelle voiture de course"
+Si je teste ce code je verrai que le robot répondra "Oh ! C'est un très joli prénom !" quelque soit mon prénom. Que j'écrive "Je m'appelle Sofiane", "Je m'appelle Lola" ou encore "Je m'appelle voiture de course"
 
-Enfait, le symbole `*` veut dire "n'importe quoi"
+En fait, le symbole `*` veut dire "n'importe quelle suite de lettres"
 
-#### Autres exemples 
+#### Autres exemples d'utilisation de `*`
 
 ```
 + * est très beau
-- Je ne le trouve pas si beau que ça
+- Je ne le trouve pas si beau que ça.
 ```
 
 ```
-+ jai * ans
++ j'ai * ans
 - Moi je suis beaucoup plus jeune que ça !
 ```
 
@@ -38,11 +38,11 @@ Enfait, le symbole `*` veut dire "n'importe quoi"
 - Le rouge c'est ma couleur préféré !
 ```
 
-#### Le déclancheur *fourre-tout*
+#### Le déclencheur *fourre-tout*
 
 Jusqu'à maintenant, quand on disait au robot une phrase à laquelle il ne savait pas répondre, il y avait une erreur (`ERR: No Reply Matched`).
 
-L'étoile peut nous permette de crééer un déclancheur qui se déclanche à chaque fois que le robot n'a rien à dire :
+L'étoile peut nous permette de créer un déclencheur qui se déclenche à chaque fois que le robot n'a rien à dire :
 
 ```
 + *
@@ -52,9 +52,93 @@ L'étoile peut nous permette de crééer un déclancheur qui se déclanche à ch
 
 #### Récupérer le contenu de l'étoile
 
+Nous avons vu que l'étoile voulait dire "n'importe quelle suite de lettres". On peut récupérer la suite de lettres qui a déclenché une étoile et s'en servir dans la réponse. Par exemple:
+
 ```
-+ je mappelle *
++ je m'appelle *
 - Tu es la première personne que je rencontre qui s'appelle <star>
 ```
 
-Ça donnera la discussion : "Je m'appelle Kévin", "Tu es la première personne que je rencontre qui s'appelle Kévin"
+Ça donnera la discussion :
+
+"Je m'appelle Kévin"
+
+"Tu es la première personne que je rencontre qui s'appelle Kévin"
+
+### Mots optionnels et alternatifs
+
+Les mots optionnels et les mots alternatifs ont un but simple: ils permettent de reconnaître différentes phrases qui se ressemblent avec un seul déclencheur. C'est très pratique, parce que souvent il y a plusieurs manières de demander une même chose.
+
+
+#### Mots alternatifs
+
+Des fois on aimerait que le déclencheur se déclenche si l'utilisateur dis un mot ou un autre, jusque là il nous fallait différents déclencheurs:
+```
++ tu joues au foot
+- Non, j'ai peur des ballons.
+
++ tu joues au volley
+- Non, j'ai peur des ballons.
+
++ tu joues au basket
+- Non, j'ai peur des ballons.
+```
+Les mots alternatifs permettent de faire la même chose avec un seul déclencheur et une seule réponse:
+
+```
++ tu joues au (foot|volley|basket)
+- Non, j'ai peur des ballons.
+```
+Dans un déclencheur, les mots alternatifs sont notés entre parenthèses et séparés par des barres `|` (sur le clavier, pour tapper `|`, il faut appuyer sur la touche ALT et sur la touche 6 en même temps).
+Le déclencheur se déclenchera que l'on dise "Tu joues au volley ?" ou "Tu joues au volley ?".
+
+
+#### Mots optionnels
+
+Les mots optionnels se notent comme les mots alternatifs, mais avec des crochets à la place des parenthèses. Ils fonctionnent presque comme les mots alternatifs sauf que le déclencheur se déclenchera quant même si il n'ya rien à la place des mots optionnels. Reprenons l'exemple précédent, et rajoutons des mots optionnels:
+
+```
++ tu joues au (foot|volley|basket) [régulièrement|en club|le week end]
+- Non, j'ai peur des ballons.
+```
+
+ Dans cet exemple, le robot répondra "Non, j'ai peur des ballons." si l'utilisateur pose la question "Tu joues au foot régulièrement ?" et il répondra la même chose si on lui demande juste "Tu joues au foot ?". Par contre si on demande juste "Tu joue au ?" alors le déclencheur ne se déclenchera pas car il ne se déclenche que si "foot", "basket" ou "volley" suivent le mot "joue".
+
+#### L'étoile optionnelle
+
+Il peut être utile d'utiliser l'étoile optionelle `[*]`. On a vu que `*` veut dire "n'importe quelle suite de lettres", et bien `[*]` veut dire "n'importe quelle suite de lettres ou bien rien du tout". Voyons un exemple:
+
+```
++ tu veux manger [*]
+- Oui j'ai vraiment très faim.
+```
+Ici si l'utilisateur demande "Tu veux manger du boudin ?", le robot répondra "Oui, j'ai vraiment très faim", mais si l'utilisateur demande juste "Tu veux manger", le robot répondra aussi.
+
+## Choix des réponses lorsque plusieurs déclencheur se déclenchent
+
+Il se peut que plusieurs déclencheurs se déclenchent en même temps lorsqu'un utilisateur rentre une phrase. Dans ce cas c'est le déclencheur qui a reconnu le plus de mots qui donnera une réponse.
+
+```
++ bonjour [*]
+- Bonjour humain.
+
++ [*] tu vas bien
+- Je vais bien, et toi ?
+```
+Avec ce code, si l'utilisateur demande "Bonjour, tu vas bien ?", les deux déclencheurs vont se déclencher, mais le robot va répondre "Je vais bien, et toi ?", car il a reconnu plus de mots dans "tu vas bien" que dans "bonjour". 
+
+On peut régler un déclencheur pour qu'il se déclenche en priorité. Il faut augmenter son "poids", qui est de 1 par défaut.
+La réponse que donne le robot est celle du déclencheur qui a le plus grand poids. Si il y a égalité, on applique la règle du nombre de mots reconnus. 
+
+On peut modifier l'exemple précédent pour que le robot réponde "Bonjour humain." lorsque l'utilisateur lui demande "Bonjour, tu vas bien ?":
+
+```
+// Le poids du déclencheur est de 10
++ bonjour [*]{weight=10}
+- Bonjour humain.
+
+// Le poids du déclencheur est de 1 si on ne précise rien
++ [*] tu vas bien
+- Je vais bien, et toi ?
+```
+

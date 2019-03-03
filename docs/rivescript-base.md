@@ -2,13 +2,13 @@
 
 ## C'est quoi RiveScript ?
 
-RiveScript est un **language de programmation** qui sers à programmer des **chatbots**.
+RiveScript est un **langage de programmation** qui sert à programmer des **chatbots**.
 
 ## Le RiveScript Playground
 
 Pour commencer à utiliser RiveScript, une bonne solution est d'aller sur l'*aire de jeu RiveScript* : [play.rivescript.com](http://play.rivescript.com).
 
-Une fois sur cette page, vous pouvez suprimer tout le contenu de la zone jaune et cocher la case `UTF-8 Mode`.
+Une fois sur cette page, supprimez tout le contenu de la zone jaune et cochez la case `UTF-8 Mode`.
 
 Pour la suite on écrira notre code dans la partie de gauche (jaune), et on appuiera sur `Run` pour le tester dans la partie droite.
 
@@ -29,21 +29,39 @@ Maintenant écrivez "Salut robot." et appuyez sur `Send`. Le robot vous répond 
 
 ### Explication du code
 
-dans un code RiveScript, chaque ligne est une commande. Pour savoir de quelle type de commande il s'agît il suffit de regarder symbole en début de ligne (dans cet exemple on voit les symboles `+` et `-`)
+Dans un code RiveScript, chaque ligne est une commande. Pour savoir de quelle type de commande il s'agît il suffit de regarder le symbole en début de ligne (dans cet exemple on voit les symboles `+` et `-`).
 
-#### Commande de déclancheur `+`
-La commande `+` sers à définir un **déclancheur**. Un déclancheur est une ligne de texte qui sers à reconnaitre le message de l'utilisateur
+#### Commande de déclencheur `+`
+La commande `+` sert à définir un **déclencheur**. Un déclencheur est une ligne de texte qui sert à reconnaître le message de l'utilisateur.
 
 #### Commande de réponse `-`
-La commande `-` sers à définir les réponses au déclancheur.
+La commande `-` sert à définir les réponses au déclencheur.
 
 ### Important !
 
-**Un déclancheur doit toujours être écrit en minuscule et sans ponctuation !**
+**Un déclencheur doit toujours être écrit en minuscule et sans ponctuation !**
 
-### Plusieurs réponse pour un même déclancheur
+Les apostrophes `'` et les tirets `-` ne posent pas de problèmes, mais si vous mettez une majuscule ou un point dans un déclencheur, cela va créer une erreur qui vous empêchera de tester le code. 
+Par contre on peut mettre des majuscules et des signes de ponctuation dans les commandes de réponse.
+Par exemple, le code suivant contient des erreurs :
+```
++ Et toi, comment tu vas ?
+- Oui je vais super bien !
+- Bof...
+- Bien et toi ?
+```
+On corrige les erreurs en remplaçant dans la ligne du déclencheur les majuscules par des minuscules, et en supprimant les signes de ponctuation. Le code suivant est le code corrigé, il ne contient plus d'erreurs:
+```
++ et toi comment tu vas
+- Oui je vais super bien !
+- Bof...
+- Bien et toi ?
+```
 
-Un même déclancheur peut avoir plusieurs réponses possible, il suffit de mettre plusieurs *commandes de réponse*.
+
+### Plusieurs réponse pour un même déclencheur
+
+Un même déclencheur peut avoir plusieurs réponses possible, il suffit de mettre plusieurs *commandes de réponse*.
 
 Par exemple :
 ```
@@ -53,7 +71,7 @@ Par exemple :
 - Bien et toi ?
 ```
 
-Quand on lui demandera "Ça va ?", le robot choisira une réponse au hasard parmis les trois possible.
+Quand on lui demandera "Ça va ?", le robot choisira une réponse au hasard parmis les trois possibles.
 
 ### Partager le code
 
@@ -70,11 +88,13 @@ Entrez cette ligne tout en haut de votre code :
 
 #### Décrire le rôle du code
 
-Pour que les personnes qui lirons votre code puissent se faire une idéée de ce à quoi il sert, il peut être bien d'ajouter un petit commentaire. En RiveScript, les commentaires commencent par `//`. Vous pouvez par exemple écrire :
+Pour que les personnes qui liront votre code puissent se faire une idée de ce à quoi il sert, il est bon d'ajouter un petit commentaire pour le leur expliquer. En RiveScript, les commentaires commencent par `//`. Vous pouvez par exemple écrire :
 
 ```
 // Ce code permet de répondre à des salutations basiques.
+
 ```
+Les commentaires ne changent rien au code, quand l'ordinateur "lit" (on dit aussi "exécute") le code et qu'il arrive à une ligne qui commence par '//', il comprends que c'est juste une ligne écrite pour les humains, du coup il ne la lit pas et passe à la ligne suivante. 
 
 #### Mon code ressemble donc à ceci :
 
@@ -99,4 +119,4 @@ J'appuie sur `Share` et j'obtiens un lien que je peux partager à qui je veux.
 
 ### La suite...
 
-RiveScript est un language puissant qui permet de faire beaucoup plus de choses que ce qu'on a vu là. Essayez déjà d'exploiter un maximum ce que vous avez appris ici, puis passez à la suite : [Uttilisation avancée de RiveScript](rivescript-avance.html)
+RiveScript est un language puissant qui permet de faire beaucoup plus de choses que ce qu'on a vu là. Essayez déjà d'exploiter un maximum ce que vous avez appris ici, puis passez à la suite : [Utilisation avancée de RiveScript](rivescript-avance.html)
