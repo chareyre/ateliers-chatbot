@@ -1,5 +1,5 @@
 // louis timbal
-// v2 (edit: v3)
+// v2
 //Guillemot Chloé, Doucet Manon, Raynaud Fanchon, 3°2, collège Louis Timbal
 
 //- code qui permet d'avoir des informations sur la vie de Louis Timbal 
@@ -231,6 +231,10 @@
 + *
 % [*] louis timbal [*]
 - Et toi tu penses quoi de Louis Timbal ?
+
++ * {weight=10}
+% et toi tu penses quoi de louis timbal 
+- ok
 
 
 

@@ -1,5 +1,5 @@
 //Les blagues
-//V1 (edit v2)
+//V3
 //Yamaakasii: Boudet Labussiere, Jones 3ème 2 Louis Timbal
 //Le code sert a raconter des blagues
 
@@ -20,32 +20,23 @@
 
 
 + je [ne] sais pas
-% que fait t-on aux voleurs de salade?
-- on les tue (laitue)
+% * aux voleurs de salade?
+- On les tue (laitue)
 
 + je [ne] sais pas
 % pourquoi les phoques sont droles?
-- parce que les ota ris (otaries)
+- Parce que les ota rient (otaries)
 
 
 + je [ne] sais pas
 % pourquoi le foot est drole?
-- parce que Thierry en rit (Henry)
-
-
-
-
-
-
-
-
-
+- Parce que Thierry en rit (Henry)
 
 
 
 + [*]laitue[*]
-% que fait t-on aux voleurs de salade?
-- tu ne mache pas tes  mots
+% * aux voleurs de salade?
+- tu ne mâche pas tes mots
 
 + [*]otarie[*]
 % pourquoi les phoques sont droles?
@@ -61,19 +52,22 @@
 
 + [*]les tue[*]
 % que fait t-on aux voleurs de salade?
-- tu ne mache pas tes  mots
+- Tu ne mache pas tes  mots
 
 + [*]ota ris[*]
 % pourquoi les phoques sont droles?
-- zuuut ! Tu as noyé ma blague
+- Zuuut ! Tu as noyé ma blague
 
 + [*]thierry en rit[*]
 %  pourquoi le foot est drole?
-- carton rouge! Tu as taclés ma blague
+- Carton rouge! Tu as taclés ma blague
 
 
 
 
 + [*](nul|nulle|pas drole|chier|naze|pourrie)[*]
-- Ben raconte moi en une toi qui es si drole
+- Ben raconte moi en une, toi qui es si drole
 
++ *
+% ben raconte moi en une toi qui es si drole
+-Hahaha tu n'est pas marrant 

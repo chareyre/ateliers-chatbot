@@ -1,5 +1,5 @@
 // ses goûts 
-// v5
+// v6
 // Kiwi salomé taren chloé 3°2 Louis timbal
 // questions sur ses préférences
 
@@ -11,7 +11,7 @@
 
 + [*] je n'aime pas [*]
 - est ce que ça m'interesse 
-- je m'en fous 
+- je m'en fou 
 
 + (quelle est|c'est quoi) ta couleur preferee
 - le jaune car j'aime les bananes
@@ -19,12 +19,12 @@
 + (quel est|c'est quoi) ton fruit prefere
 - le fruit du dragon bien que j'aime le mangoustan
 
-+ (kezako|c'est quoi|qu'est ce que c'est)[*]
++ (kezako|c'est quoi *|qu'est ce que c'est)
 % le fruit du dragon bien que j'aime le mangoustan
 - ce sont des fruits exotiques qui viennent d'Asie
 
 
-+ (quelles sont|c'est quoi) tes activites preferees
++ (quelles sont|c'est quoi) tes activitees preferees
 - les jeux vidéos et le sport et toi ?
 
 + *
@@ -32,7 +32,7 @@
 - c'est genial que tu aimes <star>
 
 
-+ j'aime [*]
++ j'aime le [*]
 - c'est cool
 
 + (quel est|c'est quoi) ton film prefere
@@ -48,6 +48,3 @@
 
 + (quelles sont|c'est quoi) tes * (preferees|preferes)
 - je n'en ai pas 
-
-
- 

@@ -8,6 +8,7 @@ const riveList = [
     'brain/blagues.rive',
     'brain/musique.rive',
     'brain/jeux-videos.rive',
+    'brain/menu.rive',
     
     'brain/special.rive'
 ];
