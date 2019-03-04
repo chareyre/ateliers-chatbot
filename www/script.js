@@ -69,8 +69,8 @@ function talk() {
     disable_input();
     addToDiscussion(entry, 'human');
     
-    // bot reply
-    bot.reply('human', entry)
+    // bot reply (removing accents from human)
+    bot.reply('human', removeDicretics(entry))
     .then(function(reply) {
         // delay
         setTimeout(function() {
