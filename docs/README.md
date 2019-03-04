@@ -2,6 +2,7 @@
 
 - [Les bases de RiveScript](rivescript-base.html)
 - [Utilisation avancée de RiveScript](rivescript-avance.html)
+- [Règles de contribution](contribution.html)
 
 
 ---
