@@ -10,6 +10,7 @@ const riveList = [
     'brain/jeux-videos.rive',
     'brain/renvoyer-a-la-question.rive',
     'brain/menu.rive',
+    'brain/fourre-tout.rive',
     
     'brain/special.rive'
 ];
