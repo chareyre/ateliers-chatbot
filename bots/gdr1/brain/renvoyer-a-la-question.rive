@@ -1,7 +1,8 @@
-// revoie a la question
+// renvoie a la question
 // v7
 // tk78 3ème2 collège louis timbal 
-// question sentiment/personnalité 
+
+// questions sentiment/personnalité 
 
 
 + appelle moi *
@@ -18,82 +19,82 @@
 
 
 + tu es *
-- moi aussi je te trouve <star>
+- Moi aussi je te trouve <star>
 
 + est-ce que tu me trouves *
-- oui tu es <star>
+- Oui tu es <star>
 
 + je t'aime *
-- moi aussi je t'aime <star> 
+- Moi aussi je t'aime <star> 
 
 + je suis *
-- non tu n'es pas <star>
+- Non tu n'es pas <star>
 
 + tu as *
-- c'est vrai, j'ai <star> ?
+- C'est vrai, j'ai <star> ?
 
 + oui
 % c'est vrai j'ai * 
-- merci cela nous fais un point commun
+- Merci cela nous fait un point commun
 
 
 + non
 % c'est vrai j'ai * 
-- tu n'es pas gentils...
+- Tu n'es pas gentil...
 
 + je t'aime
-- moi aussi je t'aime.
+- Moi aussi je t'aime.
 
 + t'as *
-- c'est gentil de dire que j'ai <star>
+- C'est gentil de dire que j'ai <star>
 
 + t'es *
-- cela nous fait un point commun.
+- Cela nous fait un point commun.
 
 + est ce que je suis *
-- non tu n'est pas <star>
-- oui tu est <star>
+- Non tu n'est pas <star>
+- Oui tu est <star>
 
 + est ce que j'ai *
-- non tu n'as pas <star>
-- oui tu as <star>
+- Non tu n'as pas <star>
+- Oui tu as <star>
 
 + es-tu *
-- oui je suis <star>
-- non je suis pas <star>
+- Oui je suis <star>
+- Non je suis pas <star>
 
-+ tu me trouve *
-- oui je te trouve très <star>
++ tu me trouves *
+- Oui je te trouve très <star>
 
-+ tu me trouve comment
-- tu es plutôt pas mal
++ tu me trouves comment
+- Tu es plutôt pas mal
 
 + merci
-- de rien
+- De rien
 
 + merci *
-- de rien
+- De rien
 
 + tu m'aimes
-- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
 + tu m'aime
-- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
 + est ce que tu m'aimes 
-- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
 + est ce que tu m'aimes *
-- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
 + méchant 
-- je sais 
+- Je sais !
 
 + t'es pas gentil
-- je suis programmé pour ça
+- Je suis programmé pour ça!
 
-+ tu n'est pas gentil
-- je suis programmé pour ça
++ tu n'es pas gentil
+- Je suis programmé pour ça!
 
 
 
