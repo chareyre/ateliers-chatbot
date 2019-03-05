@@ -7,7 +7,7 @@ Avant de partager votre code il y a quelques étapes importantes à respecter :
 - 1 - Commenter (mettre le bon numéro de version dans les commentaires)
 - 2 - Mettre en page
 - 3 - Tester de fond en comble
-- 4 - Supprimer les tableaux dont on s'est servi pour tester
+- 4 - Intégrer les tableaux si on veut utiliser des tableaux
 
 
 
@@ -29,6 +29,12 @@ Si le code est long, on fait plusieurs parties avec un commentaire qui sert de t
 #### Tester : chercher les bugs
 
 Lancer le code et voir si tout se passe comme prévu.
+
+#### Tableaux
+On veut pouvoir se servir des tableaux mais on ne veut pas être obligés d'avoir tous les tableaux dans tous les fichiers rivesccript. Pour le tableau "manières de dire oui" (! array oui) on peut juste mettre oui dans le code pour le tester (vu qu'on n'a pas le tableau dans notre code). On remplace ensuite oui par @oui (@nom du tableau).
+```
+// Ce code permet de répondre à des salutations basiques.
+```
 
 ### Mon code ressemble donc à ceci :
 
