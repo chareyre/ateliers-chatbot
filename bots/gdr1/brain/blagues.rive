@@ -1,11 +1,11 @@
 //Les blagues
-//V5
+//V6
 //Yamaakasii: Boudet Labussiere, Jones 3ème 2 Louis Timbal
 //Le code sert à raconter des blagues 
 
 + [*]blagues[*]
 - J'adore raconter des blagues
-- J'ai beaucoup d'humour et de nombreuses blagues en stock
+- J'ai beaucoup d'humour et de nombreuses blagues en stock :)
 
 
 
@@ -13,11 +13,12 @@
 @ blagues
 
 + [*][raconte moi] une blague|des blagues|une autre|une deuxième|encore[*]
-- c'est parti mon ami, que fait-on aux voleurs de salade?
-- Tu es prêt, pourquoi les phoques sont drôles?
-- Let's goooo my friend, pourquoi le foot est drôle?
-- Pourquoi poulle s'écrit avec 2 l?
-- Deux escargots arrivent sur une plage et aperçoivent une limace, que disent ils ?
+//- c'est parti mon ami, que fait-on aux voleurs de salade?
+//- Tu es prêt, pourquoi les phoques sont drôles?
+//- Let's goooo my friend, pourquoi le foot est drôle?
+//- Pourquoi poulle s'écrit avec 2 l?
+//- Deux escargots arrivent sur une plage et aperçoivent une limace, que disent ils ?
+- Quel est le bar préféré des espagnols ?
 
 
 
@@ -51,6 +52,17 @@
 - Demi tour! Nous sommes sur une plage nudiste!
 
 
++ je [ne] sais pas
+% * le bar préféré des espagnols
+- Le Barcelone (Bar-celone)
+
+
+// si bonnes réponses 
+
+
++ [*]barcelone|bar-celone[*]
+% * le bar préféré des espagnols
+- Olé ! Bien trouvé mi amigo
 
 
 
@@ -74,7 +86,7 @@
 
 + [*]demi tour|nudiste[*]
 % *arrivent sur une plage et aperçoivent une limace que disent ils 
-- T'en a bavé pour trouver la réponse, hein !
+- T'en as bavé pour trouver la réponse, hein !
 
 
 
@@ -98,15 +110,20 @@
 + [*](mdr|trop drole|lol|marrant|pas mal|j adore)[*]
 - Merci je sais, je suis un petit comique 
 - Je devrais jouer sur une scène
-- j'ai un sens de l'humour surdéveloppé
+- J'ai un sens de l'humour surdéveloppé
 
-+ [*](nul|nulle|pas drole|chier|naze|pourrie|pourries)[*]
-- Ben raconte moi en une, toi qui es si drôle
++ [*](nul|nulle|pas drole|chier|naze|pourrie|pourries|nazes|nulles|nuls)[*]
+- Ben raconte moi en une, toi qui es si drôle!
 
 + *
 % ben raconte moi en une toi qui es si *
 - Hahaha tu n'est pas marrant
-- Pffff t'est pas drôle 
+- Pffff t'es pas drôle 
+
+
+
+
+
 
 
 
