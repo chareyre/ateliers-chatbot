@@ -1,25 +1,26 @@
 //Les blagues
-//V6
+//V7
 //Yamaakasii: Boudet Labussiere, Jones 3ème 2 Louis Timbal
 //Le code sert à raconter des blagues 
 
 + [*]blagues[*]
 - J'adore raconter des blagues
-- J'ai beaucoup d'humour et de nombreuses blagues en stock :)
-
+- J'ai beaucoup d'humour et de nombreuses blagues en stock
 
 
 + [*]drole[*]
 @ blagues
 
-+ [*][raconte moi] une blague|des blagues|une autre|une deuxième|encore[*]
-//- c'est parti mon ami, que fait-on aux voleurs de salade?
-//- Tu es prêt, pourquoi les phoques sont drôles?
-//- Let's goooo my friend, pourquoi le foot est drôle?
-//- Pourquoi poulle s'écrit avec 2 l?
-//- Deux escargots arrivent sur une plage et aperçoivent une limace, que disent ils ?
++ [*][raconte moi]une blague|des blagues|une autre|une deuxième|encore[*]
+- c'est parti mon ami, que fait-on aux voleurs de salade?
+- Tu es prêt, pourquoi les phoques sont drôles?
+- Let's goooo my friend, pourquoi le foot est drôle?
+- Pourquoi poulle s'écrit avec 2 l?
+- Deux escargots arrivent sur une plage et aperçoivent une limace, que disent ils ?
 - Quel est le bar préféré des espagnols ?
-
+- Comment les musiciens choisissent-ils leur parquet ?
+- Que fait un jardinier quand il ment ?
+- Que fait une théière devant un ascenseur ?
 
 
 + [*]vas y[*]
@@ -52,19 +53,39 @@
 - Demi tour! Nous sommes sur une plage nudiste!
 
 
-+ je [ne] sais pas
++ je [ne] sais pas|jsp|jcp
 % * le bar préféré des espagnols
 - Le Barcelone (Bar-celone)
 
++ je [ne] sais pas|jsp|jcp
+% * les musiciens choisissent-ils leur parquet 
+- Ils choisissent un parquet Fa Si La Si Ré (facile a cirer)
 
-// si bonnes réponses 
++ je [ne] sais pas|jsp|jcp
+% * fait un jardinier quand il ment
+- Il raconte des salades
+
+
++ je [ne] sais pas|jsp|jcp
+% * une théière devant un ascenseur
+- Elle veut mon thé
+
+
+
+
+
+
+
+
++ [*]fa si la si re|facile a cirer|fasilasire[*]
+% * les musiciens choisissent-ils leur parquet 
+- Comment tu as trouvé, tu es brillant ! 
+
 
 
 + [*]barcelone|bar-celone[*]
 % * le bar préféré des espagnols
-- Olé ! Bien trouvé mi amigo
-
-
+- Olé ! Bien trouvé mi amigo!
 
 
 + [*]laitue[*]
@@ -73,11 +94,11 @@
 
 + [*]otaries[*]
 % * pourquoi les phoques sont *
-- Zuuut ! Tu as noyé ma blague
+- Zuuut ! Tu as noyé ma blague!
 
-+ [*]thierry[*]
++ [*]thierry|henry|en rit[*]
 %  * pourquoi le foot est *
-- Carton rouge! Tu as taclé ma blague
+- Carton rouge! Tu as taclé ma blague!
 
 + [*]2 l|deux ailes|2 ailes|deux l[*]
 % pourquoi poulle * avec 2 l
@@ -86,41 +107,59 @@
 
 + [*]demi tour|nudiste[*]
 % *arrivent sur une plage et aperçoivent une limace que disent ils 
-- T'en as bavé pour trouver la réponse, hein !
+- T'en a bavé pour trouver la réponse, hein !
 
 
 
 
 + [*]les tue[*]
 % * que fait t-on aux voleurs de salade
-- Tu ne mâche(s) pas tes  mots
+- Tu ne mâche(s) pas tes  mots!
 
 + [*]ota ris[*]
 % * pourquoi les phoques sont *
-- Zuuut ! Tu as noyé ma blague
-
-+ [*]thierry en rit[*]
-% *  pourquoi le foot est *
-- Carton rouge! Tu as taclé ma blague
+- Zuuut ! Tu as noyé ma blague!
 
 
++ [*]salade[*]
+% * fait un jardinier quand il ment
+- Bravo ! tu ne t'es pas planté !
+
+
++ [*]mon thé|monter|montée[*]
+% * une théière devant un ascenseur
+- Thé doué !
 
 
 
-+ [*](mdr|trop drole|lol|marrant|pas mal|j adore)[*]
+
+
+
+
+
+
++ [*](mdr|ptdr|trop drole|lol|marrant|pas mal|j adore)[*]
 - Merci je sais, je suis un petit comique 
 - Je devrais jouer sur une scène
 - J'ai un sens de l'humour surdéveloppé
+- L'humour est un don chez moi
+
+
+
+
+
 
 + [*](nul|nulle|pas drole|chier|naze|pourrie|pourries|nazes|nulles|nuls)[*]
-- Ben raconte moi en une, toi qui es si drôle!
+- Ben raconte m'en une, toi qui est si drôle!
 
 + *
-% ben raconte moi en une toi qui es si *
+% ben raconte m'en une, toi qui est si *
 - Hahaha tu n'est pas marrant
 - Pffff t'es pas drôle 
 
 
++oh yeah yeah
+-oh yeah yeah yeah yeah
 
 
 
@@ -131,5 +170,4 @@
 
 
 
-
-
+ 
