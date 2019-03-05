@@ -11,6 +11,7 @@ const riveList = [
     'brain/renvoyer-a-la-question.rive',
     'brain/menu.rive',
     'brain/cvc.rive',
+    'brain/tableaux.rive',
     'brain/fourre-tout.rive',
     
     'brain/special.rive'
