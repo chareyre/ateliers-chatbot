@@ -5,18 +5,21 @@
 
 + [*]blagues[*]
 - j'adore raconter des blagues
+- j'ai beaucoup d'humour et de nombreuses blagues en stock
+
+
 
 + [*]drole[*]
 @ blagues
 
-+ [*][raconte moi] une blague[*]
-- que fait on aux voleurs de salade?
-- pourquoi les phoques sont droles?
-- pourquoi le foot est drole?
++ [*][raconte moi] une blague|des blagues[*]
+- c'est parti mon ami, que fait on aux voleurs de salade?
+- Tu es prêt, pourquoi les phoques sont droles?
+- Let's goooo my friend, pourquoi le foot est drole?
 
-
-
-
++ [*]vas y[*]
+@ une blague
+ 
 
 
 + je [ne] sais pas
@@ -24,12 +27,12 @@
 - On les tue (laitue)
 
 + je [ne] sais pas
-% pourquoi les phoques sont droles?
+% * pourquoi les phoques sont droles?
 - Parce que les ota rient (otaries)
 
 
 + je [ne] sais pas
-% pourquoi le foot est drole?
+% * pourquoi le foot est drole?
 - Parce que Thierry en rit (Henry)
 
 
@@ -38,12 +41,12 @@
 % * aux voleurs de salade?
 - tu ne mâche pas tes mots
 
-+ [*]otarie[*]
-% pourquoi les phoques sont droles?
++ [*]otaries[*]
+% * pourquoi les phoques sont droles?
 - zuuut ! Tu as noyé ma blague
 
 + [*]thierry[*]
-%  pourquoi le foot est drole?
+%  * pourquoi le foot est drole?
 - carton rouge! Tu as tacler ma blague
 
 
@@ -51,15 +54,15 @@
 
 
 + [*]les tue[*]
-% que fait t-on aux voleurs de salade?
+% * que fait t-on aux voleurs de salade?
 - Tu ne mache pas tes  mots
 
 + [*]ota ris[*]
-% pourquoi les phoques sont droles?
+% * pourquoi les phoques sont droles?
 - Zuuut ! Tu as noyé ma blague
 
 + [*]thierry en rit[*]
-%  pourquoi le foot est drole?
+% *  pourquoi le foot est drole?
 - Carton rouge! Tu as taclés ma blague
 
 
