@@ -42,7 +42,8 @@ On veut pouvoir se servir des tableaux mais on ne veut pas être obligés d'avoi
 - Et bien va manger
 
 
-// Code intégrant le tableau, il peut être mis en ligne mais ne peut pas être testé (car on n'a pas le tableau)
+// Code intégrant le tableau, il peut être mis en ligne mais ne peut pas être testé
+// (car on n'a pas le tableau)
 + (@oui)
 %oui et toi tu as faim
 - Et bien va manger
