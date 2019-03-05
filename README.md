@@ -6,7 +6,7 @@ Il contient deux dossiers :
 
 - `bots/` : [les bots créés en ateliers](bots)
 - `docs/` : [la documentation](docs) pour pendant le déroulement de l'atelier
-- `www/` : [les pages web](www) qui permettent de faire tourner le chatbot créé pendant l'atelier.
+- `www/` : [le modèle pour créer un nouveau bot](www)
 
 ### Usage
 
