@@ -1,95 +1,96 @@
 //musique
 //v9
 //87, brogan-leo-louis, 3è2, collège louis timbal
-//ce code sert a parler de ses goûts musicaux
+
+//ce code sert à parler de ses goûts musicaux
 
 
-! array musique=guitarre|pop|rock|instrument|instruments|orchestre|batterie|jazz|musique|jonny halliday|fusion|classique|reggae|rap|violon
+! array musique=guitare|pop|rock|instrument|instruments|orchestre|batterie|jazz|musique|jonny halliday|fusion|classique|reggae|rap|violon|piano
 
 + [*](@musique)[*]
-- ah, je vois que tu t’intéresse à la musique. Moi aussi!! 
--cool
--
+- ah, je vois que tu t’intéresses à la musique. Moi aussi!! 
+- cool!
+
 
 +(donne moi une musique|comme quoi|donne moi une chanson)
 
--tiens, plus tard de bigflo & oli 
--tiens, another one bites the dust de Queen
--tiens, je te le donne de vitaa et slimane
+-Tiens, Plus tard de Bigflo & Oli 
+-Tiens, Another one bites the dust de Queen
+-Tiens, Je te le donne de Vitaa et Slimane
 
 
-+[*]aimes[*] musique[*] 
--oui, bien sur!
++[*]aime[*] musique[*] 
+-Oui, bien sûr!
 
-+[*]ecoutes[*]musique
--oui, bien sur!
++[*]ecoute[*]musique
+-Oui, bien sûr!
 
-+[*]ecoutes[*]quoi[*]musique[*]
--plein de choses!
++[*]ecoute[*]quoi[*]musique[*]
+-Plein de choses!
 
 +[*]chanteur[*]prefere[*]
 @quel est ton chanteur prefere
 
 +(quelle|quel) est (ta musique|ta chanson|ton son) (preferee|prefere)
--C'est back in black d'ACDC
--Le poussin piou, bien sur
+-C'est Back in black d'ACDC
+-Le poussin piou, bien sûr!
 
 +quel est ton (chanteur|musicien|artiste) prefere
--Leo guinard
--C'est bigflo & oli bien sur
--C'est eddy de pretto bien sur
+-Leo Guinard
+-C'est Bigflo & Oli, bien sûr!
+-C'est Eddy de Pretto, bien sûr!
 
 +quel est ton groupe prefere
--C'est boulevard des airs bien sur
--les Pink Floyd :)
+-C'est Boulevard des airs, bien sûr! 
+-Les Pink Floyd :)
 
 
 +quelle est ta chanteuse preferee
--C'est Fanchon Raynaud, bien sur
--C'est joyce jonathan bien sur
--C'est angeles bien sur
+-C'est Fanchon Raynaud, bien sûr!
+-C'est Joyce Jonathan, bien sûr!
+-C'est Angele, bien sûr! 
 
 + [*](genre|style|genres|styles)[*](musical|musique|musicaux)[*]
--C'est le rock, tu veux un exemple
--C'est la pop tu veux un exemple
+-C'est le rock, tu veux un exemple ?
+-C'est la pop, tu veux un exemple ?
 
 +oui
 %*rock tu veux un exemple
--Tiens, satisfaction-rolling stones
--Tiens, back in black-ACDC
--Tiens, lies-mcfly
+-Tiens, Satisfaction des Rolling Stones
+-Tiens, Back in black d'ACDC
+-Tiens, Lies de Mcfly
 
 +non
 %*rock tu veux un exemple
--Tant pis pour toi
+-Tant pis pour toi!
 
 
 +oui
 %*pop tu veux un exemple
--Tiens, shallow-lady gaga&bradley cooper
--Tiens, 7rings-ariana grande
--Tiens, natural-imagine dragons
--Tiens, baby shark de pinkfong
+-Tiens, Shallow de Lady Gaga & Bradley Cooper
+-Tiens, 7rings d'Ariana Grande
+-Tiens, Natural d'Imagine Dragons
+-Tiens, Baby shark de Pinkfong
 
 +non
 %*pop tu veux un exemple
--Tant pis pour toi
+-Tant pis pour toi!
 
 +[*](tu aimes|aimes-tu|aimes tu)[*](pop|rock|rap)
--Oui!j'adore 
--Bien sur! qui n'aime pas;)
+-Oui!j'adore !
+-Bien sûr! qui n'aime pas;)
 
 
 +[*](tu aimes|aimes-tu|aimes tu)[*](jazz|blues|hard metal)
--noooooon!
+-Noooooon!
 -Beerk
--Tu oses dire ça, tu es ouf
+-Tu oses dire ça, tu es ouf!
 
 +[*](concert|concerts)[*]
--non, je ne peux pas bouger d'ici 
+-non, je ne peux pas bouger d'ici.
 
 +[*]ou[*]
-%non je ne peux pas bouger d'ici 
+%non je ne peux pas bouger d'ici
 -beh de ce pc :/ 
 
 +je suis[*](chanteur|chanteuse|musicien|musicienne)[*]
