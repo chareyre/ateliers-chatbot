@@ -1,10 +1,11 @@
 // jeux  vidéos
-// V5
+// V8
 // les geeks, pierre-jean ; Kilian ; matys, 3eme2, collège louis timbal
 
 //question sur jeux vidéos
 
 + (ouai|oui|ouaip|ouais|yep)
+% oui je suis un gamer et toi
 - ok
 
 + (ouai|oui|ouaip|ouais|yep) tu joues a quoi
@@ -12,7 +13,8 @@
 
 + quel est le jeu le plus stream
 - c'est League of Legends
-
++ 1
+- la vitesse de la lumière est exactement de 299 792 458 m/s
 + [*]jeux videos[*]
 - oui je suis un gamer et toi
 
@@ -39,9 +41,168 @@
 + cest quoi minecraft
 - tiens un lien vers le wiki https://minecraft-fr.gamepedia.com/Minecraft_Wiki qui t'expliquera le jeu
 - c'est un jeu de construction et d'aventure en 3d cubique
++ jaime fortnite
+- virus.exe
 
 + [*]meilleurs jeux[*]
-- il y a world of tanks, minecraft, PUBG, ARK: survival Evolved, Subnautica, Fallout 4 et Terraria
+- il y a world of tanks, minecraft, PUBG, ARK: survival Evolved, Subnautica, Fallout 4, call of duty, rocket league et Terraria
 
 + [*]pires jeux[*]
 - Fortnite, Fallout 76
+
++ le jeux videos le plus joues[*]
+-c'est minecraft
+
++ 011010100110010101110101011110000010000001110110011010010110010001100101011011110111001100001010
+- gg pour cette détermination
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
