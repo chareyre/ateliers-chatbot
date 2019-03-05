@@ -5,7 +5,7 @@ Ce dépot contient un modèle pour organiser le travail et le rendu des ateliers
 Il contient deux dossiers :
 
 - `docs/` : [la documentation](docs) pour pendant le déroulement de l'atelier
-- `www/` : les pages web qui permettent de faire tourner le chatbot créé pendant l'atelier.
+- `www/` : [les pages web](www) qui permettent de faire tourner le chatbot créé pendant l'atelier.
 
 ### Usage
 
