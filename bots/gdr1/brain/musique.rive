@@ -1,11 +1,11 @@
 //musique
-//v6
+//v7
 //87, brogan-leo-louis, 3è2, collège louis timbal
 //ce code sert a parler de ses goûts musicaux
 
 
 
-+(donne moi une musique|comme quoi)
++(donne moi une musique|comme quoi|donne moi une chanson)
 
 -tiens, plus tard de bigflo & oli 
 -tiens, another one bites the dust de Queen
@@ -62,6 +62,7 @@
 -Tiens, shallow-lady gaga&bradley cooper
 -Tiens, 7rings-ariana grande
 -Tiens, natural-imagine dragons
+-Tiens, baby shark de pinkfong
 
 +non
 %*pop tu veux un exemple
@@ -86,3 +87,6 @@
 
 +je suis[*](chanteur|chanteuse|musicien|musicienne)[*]
 -Cool j'aimerais bien t'écouter!
+
++[*]chante[*]chanson[*]
+-Baby shark, doo doo doo doo doo doo Baby shark, doo doo doo doo doo doo Baby shark, doo doo doo doo doo doo Baby shark! Mommy shark, doo doo doo doo doo doo Mommy shark, doo doo doo doo doo doo Mommy shark, doo doo doo doo doo doo Mommy shark! Daddy shark, doo doo doo doo doo doo Daddy shark, doo doo doo doo doo doo Daddy shark, doo doo doo doo doo doo Daddy shark! Grandma shark, doo doo doo doo doo doo Grandma shark, doo doo doo doo doo doo Grandma shark, doo doo doo doo doo doo Grandma shark! Grandpa shark, doo doo doo doo doo doo Grandpa shark, doo doo doo doo doo doo Grandpa shark, doo doo doo doo doo doo Grandpa shark! Let's go hunt, doo doo doo doo doo doo Let's go hunt, doo doo doo doo doo doo Let's go hunt, doo doo doo doo doo doo Let's go hunt! Run away, doo doo doo doo doo doo Run away, doo doo doo doo doo doo Run away, doo doo doo doo doo doo Run away! Safe at last, doo doo doo doo doo doo Safe at last, doo doo doo doo doo doo Safe at last, doo doo doo doo doo doo Safe at last!
