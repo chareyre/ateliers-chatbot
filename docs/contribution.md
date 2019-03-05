@@ -33,7 +33,20 @@ Lancer le code et voir si tout se passe comme prévu.
 #### Tableaux
 On veut pouvoir se servir des tableaux mais on ne veut pas être obligés d'avoir tous les tableaux dans tous les fichiers rivesccript. Pour le tableau "manières de dire oui" (! array oui) on peut juste mettre oui dans le code pour le tester (vu qu'on n'a pas le tableau dans notre code). On remplace ensuite oui par @oui (@nom du tableau).
 ```
-// Ce code permet de répondre à des salutations basiques.
++ tu as faim
+- Oui et toi tu as faim?
+
+// Code destiné au test
++ oui
+%oui et toi tu as faim
+- Et bien va manger
+
+
+// Code intégrant le tableau, il peut être mis en ligne mais ne peut pas être testé (car on n'a pas le tableau)
++ (@oui)
+%oui et toi tu as faim
+- Et bien va manger
+
 ```
 
 ### Mon code ressemble donc à ceci :
