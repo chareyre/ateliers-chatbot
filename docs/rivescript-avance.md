@@ -142,3 +142,21 @@ On peut modifier l'exemple précédent pour que le robot réponde "Bonjour humai
 - Je vais bien, et toi ?
 ```
 
+## Tableaux
+
+Pour définir un tableau :
+```
+! array verbesport = courir|sauter|jouer au ballon|nager|voler|faire de la muscu
+```
+On peut se servir du tableau dans un déclencheur pour déclencher sur n'importe quel mot du tableau. On peut récupérer avec <star> le mot détecté.
+
+```
++ tu aimes (@verbesport)
+- Non, je suis fatigué et j'ai la flemme de <star>.
+```
+On peut se servir du tableau dans une réponse pour choisir au hasard un mot du tableau.
+```
++ tu fais du sport
+- De temps en temps j'aime bien (@verbesport) pour rester en forme.
+```
+
