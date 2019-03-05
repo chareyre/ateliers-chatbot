@@ -31,7 +31,7 @@ Si le code est long, on fait plusieurs parties avec un commentaire qui sert de t
 Lancer le code et voir si tout se passe comme prévu.
 
 #### Tableaux
-On veut pouvoir se servir des tableaux mais on ne veut pas être obligés d'avoir tous les tableaux dans tous les fichiers rivesccript. Pour le tableau "manières de dire oui" (! array oui) on peut juste mettre oui dans le code pour le tester (vu qu'on n'a pas le tableau dans notre code). On remplace ensuite oui par @oui (@nom du tableau).
+On veut pouvoir se servir de certains tableaux qui sont communs à tous les fichiers rivescript. Mais on ne veut pas être obligés d'avoir tous les tableaux dans tous les fichiers rivesccript. Pour le tableau "manières de dire oui" (! array oui) on peut juste mettre oui dans le code pour le tester (vu qu'on n'a pas le tableau dans notre code). On remplace ensuite oui par @oui (@nom du tableau).
 ```
 + tu as faim
 - Oui et toi tu as faim?
