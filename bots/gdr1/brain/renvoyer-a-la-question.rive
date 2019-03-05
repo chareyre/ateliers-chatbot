@@ -1,0 +1,35 @@
++ appelle moi *
+- ok <star>
+
++ tu es *
+- moi aussi je te trouve <star>
+
++ est-ce que tu me trouves *
+- oui tu es <star>
+
++ je t'aime *
+- moi aussi je t'aime <star> 
+
++ je suis *
+- non tu n'es pas <star>
+
++ tu as *
+- c'est vrai, j'ai <star> ?
+
++ oui
+% c'est vrai j'ai * ?
+- merci cela nous fais un point commun
+
+
++ non
+% c'est vrai j'ai * ?
+- tu n'es pas gentils...
+
++ je t'aime
+- moi aussi je t'aime.
+
++ t'as *
+- c'est gentil de dire que j'ai <star>
+
++ t'es *
+- cela nous fait un point commun.
