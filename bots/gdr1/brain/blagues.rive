@@ -1,11 +1,11 @@
 //Les blagues
 //V5
 //Yamaakasii: Boudet Labussiere, Jones 3ème 2 Louis Timbal
-//Le code sert a raconter des blagues 
+//Le code sert à raconter des blagues 
 
 + [*]blagues[*]
-- j'adore raconter des blagues
-- j'ai beaucoup d'humour et de nombreuses blagues en stock
+- J'adore raconter des blagues
+- J'ai beaucoup d'humour et de nombreuses blagues en stock
 
 
 
@@ -13,11 +13,11 @@
 @ blagues
 
 + [*][raconte moi] une blague|des blagues|une autre|une deuxième|encore[*]
-- c'est parti mon ami, que fait on aux voleurs de salade?
-- Tu es prêt, pourquoi les phoques sont droles?
-- Let's goooo my friend, pourquoi le foot est drole?
+- c'est parti mon ami, que fait-on aux voleurs de salade?
+- Tu es prêt, pourquoi les phoques sont drôles?
+- Let's goooo my friend, pourquoi le foot est drôle?
 - Pourquoi poulle s'écrit avec 2 l?
-- Deux escargots arrivent sur une plage et aperçoivent une limace que disent ils ?
+- Deux escargots arrivent sur une plage et aperçoivent une limace, que disent ils ?
 
 
 
@@ -26,27 +26,23 @@
  
 
 
-
-
-
-
 + je [ne] sais pas|jsp|jcp
-% * aux voleurs de salade?
+% * aux voleurs de salade
 - On les tue (laitue)
 
 + je [ne] sais pas|jsp|jcp
-% * pourquoi les phoques sont droles?
+% * pourquoi les phoques sont *
 - Parce que les ota rient (otaries)
 
 
 + je [ne] sais pas|jsp|jcp
-% * pourquoi le foot est drole?
+% * pourquoi le foot est *
 - Parce que Thierry en rit (Henry)
 
 
 
 + je [ne] sais pas|jsp|jcp
-% * poulle s'écrit avec 2 l?
+% * poulle * avec 2 l
 - Car une poule a deux ailes 
 
 
@@ -59,59 +55,41 @@
 
 
 
-
-
-
-
-
-
-
 + [*]laitue[*]
-% * aux voleurs de salade?
-- tu ne mâche pas tes mots
+% * aux voleurs de salade
+- Tu ne mâche(s) pas tes mots
 
 + [*]otaries[*]
-% * pourquoi les phoques sont droles?
-- zuuut ! Tu as noyé ma blague
+% * pourquoi les phoques sont *
+- Zuuut ! Tu as noyé ma blague
 
 + [*]thierry[*]
-%  * pourquoi le foot est drole?
-- carton rouge! Tu as tacler ma blague
+%  * pourquoi le foot est *
+- Carton rouge! Tu as taclé ma blague
 
 + [*]2 l|deux ailes|2 ailes|deux l[*]
-% pourquoi poulle s'écrit avec 2 l?
+% pourquoi poulle * avec 2 l
 - Bien joué Poulette !
 
 
 + [*]demi tour|nudiste[*]
-% *arrivent sur une plage et aperçoivent une limace que disent ils ?
+% *arrivent sur une plage et aperçoivent une limace que disent ils 
 - T'en a bavé pour trouver la réponse, hein !
 
 
 
 
-
-
-
 + [*]les tue[*]
-% * que fait t-on aux voleurs de salade?
-- Tu ne mache pas tes  mots
+% * que fait t-on aux voleurs de salade
+- Tu ne mâche(s) pas tes  mots
 
 + [*]ota ris[*]
-% * pourquoi les phoques sont droles?
+% * pourquoi les phoques sont *
 - Zuuut ! Tu as noyé ma blague
 
 + [*]thierry en rit[*]
-% *  pourquoi le foot est drole?
-- Carton rouge! Tu as taclés ma blague
-
-
-
-
-
-
-
-
+% *  pourquoi le foot est *
+- Carton rouge! Tu as taclé ma blague
 
 
 
@@ -121,10 +99,20 @@
 - Merci je sais, je suis un petit comique 
 - Je devrais jouer sur une scène
 - j'ai un sens de l'humour surdéveloppé
-+ [*](nul|nulle|pas drole|chier|naze|pourrie)[*]
-- Ben raconte moi en une, toi qui es si drole
+
++ [*](nul|nulle|pas drole|chier|naze|pourrie|pourries)[*]
+- Ben raconte moi en une, toi qui es si drôle
 
 + *
-% ben raconte moi en une toi qui es si drole
+% ben raconte moi en une toi qui es si *
 - Hahaha tu n'est pas marrant
-- Pffff t'est pas drole 
+- Pffff t'est pas drôle 
+
+
+
+
+
+
+
+
+
