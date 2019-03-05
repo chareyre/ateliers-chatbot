@@ -1,5 +1,5 @@
 //Les sorties scolaires
-//V2
+//V4
 //Doriane; Lisa; Cassiopée: 3e2 / Collège louis timbal
 
 //ce script permet de répondre au question au sujet des sorties scolaires
@@ -8,7 +8,7 @@
 // CONVERSATION
 // on imagine une conversation continue ou le robot mène de dialogue
 
-+ [*] (sorties scolaires|sortie scolaire) [*]
++ [*] (sorties scolaires|sortie scolaire|sortir|voyage|voyages| sorties|sortie|voyages scolaires|voyage scolaire) [*]
 - en parlant de sortie, est ce que tu as des questions sur les sorties scolaires au collège?
 
 
