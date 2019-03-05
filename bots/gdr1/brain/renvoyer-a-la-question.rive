@@ -1,5 +1,21 @@
+// revoie a la question
+// v7
+// tk78 3ème2 collège louis timbal 
+// question sentiment/personnalité 
+
+
 + appelle moi *
-- ok <star>
+- <set nom=<star>> salut <get nom>
+
+
++ appelle-moi *
+- <set nom=<star>> salut <get nom>
+
+
++ comment je m'appelle
+* <get nom> == undefined => je sais pas.
+- ton nom est <get nom>
+
 
 + tu es *
 - moi aussi je te trouve <star>
@@ -17,12 +33,12 @@
 - c'est vrai, j'ai <star> ?
 
 + oui
-% c'est vrai j'ai * ?
+% c'est vrai j'ai * 
 - merci cela nous fais un point commun
 
 
 + non
-% c'est vrai j'ai * ?
+% c'est vrai j'ai * 
 - tu n'es pas gentils...
 
 + je t'aime
@@ -33,3 +49,52 @@
 
 + t'es *
 - cela nous fait un point commun.
+
++ est ce que je suis *
+- non tu n'est pas <star>
+- oui tu est <star>
+
++ est ce que j'ai *
+- non tu n'as pas <star>
+- oui tu as <star>
+
++ es-tu *
+- oui je suis <star>
+- non je suis pas <star>
+
++ tu me trouve *
+- oui je te trouve très <star>
+
++ tu me trouve comment
+- tu es plutôt pas mal
+
++ merci
+- de rien
+
++ merci *
+- de rien
+
++ tu m'aimes
+- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+
++ tu m'aime
+- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+
++ est ce que tu m'aimes 
+- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+
++ est ce que tu m'aimes *
+- non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+
++ méchant 
+- je sais 
+
++ t'es pas gentil
+- je suis programmé pour ça
+
++ tu n'est pas gentil
+- je suis programmé pour ça
+
+
+
+
