@@ -3,6 +3,7 @@
 - [Les bases de RiveScript](rivescript-base.html)
 - [Utilisation avancée de RiveScript](rivescript-avance.html)
 - [Les règles de contribution](contribution.html)
+- [Concernant les accents, les majuscules et la ponctuation](accents.html)
 
 
 ---
