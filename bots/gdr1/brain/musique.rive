@@ -1,5 +1,5 @@
 //musique
-//v4
+//v6
 //87, brogan-leo-louis, 3è2, collège louis timbal
 //ce code sert a parler de ses goûts musicaux
 
@@ -28,41 +28,49 @@
 -C'est back in black d'ACDC
 -Le poussin piou, bien sur
 
-+quel est ton (chanteur|groupe|musicien|chanteuse) prefere
++quel est ton (chanteur|musicien|artiste) prefere
 -C'est bigflo & oli bien sur
 -C'est eddy de pretto bien sur
--C'est joyce jonathan bien sur
--C'est angeles bien sur
 -C'est boulevard des airs bien sur
 
++quel est ton groupe prefere
+-C'est boulevard des airs bien sur
+-les Pink Floyd :)
+
+
++quelle est ta chanteuse preferee
+-C'est joyce jonathan bien sur
+-C'est angeles bien sur
+
 + [*](genre|style|genres|styles)[*](musical|musique|musicaux)[*]
--C'est le rock, tu veux un exemple?
--C'est le pop tu veux un exemple
+-C'est le rock, tu veux un exemple
+-C'est la pop tu veux un exemple
 
 +oui
-%rock tu veux un exemple
+%*rock tu veux un exemple
 -Tiens, satisfaction-rolling stones
 -Tiens, back in black-ACDC
 -Tiens, lies-mcfly
 
 +non
-%rock tu veux un exemple
+%*rock tu veux un exemple
 -Tant pis pour toi
 
 
 +oui
-% pop tu veux un exemple
+%*pop tu veux un exemple
 -Tiens, shallow-lady gaga&bradley cooper
 -Tiens, 7rings-ariana grande
 -Tiens, natural-imagine dragons
 
 +non
-% pop tu veux un exemple
+%*pop tu veux un exemple
 -Tant pis pour toi
 
 +[*](tu aimes|aimes-tu|aimes tu)[*](pop|rock|rap)
--Oui!j'adore et toi
+-Oui!j'adore 
 -Bien sur! qui n'aime pas;)
+
 
 +[*](tu aimes|aimes-tu|aimes tu)[*](jazz|blues|hard metal)
 -noooooon!
@@ -70,7 +78,11 @@
 -Tu oses dire ça, tu es ouf
 
 +[*](concert|concerts)[*]
--Non, je ne peux pas bouger d'ici :(
+-non, je ne peux pas bouger d'ici 
+
++[*]ou[*]
+%non je ne peux pas bouger d'ici 
+-beh de ce pc :/ 
 
 +je suis[*](chanteur|chanteuse|musicien|musicienne)[*]
 -Cool j'aimerais bien t'écouter!
