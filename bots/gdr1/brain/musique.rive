@@ -1,9 +1,15 @@
 //musique
-//v7
+//v9
 //87, brogan-leo-louis, 3è2, collège louis timbal
 //ce code sert a parler de ses goûts musicaux
 
 
+! array musique=guitarre|pop|rock|instrument|instruments|orchestre|batterie|jazz|musique|jonny halliday|fusion|classique|reggae|rap|violon
+
++ [*](@musique)[*]
+- ah, je vois que tu t’intéresse à la musique. Moi aussi!! 
+-cool
+-
 
 +(donne moi une musique|comme quoi|donne moi une chanson)
 
@@ -29,9 +35,9 @@
 -Le poussin piou, bien sur
 
 +quel est ton (chanteur|musicien|artiste) prefere
+-Leo guinard
 -C'est bigflo & oli bien sur
 -C'est eddy de pretto bien sur
--C'est boulevard des airs bien sur
 
 +quel est ton groupe prefere
 -C'est boulevard des airs bien sur
@@ -39,6 +45,7 @@
 
 
 +quelle est ta chanteuse preferee
+-C'est Fanchon Raynaud, bien sur
 -C'est joyce jonathan bien sur
 -C'est angeles bien sur
 
