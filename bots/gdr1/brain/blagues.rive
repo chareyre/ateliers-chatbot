@@ -1,7 +1,7 @@
 //Les blagues
-//V3
+//V5
 //Yamaakasii: Boudet Labussiere, Jones 3ème 2 Louis Timbal
-//Le code sert a raconter des blagues
+//Le code sert a raconter des blagues 
 
 + [*]blagues[*]
 - j'adore raconter des blagues
@@ -12,28 +12,57 @@
 + [*]drole[*]
 @ blagues
 
-+ [*][raconte moi] une blague|des blagues[*]
++ [*][raconte moi] une blague|des blagues|une autre|une deuxième|encore[*]
 - c'est parti mon ami, que fait on aux voleurs de salade?
 - Tu es prêt, pourquoi les phoques sont droles?
 - Let's goooo my friend, pourquoi le foot est drole?
+- Pourquoi poulle s'écrit avec 2 l?
+- Deux escargots arrivent sur une plage et aperçoivent une limace que disent ils ?
+
+
 
 + [*]vas y[*]
 @ une blague
  
 
 
-+ je [ne] sais pas
+
+
+
+
++ je [ne] sais pas|jsp|jcp
 % * aux voleurs de salade?
 - On les tue (laitue)
 
-+ je [ne] sais pas
++ je [ne] sais pas|jsp|jcp
 % * pourquoi les phoques sont droles?
 - Parce que les ota rient (otaries)
 
 
-+ je [ne] sais pas
++ je [ne] sais pas|jsp|jcp
 % * pourquoi le foot est drole?
 - Parce que Thierry en rit (Henry)
+
+
+
++ je [ne] sais pas|jsp|jcp
+% * poulle s'écrit avec 2 l?
+- Car une poule a deux ailes 
+
+
++ je [ne] sais pas
+% * arrivent sur une plage et aperçoivent une limace que disent ils ?
+- Demi tour! Nous sommes sur une plage nudiste!
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,6 +77,17 @@
 + [*]thierry[*]
 %  * pourquoi le foot est drole?
 - carton rouge! Tu as tacler ma blague
+
++ [*]2 l|deux ailes|2 ailes|deux l[*]
+% pourquoi poulle s'écrit avec 2 l?
+- Bien joué Poulette !
+
+
++ [*]demi tour|nudiste[*]
+% *arrivent sur une plage et aperçoivent une limace que disent ils ?
+- T'en a bavé pour trouver la réponse, hein !
+
+
 
 
 
@@ -68,9 +108,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
++ [*](mdr|trop drole|lol|marrant|pas mal|j adore)[*]
+- Merci je sais, je suis un petit comique 
+- Je devrais jouer sur une scène
+- j'ai un sens de l'humour surdéveloppé
 + [*](nul|nulle|pas drole|chier|naze|pourrie)[*]
 - Ben raconte moi en une, toi qui es si drole
 
 + *
 % ben raconte moi en une toi qui es si drole
--Hahaha tu n'est pas marrant 
+- Hahaha tu n'est pas marrant
+- Pffff t'est pas drole 
