@@ -4,10 +4,10 @@
 
 Avant de partager votre code il y a quelques étapes importantes à respecter :
 
-1 - Commenter (mettre le bon numéro de version dans les commentaires)
-2 - Mettre en page
-3 - Tester de fond en comble
-4 - Supprimer les tableaux dont on s'est servi pour tester
+-1 - Commenter (mettre le bon numéro de version dans les commentaires)
+-2 - Mettre en page
+-3 - Tester de fond en comble
+-4 - Supprimer les tableaux dont on s'est servi pour tester
 
 
 
