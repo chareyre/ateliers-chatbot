@@ -1,5 +1,5 @@
 // louis timbal
-// v6
+// v7
 //Guillemot Chloé, Doucet Manon, Raynaud Fanchon, 3°2, collège Louis Timbal
 
 //- code qui permet d'avoir des informations sur la vie de Louis Timbal 
@@ -28,7 +28,21 @@
 // Quelles sont les dates de vie et de mort de Louis Timbal
 
 
-+quelles sont les dates de naissance et de mort de louis timbal
++ [*] quand [*] mort [*] 
+% [*] louis timbal [*]
+-  Louis Timbal est mort le 29 octobre 1955
+
++ [*] quand [*] ne [*] 
+% [*] louis timbal [*]
+- Louis Timbal est ne le 26 mai 1885
+
++ [*] mort [*] 
+% [*] louis timbal [*]
+-  Louis Timbal est mort le 29 octobre 1955
+
+
+
++ quelles sont les dates de naissance et de mort de louis timbal
 - Il est né le 26 mai 1885 à Châteauponsac et il est mort le 29 octobre 1955 à Châteauponsac
 
 + quelles sont les dates de mort et de naissance de louis timbal
@@ -41,14 +55,15 @@
 - à Châteauponsac
 
 + quand est ne louis timbal
-- le 26 mai 1885
+-  Louis Timbal est en le 26 mai 1885
 
 + quand est mort louis timbal
-- 29 octobre 1955
+-  Louis Timbal est mort le 29 octobre 1955
+
+
 
 
 //Questions sur le lieu de naissance de Louis Timbal et son lieu de mort 
-
 
 + ou est ne louis timbal
 -à Châteauponsac
@@ -70,6 +85,16 @@
 % [*] louis timbal [*]
 - Il est mort à Châteauponsac
 
++ ou il est ne
+% [*] louis timbal [*]
+- Il est né à châteauponsac
+
++ ou il est mort
+% [*] louis timbal [*]
+- Il est mort à Châteauponsac
+
+
+
 // dates de vie et de mort de Louis Timbal 
 
 + quand est-il ne
@@ -85,8 +110,6 @@
 
 + quand est mort et ne louis timbal
 - Il est mort le 29 octobre et il est né le 26 mai 1885
-
-
 
 
 
@@ -125,13 +148,13 @@
 
 + [*] (a t-il ete marie|etait-il marie)
 % [*] louis timbal [*]
-- oui, deux fois 
+- Oui, deux fois 
 
 + louis timbal a t-il ete marie
-- oui, deux fois
+- Oui, deux fois
 
 + louis timbal etait-il marie
--oui, deux fois 
+- Oui, deux fois 
 
 + [*] (a qui louis timbal a t-il ete marie| a ete marie a qui)
 % [*] louis timbal [*]
@@ -228,12 +251,15 @@
 + *
 % [*] louis timbal [*]
 - Et toi tu penses quoi de Louis Timbal ?
+- Je vous ai reconnu Mr Pruchon ! 
 
 + * {weight=10}
 % et toi tu penses quoi de louis timbal 
 - OK ! 
 
 
-
++ [*] pruchon [*]
+% louis timbal
+- LE spécialiste de l'histoire de Louis Timbal et de Châteauponsac , du musée de Châteauponsac, et à ses heures perdues ... il est prof d'histoire-géographie au collège !  
 
 
