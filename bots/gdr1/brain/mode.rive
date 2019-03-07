@@ -1,2 +1,46 @@
-> sp
-special.rive          sport-mecanique.rive  
+// Mode
+// V1
+// Gucci gang
+// Ce code sert a traiter des questions de mode
+
++ hey [tu es la|t'es la]
+- Je viens de faire du shopping 
+
++ (t'as|tu as) achete quoi
+- Des vêtements pour cet été 
+- Des chaussures pour cet été 
+- Des vêtements pour cet hiver 
+- Des chaussures pour cet hiver 
+
++ qu'est ce que tu as achete
+@ (t'as|tu as) achete quoi
+
++ tu les as achetes ou
+- Dans différents magasin
+
++ as-tu ete dans les magasins de luxe 
+- Oui, dans certains 
+
++ a ouais lesquels
+- Versace, Gucci, l'Oreal, Jean Paul Gautier...
+
++ quelles chaussures
+% des chaussures pour cet hiver 
+- Des bottes
+
+
++ quelles chaussures
+% des chaussures pour cet *t* 
+- Des tongues
+
++ quelles v*tement
+% des v*tements pour cet hiver 
+- Des pulls
+- Des gants
+- Un bonnet
+
++ quelles v*tement
+% des v*tements pour cet *t* 
+- Des robes
+- Des t-shirts
+- Des shorts
