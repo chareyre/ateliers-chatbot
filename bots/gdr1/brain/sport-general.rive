@@ -1,35 +1,48 @@
 //le sport en général
-//v1
-//TV Sport (=
-//des questions sur des événements sportifs du football
+//V2
+//TV Sport 
+//des questions sur des événements ou sportifs du football
+
 
 
 + [*] sport [*] 
-- En parlant de sport, ça te dit d'en discuter?
+- En parlant de sport, tu pense que ce sera qui qui gagnera la champions league ?
 
-+ (oui|ok) [*]
+
++ [ce sera|c'est] * 
+% * pense que ce sera qui qui gagnera la champions ligue [*]
+- <star> j'espère moi aussi 
+
+
++ non [*]
 % en parlant de sport [*] discuter
-- Ok, super, vas-y, je t'écoute !
+- ben, tant pis !  
 
-+ non
-% en parlant de sport [*] discuter
-- ben, tant pis ! 
 
-+ [*]  [france]  coupe du monde [*]
-- Oui j'étais super content !! 
++ [*] coupe du monde [*]
+- on va ramener la coupe à la maison ! 
 
-+ tu penses quoi de l'olympique lyonnais
-- Meilleure équipe de football de France
-- C'est une équipe surcotée
 
-+ * l'equipe de foot de barcelone 
-- Mon équipe préférée 
-- Une mauvaise équipe
++ * l'equipe *   
+- <star2> meilleure équipe de football 
+- C'est une équipe surcotée 
+- <star2>mon équipe préférée 
+- <star2>une mauvaise équipe
 
-+ [*] coup [(de boule|de tete)] de zidane 
-- Oui j'ai eu le seum 
 
-+ * triste de la mort de [*] sala 
++ * zidane [*]
+- Un ancien joueur de foot Français connu pour son crâne chauve et son coup de tête 
+  en 2006   
+
+
++ * mort [*] sala 
 - J'en suis toujours autant triste
 
-(parler|discuter) 
+
++ tu * le foot
+- Tout le temps
+
+
++ * supportes une equipe *
+- non je suis neutre  
+
