@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nova Playground</title>
+	<title>Rivescript Playground by Nokill</title>
 	<link rel="stylesheet" type="text/css" href="css/playground.css">
 </head>
 <body>
@@ -12,13 +12,12 @@
 <div id="container">
 
 	<header>
-		<span>Nova Playground</span>
+		<span>Rivescript Playground by Nokill</span>
 
 		<nav>
 			<ul>
 				<li><button type="button" id="run">Run</button></li>
-				<li><button type="button" id="share">Share</button></li>
-				<li><button type="button" id="about">About</button></li>
+				<li><button type="button" id="share">Share (ne marche pas ici)</button></li>
 				<li id="sharing">
 					Your share link has been created:
 					<input type="text" size="40" id="share-url" value="" readonly>
@@ -31,8 +30,8 @@
 		<div class="code">
 			<textarea id="code">! version = 2.0
 
-+ coucou nova
-- Coucou toi !
++ coucou robot
+- Je ne suis pas un robot !!
 
 </textarea>
 		</div>
@@ -58,14 +57,13 @@
 		<div class="pull-right">
 			RiveScript.js v<span id="rs-version">?.?.?</span> &mdash;
 			Copyright &copy; 2016 <a href="https://www.rivescript.com/">RiveScript.com</a>
+			This page is a hack of the <a href="https://www.play.rivescript.com/">RiveScript Playground</a>
 		</div>
 
 		<strong>Options:</strong>
 		<label>
 			<input type="checkbox" id="opt-debug" value="true"> Debug Mode
-		</label>
-		<label>
-			<input type="checkbox" id="opt-utf8" value="true"> UTF-8 Mode
+			<input type="checkbox" id="opt-justme" value="true"> Mon code seulement !
 		</label>
 	</footer>
 

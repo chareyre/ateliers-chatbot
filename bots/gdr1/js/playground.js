@@ -20,7 +20,7 @@ $(document).ready(function() {
 	var $history      = $("#history");
 	var $message      = $("#message");
 	var $optDebug     = $("#opt-debug");
-	var $optUTF8      = $("#opt-utf8");
+	var $optJustMe    = $("#opt-justme");
 	var $debugPanel   = $("#debug-pane");
 	var $debugOut     = $("#debug");
 	var $rsVersion    = $("#rs-version");
@@ -29,7 +29,6 @@ $(document).ready(function() {
 	// Fix disabled states in case of the user reloading the page.
 	$codeEditor.prop("disabled", false);
 	$message.prop("disabled", true);
-	$optUTF8.prop("disabled", false);
 
 	// The share URL selects itself on click.
 	$shareURL.focus(function() {
@@ -78,7 +77,7 @@ $(document).ready(function() {
 		// Validate the code compiles.
 		var hasErrors = false;
 		var bot = new RiveScript({
-			utf8: $optUTF8.prop("checked")
+			utf8: true
 		});
 
 		bot.stream(code, function(error) {
@@ -91,7 +90,7 @@ $(document).ready(function() {
 		}
 
 		$.post({
-			url: "/share",
+			url: "https://play.rivescript.com/share",
 			contentType: "application/json; encoding=UTF-8",
 			data: JSON.stringify({
 				"source": code,
@@ -145,7 +144,6 @@ $(document).ready(function() {
 		// Update DOM props.
 		$btnRun.text("Stop running");
 		$codeEditor.prop("disabled", true);
-		$optUTF8.prop("disabled", true);
 		$message.prop("disabled", false);
 		$message.focus();
 
@@ -156,30 +154,33 @@ $(document).ready(function() {
 		// Initialize the RiveScript bot.
 		window.rs = new RiveScript({
 			debug: $optDebug.prop("checked"),
-			utf8: $optUTF8.prop("checked"),
+			utf8: true,
 			onDebug: onDebug
 		});
-		window.rs.loadFile(riveList)
+		let list = $optJustMe.prop("checked") ? ['brain/_special.rive'] : riveList
+		window.rs.loadFile(list)
 		.then(function() {
-    		window.rs.sortReplies();
+
+			window.rs.setHandler("coffeescript", new RSCoffeeScript(window.rs));
+			window.rs.setHandler("coffee", new RSCoffeeScript(window.rs));
+
+			var hasErrors = false;
+			window.rs.stream(code, function(error) {
+				window.alert("Error in your RiveScript code:\n\n" + error);
+				hasErrors = true;
+
+			});
+
+			if (hasErrors) {
+				teardownBot();
+				return false;
+			}
+			window.rs.sortReplies();
 		})
 
-		window.rs.setHandler("coffeescript", new RSCoffeeScript(window.rs));
-		window.rs.setHandler("coffee", new RSCoffeeScript(window.rs));
 
-		var hasErrors = false;
-		window.rs.stream(code, function(error) {
-			window.alert("Error in your RiveScript code:\n\n" + error);
-			hasErrors = true;
 
-		});
-
-		if (hasErrors) {
-			teardownBot();
-			return false;
-		}
-
-		window.rs.sortReplies();
+		
 
 		return true;
 	};
@@ -187,7 +188,7 @@ $(document).ready(function() {
 	// Handle the user sending a message to the running bot.
 	async function sendMessage() {
 		// Get their message.
-		var text = removeDicretics($message.val());
+		var text = $message.val();
 		$message.val("");
 		if (text.length === 0) {
 			return;
@@ -207,7 +208,7 @@ $(document).ready(function() {
 		// Save their original message as the uservar origMessage for
 		// object macros to have access to.
 		await window.rs.setUservar("web-user", "origMessage", text);
-		window.rs.reply("web-user", text).then(onReply);
+		window.rs.reply("web-user", removeDicretics(text)).then(onReply);
 	};
 
 	// Handle a reply being returned by the bot.
@@ -220,7 +221,6 @@ $(document).ready(function() {
 		$btnRun.text("Run");
 		$codeEditor.prop("disabled", false);
 		$message.prop("disabled", true);
-		$optUTF8.prop("disabled", false);
 		$codeEditor.focus();
 
 		window.rs = null;
