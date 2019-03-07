@@ -6,7 +6,7 @@ const riveList = [
 	"brain/jeux-videos.rive",
 	"brain/sentiments.rive",
 	"brain/sport-quil-fait.rive",
-	"brain/_special.rive",
+	"brain/special.rive",
 	"brain/tableaux.rive",
 	"brain/actualite.rive",
 	"brain/blagues.rive",
@@ -22,7 +22,7 @@ const riveList = [
 	"brain/cvc.rive",
 	"brain/sport-mecanique.rive",
 	"brain/salutations.rive",
-	"ennui.rive",
+	"brain/ennui.rive",
 	"brain/se-presenter.rive",
 	"brain/renvoyer-a-la-question.rive"
 ];

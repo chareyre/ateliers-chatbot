@@ -157,7 +157,7 @@ $(document).ready(function() {
 			utf8: true,
 			onDebug: onDebug
 		});
-		let list = $optJustMe.prop("checked") ? ['brain/_special.rive'] : riveList
+		let list = $optJustMe.prop("checked") ? ['brain/special.rive'] : riveList
 		window.rs.loadFile(list)
 		.then(function() {
 
