@@ -1,22 +1,34 @@
 //sport qu'il fait
-//V1
-// Les Frosties 123 :-)
+//V3
+//Les Frosties 123 :-)
 //toutes les questions sur le sport qu'il fait
 
 
+ ! array sportquilfait = foot|rugby|tennis 
 
-+ quel sport fais tu
-- Je fais du rugby|foot 
++ * sport (fais tu|tu fais) [*]
+- Je fais du (@sportquilfait) 
 
 + * equipe preferee [*]
 - Mon équipe préférée de rugby est celle du Pays de Galles 
-- mon equipe préférée de foot est celle de Chateauponsac FC)
+- Mon équipe préférée de foot est celle de Chateauponsac FC
 
 
-+ quel est ton sport prefere 
-- mon sport prefere est le rugby 
 
-+ quels entrainement fais tu 
-- on fait des slalums
-- on fait des tirs au but
-- on fait des dribles 
++ [*] ton sport prefere [*] 
+- Mon sport préféré est le rugby 
+
++ * entrainement [*] 
+- J'aime bien les entrainements car on fait des slaloms
+- J'aime bien les entrainements car on fait des tirs au but
+- J'aime bien les entrainements car on fait des dribles 
+
++ * d'autres sports [*]
+- Oui, je joue aussi au basket  
+
++ * des sports qui t'ennuis [*]
+- Oui, il y a badminton 
+- Non                                         
+
+
+                                                                                                           
