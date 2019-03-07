@@ -16,7 +16,7 @@ const riveList = [
 	"brain/gouts.rive",
 	"brain/nourriture.rive",
 	"brain/booba-kaaris.rive",
-	"brain/fourre-tout.rive",
+	//"brain/fourre-tout.rive",
 	"brain/mode.rive",
 	"brain/menu.rive",
 	"brain/cvc.rive",
