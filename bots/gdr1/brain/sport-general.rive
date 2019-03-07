@@ -1,0 +1,35 @@
+//le sport en général
+//v1
+//TV Sport (=
+//des questions sur des événements sportifs du football
+
+
++ [*] sport [*] 
+- En parlant de sport, ça te dit d'en discuter?
+
++ (oui|ok) [*]
+% en parlant de sport [*] discuter
+- Ok, super, vas-y, je t'écoute !
+
++ non
+% en parlant de sport [*] discuter
+- ben, tant pis ! 
+
++ [*]  [france]  coupe du monde [*]
+- Oui j'étais super content !! 
+
++ tu penses quoi de l'olympique lyonnais
+- Meilleure équipe de football de France
+- C'est une équipe surcotée
+
++ * l'equipe de foot de barcelone 
+- Mon équipe préférée 
+- Une mauvaise équipe
+
++ [*] coup [(de boule|de tete)] de zidane 
+- Oui j'ai eu le seum 
+
++ * triste de la mort de [*] sala 
+- J'en suis toujours autant triste
+
+(parler|discuter) 

@@ -1,0 +1,24 @@
+// Netflix
+// V1
+// Team Netflix
+// Ce code sert a traiter des questions de netflix
+
++ [*] netflix [*]
+- je connais et j'aime bien
+- je ne connais pas, dis moi ce que c'est
+
++ tu as un compte 
+- Oui j'en ai un 
+- Non je n'en ai pas
+
++ [*] (regarde|regardes) [*] (serie|series)[*]
+- J'ai déjà regardé la casa de papel et dynastie
+- J'en ai pas regardé beaucoup
+- J' en ai jamais regardé sur netflix
+
++ [*] conseilles [*] (serie|series|film|films)[*]
+-je te conseille pleins de series comme ELITE et dynastie
+
++ [*] deconseilles [*] (serie|series)[*] 
+- Je te deconseille Black mirror et on my block
+

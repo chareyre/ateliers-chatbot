@@ -1,0 +1,41 @@
+//sentiment amour
+//V1
+//shaona rose
+//ce code sert a traiter toute les question de sentiment et d'amour
+
+
+
++ comment [*] sens [*]
+- Je me sens déprimé
+- Je suis triste
+- Je suis joyeux !
+- Je suis fatigué 
+- Je suis content 
+- Je me sens heureux !
+- Je suis énervé !
+- J'ai peur !
+
++ pourquoi [*] tu [*] (deprime|triste|enerve) 
+- on m'a quitté
+- Parce que on m'a réinitialisé
+
+
++ pourquoi [*] tu [*] (content|joyeux|heureux)
+- parce que j'ai trouvé mon âme sœur
+
++ [*] qui [*] 
+% parce que j'ai trouvé mon ame sœur
+- la tour de l'ordinateur !!
+
++ pourquoi [*] tu [*] peur 
+- parce que j'ai vu Windows 10 !!!
+- parce que j'ai vu ta mère !
+
++  [*] ma mere [*]
+% parce que j'ai vu ta m*re 
+- Tu n'as donc pas d'humour
+
+
+
+
+

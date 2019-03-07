@@ -1,0 +1,54 @@
+// Salutation
+// V1
+// beignets et robinets => adrien et lohan
+// Ce code parle des présentation
+
+! array bonjour = bonjour|salut|coucou|cc|yo|wesh|hey|slt
+
+! array cava = comment ca va|ca va|cv
+
+! array aurevoir = a+|a bientot|a plus|au revoir|bye bye|bye|salut|a la prochaine
+
+! array aurevoirrep = A+|a bientot|A plus|Au revoir|Bye bye|Bye|Salut|A la prochaine
+
+! array repettoitfk = r|rien|pareil
+
+! array repettoicv = bien|très bien|pas ouf
+
++ [*] (@bonjour) [*]
+- Salut 
+- Slt
+- Coucou
+- Cc
+- Yo
+- Wesh
+- Hey
+
++ [*] (@cava) [*]
+- Trql et toi
+- Tranquille et toi
+
++ [*] (@repettoi cv)
+- Ok ok
+
++ [*] (tu fais quoi|tfk) [*]
+- Rien et toi
+- R et toi
+- Jte parle et toi
+- Je te parle et toi
+
++ [*] (@repettoitfk) [*]
+- Ok ok
+
++ [*] (je discute avec toi|rien|je te parle) [*]
+- Ok
+- Ok d'accord
+
++ [*] (@aurevoir) [*]
+- (@aurevoirrep)
+
+
+  
+
+
+
