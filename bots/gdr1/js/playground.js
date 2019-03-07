@@ -187,7 +187,7 @@ $(document).ready(function() {
 	// Handle the user sending a message to the running bot.
 	async function sendMessage() {
 		// Get their message.
-		var text = $message.val();
+		var text = removeDicretics($message.val());
 		$message.val("");
 		if (text.length === 0) {
 			return;
