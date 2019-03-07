@@ -22,6 +22,8 @@ const riveList = [
 	"brain/cvc.rive",
 	"brain/sport-mecanique.rive",
 	"brain/salutations.rive",
+	"ennui.rive",
+	"brain/se-presenter.rive",
 	"brain/renvoyer-a-la-question.rive"
 ];
 

@@ -1,19 +1,27 @@
 // Salutation
-// V1
+// V2
 // beignets et robinets => adrien et lohan
 // Ce code parle des présentation
 
-! array bonjour = bonjour|salut|coucou|cc|yo|wesh|hey|slt
 
-! array cava = comment ca va|ca va|cv
+
+// tableaux
+
+! array bonjour = bonjour|salut|coucou|cc|yo|wesh|hey|slt|salutation|salutations|hello
+
+! array cava = ca va|cv|comment vas-tu
 
 ! array aurevoir = a+|a bientot|a plus|au revoir|bye bye|bye|salut|a la prochaine
 
-! array aurevoirrep = A+|a bientot|A plus|Au revoir|Bye bye|Bye|Salut|A la prochaine
+! array aurevoirrep = A+|A bientot|A plus|Au revoir|Bye bye|Bye|Salut|A la prochaine
 
-! array repettoitfk = r|rien|pareil
+! array repettoitfk = r|rien|pareil|moi aussi|je travaille|je joue|je joue aux jeux video
 
 ! array repettoicv = bien|très bien|pas ouf
+
+
+
+// formules bonjour
 
 + [*] (@bonjour) [*]
 - Salut 
@@ -24,12 +32,20 @@
 - Wesh
 - Hey
 
+
+
+// ça va et question réponse
+
 + [*] (@cava) [*]
 - Trql et toi
 - Tranquille et toi
 
-+ [*] (@repettoi cv)
-- Ok ok
++ [*] (@repettoicv) [*]
+- Ok, tu veux parler d'autre chose ?
+
+
+
+// tu fais quoi et question réponse
 
 + [*] (tu fais quoi|tfk) [*]
 - Rien et toi
@@ -38,11 +54,22 @@
 - Je te parle et toi
 
 + [*] (@repettoitfk) [*]
-- Ok ok
+- Ok, tu veux parler d'autre chose ?
 
-+ [*] (je discute avec toi|rien|je te parle) [*]
-- Ok
-- Ok d'accord
++ oui [*]
+% * tu veux parler d'autre chose 
+- Tu veux parler de quoi ?
+
++ non
+% * tu veux parler d'autre chose 
+- Ben je t'invite à quitter cette session car tu n'es plus le bienvenu
+
++ [*] (je discute avec toi|je te parle) [*]
+- Bien vu tu es perspicace, tu veux parler d'autre chose ? 
+
+
+
+// formules au revoir
 
 + [*] (@aurevoir) [*]
 - (@aurevoirrep)

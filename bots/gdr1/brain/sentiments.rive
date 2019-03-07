@@ -1,11 +1,11 @@
 //sentiment amour
-//V1
+//V4
 //shaona rose
 //ce code sert a traiter toute les question de sentiment et d'amour
 
 
 
-+ comment [*] sens [*]
++  [comment] [*] sens [*]
 - Je me sens déprimé
 - Je suis triste
 - Je suis joyeux !
@@ -15,18 +15,36 @@
 - Je suis énervé !
 - J'ai peur !
 
+
+
+
+
+
+
+
+// le robot est triste, enerve...
 + pourquoi [*] tu [*] (deprime|triste|enerve) 
 - on m'a quitté
-- Parce que on m'a réinitialisé
+- Parce que je me suis disputé avec ma famille
 
 
+
+
+
+
+// le robot est content
 + pourquoi [*] tu [*] (content|joyeux|heureux)
 - parce que j'ai trouvé mon âme sœur
 
 + [*] qui [*] 
-% parce que j'ai trouvé mon ame sœur
+% parce que j'ai trouvé mon *me sœur
 - la tour de l'ordinateur !!
 
+
+
+
+
+// le robot a peur
 + pourquoi [*] tu [*] peur 
 - parce que j'ai vu Windows 10 !!!
 - parce que j'ai vu ta mère !
@@ -34,6 +52,41 @@
 +  [*] ma mere [*]
 % parce que j'ai vu ta m*re 
 - Tu n'as donc pas d'humour
+
+
+
+
+
+
+// le robot est fatigué 
++ pourquoi [*] tu [*] fatigue
+- je suis malade...
+
+
+
++ tu es dans quel mood[*]
+@ comment tu te sens
+
++ [*] peur [*]
+- En tout cas j'ai peur de windows 10
+- En tout cas j'ai peur de ta mère
+
++  [*] ma mere [*]
+% * de ta m*re
+- Tu n'as donc pas d'humour
+
+
+
+
+
+
+
+// amour
++ [*] pense [*] l'amour [*]
+- L'amour c'est beau mais dangereux aussi
+
++ pourquoi tu trouve ca dangereux
+- Car les hommes peuvent être méchants entre eux
 
 
 
