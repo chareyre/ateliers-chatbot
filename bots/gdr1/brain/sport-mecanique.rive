@@ -25,12 +25,12 @@
 + [*] aimes [*] moto [*] 
 - J'adore la moto
 
-- moi aussi
-@ j'adore la moto
++ moi aussi
+% j'adore la moto
 - tu fais de la moto toi?
 
-- [*] oui [*]
-@ tu fais de la moto toi
++ [*] oui [*]
+% tu fais de la moto toi
 - Cool! 
 
 + [*] (aime|adore) [*] moto
@@ -51,16 +51,16 @@
 - non, mais j'aimerais bien en faire.
 
 + oui et toi 
-@ (fais tu|tu fais) de la moto en club 
+% (fais tu|tu fais) de la moto en club 
 - Dans quel club de moto en fais-tu?
 
-- [*] Magnac-Laval [*] 
++ [*] Magnac-Laval [*] 
 @ dans quel club de moto en fais-tu
 - Ah cool, moi aussi. On pourra s'y voir ! 
 
 
 + non
-@ (fais tu|tu fais) de la moto en club 
+% (fais tu|tu fais) de la moto en club 
 - Ah dommage, moi j'en fais à Magnal-Laval !
 
 
