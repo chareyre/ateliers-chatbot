@@ -1,42 +1,49 @@
 // renvoie a la question
-// v7
+// v8
 // tk78 3ème2 collège louis timbal 
 
 // questions sentiment/personnalité 
 
 
 + appelle moi *
-- <set nom=<star>> salut <get nom>
-
+- <set nom=<star>> Salut <get nom> ! 
 
 + appelle-moi *
-- <set nom=<star>> salut <get nom>
-
+- <set nom=<star>> Salut <get nom> ! 
 
 + comment je m'appelle
 * <get nom> == undefined => je sais pas.
-- ton nom est <get nom>
+- Ton nom est <get nom> !
 
 
+//questions sur personnalité   
 + tu es *
-- Moi aussi je te trouve <star>
+- Moi aussi je te trouve <star>.
+
 
 + est-ce que tu me trouves *
-- Oui tu es <star>
+- Oui tu es <star>.
+
 
 + je t'aime *
-- Moi aussi je t'aime <star> 
+- Moi aussi je t'aime <star>.
+
 
 + je suis *
-- Non tu n'es pas <star>
+- Non tu n'es pas <star>.
+
+
 
 + tu as *
 - C'est vrai, j'ai <star> ?
 
+
+
+//questions oui ou non
+
 + oui
 % c'est vrai j'ai * 
-- Merci cela nous fait un point commun
-
+- Merci cela nous fait un point commun.
 
 + non
 % c'est vrai j'ai * 
@@ -45,47 +52,65 @@
 + je t'aime
 - Moi aussi je t'aime.
 
+
+//tu as 
+
 + t'as *
-- C'est gentil de dire que j'ai <star>
+- C'est gentil de dire que j'ai <star>.
 
 + t'es *
 - Cela nous fait un point commun.
 
+
+
+
 + est ce que je suis *
-- Non tu n'est pas <star>
-- Oui tu est <star>
+- Non tu n'est pas <star>.
+- Oui tu est <star>.
 
 + est ce que j'ai *
-- Non tu n'as pas <star>
-- Oui tu as <star>
+- Non tu n'as pas <star>.
+- Oui tu as <star>.
 
 + es-tu *
-- Oui je suis <star>
-- Non je suis pas <star>
+- Oui je suis <star>.
+- Non je suis pas <star>.
 
-+ tu me trouves *
-- Oui je te trouve très <star>
 
-+ tu me trouves comment
-- Tu es plutôt pas mal
+// trouve
+
++ (tu me trouves|me trouves tu) *
+- Oui je te trouve très <star>.
+
++ (tu me trouves comment|comment tu me trouves)
+- Tu es plutôt pas mal.
+
+
+//remerciement 
 
 + merci
-- De rien
+- De rien.
 
 + merci *
-- De rien
+- De rien.
 
-+ tu m'aimes
+
+
+//tu m'aimes
+
++ tu (m'aimes|m'aime)
+- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer.
+
+
++ est ce que tu (m'aimes|m'aime) 
 - Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
-+ tu m'aime
++ est ce que tu (m'aimes|m'aime)  *
 - Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
-+ est ce que tu m'aimes 
-- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
 
-+ est ce que tu m'aimes *
-- Non je ne t'aime pas, je ne suis pas programmé  pour t'aimer
+
+//méchanceté
 
 + méchant 
 - Je sais !
