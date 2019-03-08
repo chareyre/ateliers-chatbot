@@ -1,46 +1,4 @@
 // la nourriture 
-//v1
-//Kaiju jaëger (Sarah menu)
-//ça traite des goûts gastronomiques de Nova.
-
-! array plat = la soupe|les gaufres|le riz|les nouilles|les crevettes|les endives| le poisson|les rillettes|le soufflé|les gâteaux
-
-+ qu'est-ce que tu preferes
-- Précise, je comprends pas tout... 
-
-+ [*] ton plat prefere [*]
-- J'aime bien les spaghettis bolos.
-- C'est la pizza
-- Ce ne sont pas tes affaires !
-- C'est le steak-frites, et toi?
-
-+ [*] aimes-tu (les|la|le|l') *
-% [*] ton plat préféré [*]
-- Oh oui!j'adore les <star>! 
-- Non, c'est dégueu
-- Bof
-- Pas vraiment, et toi?
-
-+ [*] qu'est-ce que tu manges [*]
-- Ce n'est pas l'heure
-- Je mange habituellement des légumes mais j'aime bien le steak-frites.
-- Est-ce que ça te regardes?
-- Rien pourquoi?
-- Je n'ai pas encore faim, mais je mangerais bien un hamburger.
-
-+ *
-% c'est le steak-frites et toi
-- C'est chouette!
-
-+ [*](@plat)[*]
-- J'adore <star>
-
-+ [*](manger|soupe|à table|)[*]
-- Cool!
-
-+ je déteste (@plat)
-- Beurk
-- Moi j'aime bien.// la nourriture 
 //v2
 //Kaiju jaëger (Sarah menu)
 //ça traite des goûts gastronomiques de Nova.
