@@ -157,7 +157,8 @@ Pour définir un tableau :
 ```
 ! array verbesport = courir|sauter|jouer au ballon|nager|voler|faire de la muscu
 ```
-On peut se servir du tableau dans un déclencheur pour déclencher sur n'importe quel mot du tableau. On peut récupérer avec <star> le mot détecté.
+On peut se servir du tableau dans un déclencheur pour déclencher sur n'importe quel mot du tableau. 
+On peut récupérer avec <star> le mot détecté.
 
 ```
 + tu aimes (@verbesport)
@@ -187,7 +188,8 @@ ex :
 ## Conversations courtes
 
 Pour créer un fil de discussion, on peut utiliser une ligne de commande qui commence par  `%` (précédant).
-Cela rajoute au déclencheur la condition qu'une phrase particulière ai été prononcée par le Bot dans l'échange précédant. C'est très utile pour créer des petites conversations qui donnent l'illusion que le Bot comprend ce dont on parle.
+Cela rajoute au déclencheur la condition qu'une phrase particulière ai été prononcée par le Bot dans l'échange précédant. 
+C'est très utile pour créer des petites conversations qui donnent l'illusion que le Bot comprend ce dont on parle.
 
 ex :
 
@@ -200,6 +202,7 @@ ex :
 - Génial, on va se faire un pizza !
 
 + non
+% j'ai un petit creux et toi tu as faim
 - Dommage...
 
 Bien sur, pas de ponctuation ni d'accent dans les précédants, on ne garde que les apostrophes et les tirets. (comme dans les déclencheurs).
