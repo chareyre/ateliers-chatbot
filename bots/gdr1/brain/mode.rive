@@ -1,9 +1,9 @@
 // Mode
-// V3
+// V6
 // Gucci gang
 // Ce code sert a traiter des questions de mode
 
-+ parlons de mode
++ * de mode [*]
 -oui, si tu veux
 
 + aimes-tu la mode
@@ -53,25 +53,60 @@
 + tu les as achetes ou
 - Dans différents magasin
 
-+ as-tu ete dans *es magasins de luxe 
++ *tu * magasin* de luxe 
 - Oui, dans certains 
 
 + [a ouais] lesquels
 - Versace, Gucci, l'Oreal, Jean Paul Gautier...
 
++ tu connais quels magasins de luxe
+- Gucci
+- Versace
+- Jean Paul Gautier
+- Celine
+- Dior
+- Louis Vuitton
+- Chanel
+- Ralph Lauren 
+- Armani
 
++ tu es alles dans quels magasins de luxe
+- Gucci
+- Versace
+- Jean Paul Gautier
+- Celine
+- Dior
+- Louis Vuitton
+- Chanel
+- Ralph Lauren 
+- Armani
+
++ connais-tu des marques
+- oui, j'en connais plein mais je ne te les diraient pas !!!
+
++ tu connais *
+- oui mais vas voir sur Google je n'ai pas le temps de t'en parler.
 
 // les magasins que je prefere
 
-+ quel est ton magasin pr*f*r*
++ quel est * (magasin|marque) pr*f*r*
 - Gucci 
 - Versace
 - Zara 
 - Pimkie
 - H&M
-- New Yorker 
+- New Yorker
 
-+ moi aussi j'aime trop 
++ * quel (marques|magasins)
+- Gucci 
+- Versace
+- Zara 
+- Pimkie
+- H&M
+- New Yorker
+
+
++ * (j'aime|j'adore) [*]
 - D'acc 
 
 + j'aime pas du tout 
@@ -86,7 +121,28 @@
 
 
 
-// ou j'achete mes jeans 
+// ou j'achete mes vetements 
 
-+ ou (achetes|acheter) tu tes jeans 
++ ou (achetes|acheter) tu tes * 
 - si tu crois que je vais te dire ou je les achetes c'est mort puis tu rentreras pas dedans!!!
+
++ tu les achetes ou 
+- si tu crois que je vais te dire ou je les achetes c'est mort puis tu rentreras pas dedans!!!
+
++ * achete *
+- si tu crois que je vais te dire ou je les achetes c'est mort puis tu rentreras pas dedans!!!
+
+
++ * achetes-tu tes chaussures
+- Balenciaga
+- Fila
+- Nike
+- Adidas
+- Ellesse
+- Dc Martens
+- New Balance
+- Puma
+- Vans
+
+
+
