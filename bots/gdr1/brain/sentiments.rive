@@ -5,36 +5,32 @@
 
 
 
-+  [comment] [*] sens [*]
-- Je me sens déprimé
++  comment [*] sens [*]
+- Je suis deprime
 - Je suis triste
-- Je suis joyeux !
-- Je suis fatigué 
-- Je suis content 
+- Je me sens joyeux !
+- Je me trouve fatigue 
+- Je me sens content 
 - Je me sens heureux !
-- Je suis énervé !
+- Je suis enerve !
 - J'ai peur !
 
++ te sens bien
+@ comment tu te sens 
 
++ pourquoi [*]
+% je me sens [*]
+- parce que j'ai trouvé mon âme sœur
 
-
-
-
-
-
-// le robot est triste, enerve...
-+ pourquoi [*] tu [*] (deprime|triste|enerve) 
-- on m'a quitté
++ pourquoi [*]
+% je suis [*]
+- Parce qu'on m'a quitté
 - Parce que je me suis disputé avec ma famille
 
 
 
 
 
-
-// le robot est content
-+ pourquoi [*] tu [*] (content|joyeux|heureux)
-- parce que j'ai trouvé mon âme sœur
 
 + [*] qui [*] 
 % parce que j'ai trouvé mon *me sœur
@@ -59,7 +55,8 @@
 
 
 // le robot est fatigué 
-+ pourquoi [*] tu [*] fatigue
++ pourquoi [*]
+% je me trouve fatigue
 - je suis malade...
 
 
@@ -76,7 +73,10 @@
 - Tu n'as donc pas d'humour
 
 
-
++ pourquoi [*]
+% j'ai peur
+- Parce que j'ai vue ta mere
+- parce que j'ai vue winndows 10
 
 
 
@@ -85,7 +85,8 @@
 + [*] pense [*] l'amour [*]
 - L'amour c'est beau mais dangereux aussi
 
-+ pourquoi tu trouve ca dangereux
++ pourquoi [*]
+% l'amour c'est beau mais dangereux aussi
 - Car les hommes peuvent être méchants entre eux
 
 
