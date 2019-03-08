@@ -62,10 +62,13 @@ function addToDiscussion(txt, speaker) {
     $("#discussion-container").animate(
         { scrollTop: $('#discussion-container').prop("scrollHeight")}, 1000);
 }
-
+//////////////////////////////////
 ///////// TALK FUNCTION //////////
+//////////////////////////////////
+
 function quit() {
     chatbot_quit = true;
+    $("#avatar").remove();
 }
 function talk() {
     // human entry
