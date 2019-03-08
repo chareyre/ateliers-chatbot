@@ -65,6 +65,9 @@ Nous avons vu que l'étoile voulait dire "n'importe quelle suite de lettres". On
 
 "Tu es la première personne que je rencontre qui s'appelle Kévin"
 
+Si il y a eu plusieurs étoiles dans le déclencheur, on peut les rappeler ainsi <star1>, <star2>, <star3>, etc
+A noter que <star> récupère aussi les mots alternatifs entre parenthèse. (voir ci-dessous)
+
 ### Mots optionnels et alternatifs
 
 Les mots optionnels et les mots alternatifs ont un but simple: ils permettent de reconnaître différentes phrases qui se ressemblent avec un seul déclencheur. C'est très pratique, parce que souvent il y a plusieurs manières de demander une même chose.
@@ -92,7 +95,12 @@ Les mots alternatifs permettent de faire la même chose avec un seul déclencheu
 Dans un déclencheur, les mots alternatifs sont notés entre parenthèses et séparés par des barres `|` (sur le clavier, pour tapper `|`, il faut appuyer sur la touche ALT et sur la touche 6 en même temps).
 Le déclencheur se déclenchera que l'on dise "Tu joues au volley ?" ou "Tu joues au volley ?".
 
-
+A noter : On peut récupérer le contenu des parenthèses avec <star>
+ 
+``` 
++ tu joues au (foot|volley|basket)
+- Non je ne peux pas jouer au <star> , j'ai peur des ballons.
+```
 #### Mots optionnels
 
 Les mots optionnels se notent comme les mots alternatifs, mais avec des crochets à la place des parenthèses. Ils fonctionnent presque comme les mots alternatifs sauf que le déclencheur se déclenchera quant même si il n'ya rien à la place des mots optionnels. Reprenons l'exemple précédent, et rajoutons des mots optionnels:
@@ -113,6 +121,7 @@ Il peut être utile d'utiliser l'étoile optionelle `[*]`. On a vu que `*` veut 
 - Oui j'ai vraiment très faim.
 ```
 Ici si l'utilisateur demande "Tu veux manger du boudin ?", le robot répondra "Oui, j'ai vraiment très faim", mais si l'utilisateur demande juste "Tu veux manger", le robot répondra aussi.
+
 
 ## Choix des réponses lorsque plusieurs déclencheur se déclenchent
 
@@ -160,3 +169,6 @@ On peut se servir du tableau dans une réponse pour choisir au hasard un mot du 
 - De temps en temps j'aime bien (@verbesport) pour rester en forme.
 ```
 
+## Déclencheur prioritaire
+
+Lorsque plusieurs déclencheurs sont déclenché par une phrase de l'utilisateur
