@@ -4,10 +4,10 @@
 
 // array
 
-! array (météo) = (vent|pluie|pleut|soleil|beau|orage|beau| tempête|éclair[s]|tonnerre|ouragan|seisme|tsunami|grele|neige|gele| fait froid|fait chaud)
+! array (meteo) = vent|pluie|pleut|soleil|beau|orage|beau| tempete|eclairs|tonnerre|ouragan|seisme|tsunami|grele|neige|gele|fait froid|fait chaud
 
 
-+ il [*] (@météo)
++ il [*] (@meteo)
 - Tu trouves ?
 - Chez moi il pleut.
 - Je vois un arc-en ciel
