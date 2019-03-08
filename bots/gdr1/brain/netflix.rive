@@ -28,15 +28,18 @@
 - Je ne veux pas t'influancer. Tu n'as qu'a la regarder.
 
 + [*] black mirror [*]
-- c'est trop compliqué je ne peux pas t'expliquer. Mais je peux te parler de the walking dead.
+- c'est trop compliqué je ne peux pas t'expliquer. Mais veux-tu que je te parle de the walking dead.
 
 
 
 
 // résumé sur les séries
-+ (@oui)
++ oui 
+% c'est trop compliqu* je ne peux pas t'expliquer *
 - c'est une épidémie de zombies dans le monde entier et rick et son groupe de survivants essaient de survivre. Tu verrais ce rick il est trop beau.
-
++ non
+% c'est trop compliqu* je ne peux pas t'expliquer *
+- bon d'accord, mais je ne te trouve pas très curieux !
 + tu me donnes envie de regarder la serie maintenant 
 - d'acc tu m'en donneras des nouvelles alors.
 
