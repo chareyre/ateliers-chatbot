@@ -123,7 +123,7 @@ Il peut être utile d'utiliser l'étoile optionelle `[*]`. On a vu que `*` veut 
 Ici si l'utilisateur demande "Tu veux manger du boudin ?", le robot répondra "Oui, j'ai vraiment très faim", mais si l'utilisateur demande juste "Tu veux manger", le robot répondra aussi.
 
 
-## Choix des réponses lorsque plusieurs déclencheur se déclenchent
+## Choix des réponses lorsque plusieurs déclencheurs se déclenchent
 
 Il se peut que plusieurs déclencheurs se déclenchent en même temps lorsqu'un utilisateur rentre une phrase. Dans ce cas c'est le déclencheur qui a reconnu le plus de mots qui donnera une réponse.
 
@@ -170,6 +170,8 @@ On peut se servir du tableau dans une réponse pour choisir au hasard un mot du 
 - De temps en temps j'aime bien (@verbesport) pour rester en forme.
 ```
 
+Bien sur, pas de ponctuation ni d'accent ni majuscule dans les noms des array, ni dans la liste, on ne garde que les apostrophes et les tirets, comme dans les déclencheurs.
+
 ## Redirection
 
 Un déclencheur peut rediriger vers un autre déclencheur avec la commande `@`
@@ -184,6 +186,8 @@ ex :
 @ bonjour
 
 ```
+
+Bien sur, pas de ponctuation ni d'accent ni majuscule dans les redirections, on ne garde que les apostrophes et les tirets, comme dans les déclencheurs.
 
 ## Conversations courtes
 
@@ -205,9 +209,10 @@ ex :
 % j'ai un petit creux et toi tu as faim
 - Dommage...
 
-Bien sur, pas de ponctuation ni d'accent dans les précédants, on ne garde que les apostrophes et les tirets, comme dans les déclencheurs.
-
 ```
+
+Bien sur, pas de ponctuation ni d'accent ni majuscule dans les précédants, on ne garde que les apostrophes et les tirets, comme dans les déclencheurs.
+
 
 ## Donner une mémoire au Bot
 
