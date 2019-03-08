@@ -14,15 +14,16 @@ const riveList = [
 "brain/netflix.rive",
 "brain/sorties-scolaires.rive",
 "brain/se-presenter.rive",
-"brain/reseauxsociaux.rive",
 "brain/sport-general.rive",
 "brain/gouts.rive",
 "brain/dormir.rive",
 "brain/insultes.rive",
 "brain/nourriture.rive",
+"brain/graines-de-rue.rive",
 "brain/booba-kaaris.rive",
 "brain/fourre-tout.rive",
 "brain/ennui.rive",
+"brain/raconte-ta-journee.rive",
 "brain/matiere-profs.rive",
 "brain/mode.rive",
 "brain/menu.rive",
@@ -30,6 +31,7 @@ const riveList = [
 "brain/sport-mecanique.rive",
 "brain/salutations.rive",
 "brain/renvoyer-a-la-question.rive",
+"brain/reseauxsociaux.rive",
 "brain/sa-vie.rive"
 ];
 
