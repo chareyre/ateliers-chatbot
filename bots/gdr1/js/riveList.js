@@ -9,7 +9,7 @@ const riveList = [
 "brain/sport-quil-fait.rive",
 "brain/special.rive",
 "brain/tableaux.rive",
-"brain/actualite.rive",
+//"brain/actualite.rive",
 "brain/blagues.rive",
 "brain/netflix.rive",
 "brain/sorties-scolaires.rive",
