@@ -83,7 +83,7 @@
 
 // amour
 + [*] pense [*] l'amour [*]
-- L'amour c'est beau mais dangereux aussi
+- L'amour c'est beau mais dangereux aussi <call>avatar amour</call>
 
 + pourquoi [*]
 % l'amour c'est beau mais dangereux aussi

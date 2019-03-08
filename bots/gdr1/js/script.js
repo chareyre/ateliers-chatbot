@@ -90,9 +90,9 @@ function talk() {
         // delay
         setTimeout(function() {
             addToDiscussion(reply, 'bot');
+            setAvatat(avatarId);
             enable_input();
         }, responseDelay);
-        setAvatat(avatarId);
     });
 }
 
