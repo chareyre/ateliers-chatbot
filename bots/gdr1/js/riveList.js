@@ -14,7 +14,7 @@ const riveList = [
 "brain/netflix.rive",
 "brain/sorties-scolaires.rive",
 "brain/se-presenter.rive",
-"brain/reseauxsociaux",
+"brain/reseauxsociaux.rive",
 "brain/sport-general.rive",
 "brain/gouts.rive",
 "brain/dormir.rive",
