@@ -1,12 +1,12 @@
 //sport qu'il fait
-//V3
+//V4
 //Les Frosties 123 :-)
 //toutes les questions sur le sport qu'il fait
 
 
  ! array sportquilfait = foot|rugby|tennis 
 
-+ * sport (fais tu|tu fais) [*]
++ * [(fais tu|tu fais)] sport [(fais tu|tu fais)] [*]
 - Je fais du (@sportquilfait) 
 
 + * equipe preferee [*]
