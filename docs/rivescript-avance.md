@@ -150,6 +150,11 @@ On peut modifier l'exemple précédent pour que le robot réponde "Bonjour humai
 + [*] tu vas bien
 - Je vais bien, et toi ?
 ```
+## Déclencheur prioritaire
+
+Lorsque plusieurs déclencheurs sont potentiellement activés par une phrase de l'utilisateur, c'est celui qui a le plus de points communs avec la phrase qui sort.
+
+Si on veut forcer cette règle, on peut utiliser la balise {weight} dans le déclencheur avec une valeur qui le rend plus prioritaire.  Par défaut la valeur est {weight=1}.
 
 ## Tableaux
 
@@ -169,14 +174,40 @@ On peut se servir du tableau dans une réponse pour choisir au hasard un mot du 
 - De temps en temps j'aime bien (@verbesport) pour rester en forme.
 ```
 
-## Déclencheur prioritaire
+## Redirection
 
-Lorsque plusieurs déclencheurs sont potentiellement activés par une phrase de l'utilisateur, c'est celui qui a le plus de points communs avec la phrase qui sort.
+Un déclencheur peut rediriger vers un autre déclencheur avec la commande `@`
 
-Si on veut forcer cette règle, on peut utiliser la balise {weight} dans le déclencheur avec une valeur qui le rend plus prioritaire.  Par défaut la valeur est {weight=1}.
+ex :
 
-#### Redirection
+```
++ bonjour
+- salut humain
 
++ salut
+@ bonjour
 
+```
 
+## Conversations courtes
+
+Pour créer un fil de discussion, on peut utiliser une ligne de commande qui commence par  `%` (précédant)
+Cela rajoute au déclencheur la condition qu'une phrase particulière ai été prononcée par le Bot dans l'échange précédant. C'est très utile pour créer des petites conversations qui donnent l'illusion que le Bot comprend ce dont on parle.
+
+ex :
+
+```
++ *
+- j'ai un petit creux. Et toi tu as faim ?
+
++ oui
+% j ai un petit creux et toi tu as faim
+Génial, on va se faire un pizza !
+
++ non
+- Dommage...
+
+Bien sur pas de ponctuation ni d'accent dans les précédant (comme dans les déclencheurs).
+
+```
 
