@@ -1,5 +1,5 @@
 // Actualités
-// V3
+// Vpad
 // FMS (Flavy Méghane Sarah)
 // Toute les questions sur l'actualité
 
@@ -48,6 +48,73 @@
 
 + [*] carte bancaire [sans contact] [*]
 - Y'a des avantages comme payer sans se servir de son code et aller plus vite, y'a aussi des inconvénients, logique, imagines tu te fais voler ta carte, t'es dans la merde frère.
+
+
+
+// Attentats
+
++ [*] (attentats|terrorisme|tueries|attentat|tuerie) [*]
+- Je peux te renseigner sur les attentats qui ont eu lieu depuis 2004. Quelle année t'intéresse ?
+
++ [*] 2004 [*]
+% je peux te renseigner sur les attentats *
+- Y'en a eu un à Madrid
+
++ [*] 2005 [*]
+% je peux te renseigner sur les attentats *
+- Y'en a eu un à Londres
+
++ [*] 2006 [*]
+% je peux te renseigner sur les attentats * 
+- Y'en a eu un à Bombay
+
++ [*] 2007 [*]
+% je peux te renseigner sur les attentats *
+! array politique = macron|sarkozy|hollande
+! array animauxpolaires = les ours blancs|les phoques|les pingouin|les manchots|les otaries|les rennes|les caribous|les loups blancs|les morses
+
++ [*](@politique)[*]
+- Je sais qui c'est, c'était un homme politique.
+
++ [*] (@animauxpolaires) [*] 
+- Trop dommage qu'ils meurent à cause du réchauffement climatique.
+
++ [*] actualite [*]
+- De quel sujet veux-tu parler : politique, technologie, attentats, réchauffement climatique, transport, art ou people ?
+
+
+// Politique
+
++ [*] politique [*]
+- Que veux tu savoir à propos de la politique ?
+
++ [*] president [*] (france|francais) [actuel*] [*]
+- Ben c'est Emmanuel Macron, il a été élu en 2017 avec 66.1 % des voix.
+
++ [*] et avant [*]
+% ben c'est emmanuel macron *
+- Hollande ou Sarkozy ?
+
++ [*] hollande [*]
+% hollande ou sarkozy 
+- C'était de 2012 à 2017, il a été élu avec 51.64 % des voix.
+
++ [*] sarkozy [*]
+% hollande ou sarkozy 
+- C'était de 2007 à 2012, avec 53.06 % des voix.
+
+ 
+
+// Technologie
+
++ [*] (technologie|techno) [*]
+- A propos de technologie j'ai 2 sujets à te proposer : Apple VS Samsung ou la carte bancaire sans contact
+
++ [*] (apple vs samsung|apple|samsung) [*]
+- En gros, dès que l'une des boîtes sort  un new téléphone l'autre le fait aussi.
+
++ [*] (carte bancaire|carte|carte bleue) [sans contact] [*]
+- J'ai une carte bancaire et d'ailleurs j'ai le sans contact. Y'a des avantages comme payer sans se servir de son code et aller plus vite, y'a aussi des inconvénients, logique, imagines tu te fais voler ta carte, t'es dans la merde frère.
 
 
 
@@ -169,14 +236,14 @@
 // Arts 
 
 + [*] (arts|art) [*]
-- On parle de quoi alors:les livres ou les films
+- On parle de quoi alors, les livres ou les films
 
-+ [*] (livres|livre)
-% on parle de quoi alors:les livres ou les films
++ [*] (livres|livre) [*]
+% on parle de quoi alors les livres ou les films
 - C'est pour les plus cultivés mais sinon je peux te dire qu'il y a un festival de la BD tous les ans à Angoulême. Et au fait c'était les 60 ans de Tintin et de Astérix cette année.
 
-+ [*] (films|film)
-% on parle de quoi alors:les livres ou les films
++ [*] (films|film) [*]
+% on parle de quoi alors les livres ou les films
 - Des suites de grandes sagas sont sorties l'année dernière genre Taxi 5, Fast and Furious 8 et Mission Impossible 6.
 
 
@@ -186,14 +253,14 @@
 + [*] (people|celebrites|icones) [*]
 - Tu veux parler de quoi frère ? Je peux te trouver la mort de Johnny Hallyday, le mariage de Meghan Markle et du prince Harry ou de l'Oscar de Lady Gaga.
 
-+ [*] mort [*] (johnny)
++ [*] mort [*] (johnny)[*]
 % tu veux parler de quoi frere*
 - Il est dead le 5 décembre 2017 dans son sommeil.
 
-+ [*] (mariage|meghan|harry) 
++ [*] (mariage|meghan|harry) [*]
 % tu veux parler de quoi frere*
 - Ils se sont mariés le 19 mai 2018.
 
-+ [*] (lady gaga|lady|oscar) 
++ [*] (lady gaga|lady|oscar) [*]
 % tu veux parler de quoi frere*
 - Lady Gaga a eu un oscar pour son film.
