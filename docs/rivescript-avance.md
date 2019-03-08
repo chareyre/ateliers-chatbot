@@ -191,7 +191,7 @@ ex :
 
 ## Conversations courtes
 
-Pour créer un fil de discussion, on peut utiliser une ligne de commande qui commence par  `%` (précédant)
+Pour créer un fil de discussion, on peut utiliser une ligne de commande qui commence par  `%` (précédant).
 Cela rajoute au déclencheur la condition qu'une phrase particulière ai été prononcée par le Bot dans l'échange précédant. C'est très utile pour créer des petites conversations qui donnent l'illusion que le Bot comprend ce dont on parle.
 
 ex :
@@ -201,13 +201,33 @@ ex :
 - j'ai un petit creux. Et toi tu as faim ?
 
 + oui
-% j ai un petit creux et toi tu as faim
-Génial, on va se faire un pizza !
+% j'ai un petit creux et toi tu as faim
+- Génial, on va se faire un pizza !
 
 + non
 - Dommage...
 
-Bien sur pas de ponctuation ni d'accent dans les précédant (comme dans les déclencheurs).
+Bien sur, pas de ponctuation ni d'accent dans les précédants, on ne garde que les apostrophes et les tirets. (comme dans les déclencheurs).
 
 ```
+
+## Donner une mémoire au Bot
+
+on peut enregistrer des variables (age, nom, etc...) qui seront mémorisées par le bot au cours de la conversation.
+On utilise pour cela les commandes `<set>` pour enregistrer `<get>` pour rappeler. Il faut donner un nom à la variable à enregistrer : nom, age, etc...
+
+```
+
++ mon nom est *
+- <set nom=<star>> Heureux de te rencontrer <star>
+
++ comment je m'appelle
+- Tu t'appelles <get nom>.
+
+```
+
+## Pour aller plus loin.
+
+Pour aller plus loin dans les fonctionnalités de rivesript vous pouvez consulter la documentation originale en anglais à cette adresse :
+https://www.rivescript.com/docs/tutorial
 
