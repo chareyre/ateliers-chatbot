@@ -95,7 +95,7 @@ Les mots alternatifs permettent de faire la même chose avec un seul déclencheu
 Dans un déclencheur, les mots alternatifs sont notés entre parenthèses et séparés par des barres `|` (sur le clavier, pour tapper `|`, il faut appuyer sur la touche ALT et sur la touche 6 en même temps).
 Le déclencheur se déclenchera que l'on dise "Tu joues au volley ?" ou "Tu joues au volley ?".
 
-A noter : On peut récupérer le contenu des parenthèses avec <star>
+A noter : On peut récupérer le contenu des parenthèses avec `<star>`
  
 ``` 
 + tu joues au (foot|volley|basket)
