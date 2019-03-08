@@ -171,4 +171,12 @@ On peut se servir du tableau dans une réponse pour choisir au hasard un mot du 
 
 ## Déclencheur prioritaire
 
-Lorsque plusieurs déclencheurs sont déclenché par une phrase de l'utilisateur
+Lorsque plusieurs déclencheurs sont potentiellement activés par une phrase de l'utilisateur, c'est celui qui a le plus de points communs avec la phrase qui sort.
+
+Si on veut forcer cette règle, on peut utiliser la balise {weight} dans le déclencheur avec une valeur qui le rend plus prioritaire.  Par défaut la valeur est {weight=1}.
+
+#### Redirection
+
+
+
+
