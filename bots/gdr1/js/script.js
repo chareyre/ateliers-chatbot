@@ -9,7 +9,7 @@ let chatbot_quit = false;
 
 // the time in ms to wait before reply
 let responseDelay = 3000;
-
+let avatarId = "normal";
 
 // create the interpreter and import .rive files
 let bot = new RiveScript({utf8: true});
@@ -65,11 +65,17 @@ function addToDiscussion(txt, speaker) {
 //////////////////////////////////
 ///////// TALK FUNCTION //////////
 //////////////////////////////////
+function setAvatat(argument) {
+    let file = 'avatar/'+avatarId+'.png';
+    $("#avatar").attr('src', file);
+    avatarId = "normal";
+}
 
 function quit() {
     chatbot_quit = true;
     $("#avatar").remove();
 }
+
 function talk() {
     // human entry
     var entry = $("#msg").val();
@@ -86,6 +92,7 @@ function talk() {
             addToDiscussion(reply, 'bot');
             enable_input();
         }, responseDelay);
+        setAvatat(avatarId);
     });
 }
 

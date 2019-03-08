@@ -45,3 +45,12 @@ return html+'</ul>';
 
 + test exit
 - Ciao ! <call>exit</call>
+
+> object avatar javascript
+    var id = args.join("");
+    avatarId = id;
+    return "";
+< object
+
++ avatar _
+- Voilà ! <call>avatar <star></call>
