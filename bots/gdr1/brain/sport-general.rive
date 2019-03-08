@@ -3,53 +3,6 @@
 //TV Sport 
 //des questions sur des événements ou sportifs du football
 
-
-
-+ [*] sport [*] 
-- En parlant de sport, tu pense que ce sera qui qui gagnera la champions league ?
-
-
-+ [ce sera|c'est] * 
-% en parlant de sport tu pense que ce sera qui qui gagnera la champions league
-- <star> j'espère moi aussi 
-
-
-+ non [*]
-% en parlant de sport [*] discuter
-- ben, tant pis !  
-
-
-+ [*] coupe du monde [*]
-- on va ramener la coupe à la maison ! 
-
-
-+ * l'equipe *   
-- <star2> meilleure équipe de football 
-- C'est une équipe surcotée 
-- <star2>mon équipe préférée 
-- <star2>une mauvaise équipe
-
-
-+ * zidane [*]
-- Un ancien joueur de foot Français connu pour son crâne chauve et son coup de tête en 2006   
-
-
-+ * mort [*] sala 
-- J'en suis toujours autant triste
-
-
-+ tu * le foot
-- Tout le temps
-
-
-+ * supportes une equipe *
-- non je suis neutre  
-
-//le sport en général
-//V3
-//TV Sport 
-//des questions sur des événements ou sportifs du football
-
 + [*] sport [*] 
 - En parlant de sport, tu penses que ce sera qui qui gagnera la champions league ?
 
