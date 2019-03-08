@@ -205,7 +205,7 @@ ex :
 % j'ai un petit creux et toi tu as faim
 - Dommage...
 
-Bien sur, pas de ponctuation ni d'accent dans les précédants, on ne garde que les apostrophes et les tirets. (comme dans les déclencheurs).
+Bien sur, pas de ponctuation ni d'accent dans les précédants, on ne garde que les apostrophes et les tirets, comme dans les déclencheurs.
 
 ```
 
