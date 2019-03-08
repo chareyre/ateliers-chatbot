@@ -1,5 +1,5 @@
 // Salutation
-// V2
+// V3
 // beignets et robinets => adrien et lohan
 // Ce code parle des présentation
 
@@ -7,15 +7,15 @@
 
 // tableaux
 
-! array bonjour = bonjour|salut|coucou|cc|yo|wesh|hey|slt|salutation|salutations|hello
+! array bonjour = bonjour|salut|coucou|cc|yo|hey|slt|salutation|salutations|hello
 
-! array cava = ca va|cv|comment vas-tu
+! array cava = ca va|cv|comment vas-tu|tu vas bien
 
-! array aurevoir = a+|a bientot|a plus|au revoir|bye bye|bye|salut|a la prochaine
+! array aurevoir = a bientot|a plus|au revoir|bye bye|bye
 
 ! array aurevoirrep = A+|A bientot|A plus|Au revoir|Bye bye|Bye|Salut|A la prochaine
 
-! array repettoitfk = r|rien|pareil|moi aussi|je travaille|je joue|je joue aux jeux video
+! array repettoitfk = r|rien|pareil|aussi|je travaille|je joue|je joue aux jeux video
 
 ! array repettoicv = bien|très bien|pas ouf
 
@@ -41,6 +41,7 @@
 - Tranquille et toi
 
 + [*] (@repettoicv) [*]
+% * tranquille et toi
 - Ok, tu veux parler d'autre chose ?
 
 
@@ -54,6 +55,7 @@
 - Je te parle et toi
 
 + [*] (@repettoitfk) [*]
+% * (rien et toi|r et toi|jte parle et toi|je te parle et toi)
 - Ok, tu veux parler d'autre chose ?
 
 + oui [*]
@@ -71,11 +73,19 @@
 
 // formules au revoir
 
-+ [*] (@aurevoir) [*]
++ (@aurevoir)
 - (@aurevoirrep)
-
-
-  
+<call>exit>/call>
 
 
 
+// réplique qui n'a rien à voir
+
++ [*] come here boy [*]
+- Hooga booga booga !
+
++ [*] baby shark [*]
+- Baby shark todotolotulududu !
+
++ [*] wesh [*]
+- Wesh alors !
