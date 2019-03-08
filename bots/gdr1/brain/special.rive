@@ -6,6 +6,7 @@
 // test -> permet de voir rapidement si le bot est allumé.
 // aide -> affiche une liste de liens utiles.
 // sources -> affiche la liste de tous les fichiers rivescript chargés dans le bot.
+// exit -> quitte le chatbot.
 
 
 + test
@@ -34,3 +35,13 @@ return html+'</ul>';
 
 + sources
 - <call>listSources</call>
+
+> object exit javascript
+// quit the conversation.
+    quit();
+    return ""
+< object
+
+
++ test exit
+- Ciao ! <call>exit</call>

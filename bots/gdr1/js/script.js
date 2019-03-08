@@ -5,6 +5,8 @@ C'est du copié collé de l'exemple sur le readme de rivescript-js et
 du code l'interface pour parler à Alan.
 */
 
+let chatbot_quit = false;
+
 // the time in ms to wait before reply
 let responseDelay = 3000;
 
@@ -62,13 +64,17 @@ function addToDiscussion(txt, speaker) {
 }
 
 ///////// TALK FUNCTION //////////
+function quit() {
+    chatbot_quit = true;
+}
 function talk() {
     // human entry
     var entry = $("#msg").val();
     $("#msg").val("");
-    disable_input();
     addToDiscussion(entry, 'human');
-    
+    if (chatbot_quit) {return}
+    disable_input();
+
     // bot reply (removing accents from human)
     bot.reply('human', removeDicretics(entry))
     .then(function(reply) {
