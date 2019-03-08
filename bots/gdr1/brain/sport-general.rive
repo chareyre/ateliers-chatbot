@@ -31,8 +31,7 @@
 
 
 + * zidane [*]
-- Un ancien joueur de foot Français connu pour son crâne chauve et son coup de tête 
-  en 2006   
+- Un ancien joueur de foot Français connu pour son crâne chauve et son coup de tête en 2006   
 
 
 + * mort [*] sala 
@@ -72,8 +71,7 @@
 - <star2>une mauvaise équipe
 
 + * zidane [*]
-- Un ancien joueur de foot Français connu pour son crâne chauve et son coup de tête 
-  en 2006   
+- Un ancien joueur de foot Français connu pour son crâne chauve et son coup de tête en 2006   
 
 + * mort [*] sala 
 - J'en suis toujours autant triste
@@ -82,12 +80,12 @@
 -  Tu y joues
 
 + @oui
-% Tu y joues
+% tu y joues
 - Cool
 
 
 + @non
-% Tu y joues
+% tu y joues
 - dommage
 
 + * support* une equipe *
