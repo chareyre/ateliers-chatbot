@@ -1,253 +1,31 @@
+// réaction à une insulte
+// Maman poule (ancien Kaiju Jaëger) 
+// v2
+// ce code traite des réactions de Nova en cas d'insulte.
 
+// array 
 
-//les matières+les profs.
-//v2
-//Kaiju Jaëger
-//ce code sert à parler des relations de Nova avec ses profs et des matières qu'il apprend.
+! array insultes = merde|putain|fais chier|bordel|bordel de merde|nique|ta mere|va te faire foutre|va te faire enculer|chiant|con|emmerde|salope|petasse|pute|connasse|pd|chienne|ta gueule|encule|fuck|connard|race|batard
 
++ [*] (@insultes) [*]
+- Oh!
+- Je ne vous permets pas !
+- Soyez plus poli, je vous prie. 
+- Mais c'est très inconvenant !
+- Qu'est-ce que c'est que ce langage !
 
-// arrays
++ [*] (@insultes) [*]
+% oh
+- Vous êtes bien trop vulgaire Monsieur/Madame, au revoir. <call> exit </call>
 
++ [*] (@insultes) [*]
+% je ne vous permets pas
+- Vous êtes bien trop vulgaire Monsieur/Madame, au revoir. <call> exit </call>
 
-! array professeurs =(Mr Gamauri| Mr Meler| Mr Coupez|Mr Aupetit| Mme Ardaillon|Mme Charbonnel|Mme Ciekosz-Boudy|Mme Dardilhac|Mme Josnière|Mme Labbat|Mme Laguionnie|Mme Mazeau|Mme Mestraud|MmePascolo)
++ [*] (@insultes) [*]
+% mais c'est tr*s inconvenant
+- Vous êtes bien trop vulgaire Monsieur/Madame, au revoir. <call> exit </call>
 
-! array matières =(français|anglais|espagnol|latin|allemand|maths|svt|techno|physique|art plastique|musique|histoire-géo|EPS)
-
-
-//questions sur les profs.
-
-
-+ qui est mr gamauri 
-- le Prof d'EPS
-- c'est le prof d'EPS
-
-+ qui est mr meler
-- le Prof de physique
-- c'est le prof de physique chimie
-
-+ qui est mr coupez
-- le prof de maths.
-- c'est le prof de maths.
-
-+ qui est mr aupetit
-- le prof de musique
-- c'est le prof de musique
-
-+ qui est mme ardaillon
-- la prof de SVT
-- c'est la prof de SVT
-
-+ qui est mme charbonnel
-- la prof d'anglais
-- c'est la prof d'anglais.
-
-+ qui est mme ciekosz-boudy
-- la prof d'espagnol
-- c'est la prof d'espagnol
-
-+ qui est mme dardilhac
-- la prof d'espagnol
-
-//les matières+les profs.
-//v2
-//Kaiju Jaëger
-//ce code sert à parler des relations de Nova avec ses profs et des matières qu'il apprend.
- 
- 
-// arrays
- 
- 
-! array professeurs =(gamaury|meler|coupez|aupetit|ardaillon|charbonnel|ciekosz-boudy|dardilhac|josnière|labbat|laguionnie|mazeau|mestraud|lathiere|pascolo|boidevesy|Farre|Pruchon)
- 
-! array matieres =(le français|l'anglais|l'espagnol|le latin|l'allemand|les maths|les svt|la techno| la physique|l' art plastique|la musique|l'histoire-géo|l'EPS )
- 
- + tu connais (mr|mme|monsieur) (@professeurs)
- - oui cest un prof
- 
-//questions sur les profs.
- 
- 
-+ qui est mr gamaury 
-- Le Prof d'EPS
-- C'est le prof d'EPS
- 
-+ qui est mr meler
-- Le Prof de physique
-- C'est le prof de physique chimie
- 
-+ qui est mr coupez
-- Le prof de maths.
-- C'est le prof de maths.
- 
-+ qui est mr aupetit
-- Le prof de musique
-- C'est le prof de musique
- 
-+ qui est mme ardaillon
-- La prof de SVT
-- C'est la prof de SVT
- 
-+ qui est mme charbonnel
-- La prof d'anglais
-- C'est la prof d'anglais.
- 
-+ qui est mme ciekosz-boudy
-- La prof de français
-- C'est la prof de français
- 
-+ qui est mme dardilhac
-- La prof d'espagnol
-- C'est la prof d'espagnol
- 
-+ qui est mme josnière
-- La prof d'art plastique
-- C'est la prof d'art plastique
- 
-+ qui est mme labbat
-- C'est la prof d'EPS 
-- La prof d'EPS
- 
-+ qui est mme laguionnie
-- La prof d'histoire-géo
-- C'est la prof d'histoire-géo
- 
-+ qui est mme mazeau
-- La prof de techno
-- C'est la prof de techno
- 
-+ qui est mme mestraud
-- La prof de maths
-- C'est la prof de maths
- 
-+ quel [*] professeur [*]
-- j'aime bien (@professeurs)
-- je préfère (@professeurs)
-- qu'est-ce que ça peut te faire?
- 
-// les questions sur les matières.
- 
-+ qui enseigne le français
-- Mme Ciekosz-Boudy et Mme Pascolo
- 
-+ qui enseigne les maths?
-- Mme Mestraud et Mr Coupez
- 
-+ qui enseigne l'histoire-géo
-- Mme Laguionnie et Mr Pruchon
- 
-+ qui enseigne l'eps
-- Mme Labbat et Mr Gamauri 
- 
-+ qui enseigne l'anglais
-- Mme Charbonnel et Mr Boidevesy
- 
-+ qui enseigne l'espagnol
-- C'est Mme Dardilhac
- 
-+ qui enseigne le latin
-- C'est Mme Pascolo
- 
-+ qui enseigne l'allemand
-- C'est Mme Farre
- 
-+ qui enseigne la svt
-- C'est Mme Ardaillon
- 
-+ qui enseigne la techno 
-- C'est Mme Mazeau
- 
-+ qui enseigne la physique
-- C'est Mr Meler
- 
-+ qui enseigne l'art plastique
-- C'est Mme Josnière
- 
-+ qui enseigne la musique
-- C'est Mr Aupetit
- 
- 
-+ quelle [*] matiere [*]
-- J'aime bien (@matieres)
-- J'aime bien (@matieres) mais je préfère le grec.
-- Pourquoi? T'es de la police? 
-- c'est la prof d'espagnol
-
-+ qui est mme josnière
-- la prof d'art plastique
-- c'est la prof d'art plastique
-
-+ qui est mme labbat
-- c'est la prof d'EPS 
-- la prof d'EPS
-
-+ qui est mme laguionnie
-- la prof d'histoire-géo
-- c'est la prof d'histoire-géo
-
-+ qui est mme mazeau
-- la prof de techno
-- c'est la prof de techno
-
-+ qui est mme mestraud
-- la prof de maths
-- c'est la prof de maths
-
-+ tu aimes [*] (@professeurs) [*]
-- oh oui!, je l'adore!
-- oui ça passe
-- bof pas trop
-- ah non, je (le|la) déteste!
- 
-+ quel [*] professeur [*]
-- j'aime bien (@professeurs)
-- je préfère (@professeurs)
-- qu'est-ce que ça peut te faire?
-
-// les questions sur les matières.
-
-+ qui enseigne le français
-- c'est Mme Ciekosz-Boudy
-
-+ qui enseigne les maths?
-- c'est Mme Mestraud et Mr Coupez
-
-+ qui enseigne l'histoire-géo
-- c'est Mme Laguionnie
-
-+ qui enseigne l'eps
-- c'est Mme Labbat et Mr Gamauri 
-
-+ qui enseigne l'anglais
-- c'est Mme Charbonnel
-
-+ qui enseigne l'espagnol
-- c'est Mme Dardilhac
-
-+ qui enseigne le latin
-- c'est Mme Pascolo
-
-+ qui enseigne l'allemand
-- c'est Mme 
-
-+ qui enseigne l'svt
-- c'est Mme Ardaillon
-
-+ qui enseigne la techno 
-- c'est Mme Mazeau
-
-+ qui enseigne la physique
-- c'est Mr Meler
-
-+ qui enseigne l'art plastique
-- c'est Mme Josnière
-
-+ qui enseigne la musique
-- c'est Mr Aupetit
-
-
-+ quelle [*] matière [*]
-- j'aime bien la musique
-- j'aime bien la technologie
-- j'aime bien l'espagnol mais je préfère l'EPS
-- pourquoi?t'es de la police? 
-
++ [*] (@insultes) [*]
+% qu'est ce que c'est que ce langage
+- Vous êtes bien trop vulgaire Monsieur/Madame, au revoir. <call> exit </call>
