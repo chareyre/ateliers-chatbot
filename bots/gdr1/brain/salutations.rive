@@ -1,7 +1,7 @@
 // Salutation
-// V3
+// V4
 // beignets et robinets => adrien et lohan
-// Ce code parle des présentation
+// Ce code parle des présentations
 
 
 
@@ -9,15 +9,15 @@
 
 ! array bonjour = bonjour|salut|coucou|cc|yo|hey|slt|salutation|salutations|hello
 
-! array cava = ca va|cv|comment vas-tu|tu vas bien
+! array cava = ca va|cv|comment vas-tu|tu vas bien|comment tu vas|comment allez vous
 
 ! array aurevoir = a bientot|a plus|au revoir|bye bye|bye
 
-! array aurevoirrep = A+|A bientot|A plus|Au revoir|Bye bye|Bye|Salut|A la prochaine
+! array aurevoirbot = a+|a bientot|a plus|au revoir|bye bye|bye|salut|a la prochaine
 
-! array repettoitfk = r|rien|pareil|aussi|je travaille|je joue|je joue aux jeux video
+! array reptfk = r|rien|pareil|aussi|je travaille|je joue|je joue aux jeux video
 
-! array repettoicv = bien|très bien|pas ouf
+! array repcv = bien|très bien|pas ouf
 
 
 
@@ -39,8 +39,12 @@
 + [*] (@cava) [*]
 - Trql et toi
 - Tranquille et toi
+- Oui
+- Ca peut aller
+- Non ça va pas
+- Bof
 
-+ [*] (@repettoicv) [*]
++ [*] (@repcv) [*]
 % * tranquille et toi
 - Ok, tu veux parler d'autre chose ?
 
@@ -48,15 +52,19 @@
 
 // tu fais quoi et question réponse
 
-+ [*] (tu fais quoi|tfk) [*]
++ (tu fais quoi|tfk)
 - Rien et toi
 - R et toi
 - Jte parle et toi
 - Je te parle et toi
 
-+ [*] (@repettoitfk) [*]
++ [*] (@reptfk) [*]
 % * (rien et toi|r et toi|jte parle et toi|je te parle et toi)
 - Ok, tu veux parler d'autre chose ?
+
+
+
+// rebondissement autre thème
 
 + oui [*]
 % * tu veux parler d'autre chose 
@@ -74,8 +82,9 @@
 // formules au revoir
 
 + (@aurevoir)
-- (@aurevoirrep)
-<call>exit>/call>
+- (@aurevoirbot) 
+
+<call>exit</call>
 
 
 
