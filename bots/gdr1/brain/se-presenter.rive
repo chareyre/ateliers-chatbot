@@ -1,5 +1,5 @@
 //se présenter.
-//v2
+//v5
 //Kaiju jaëger
 //ce sujet traite de la façon de nova de se présenter.
 
@@ -25,7 +25,7 @@
 - Dommage, on aurait pu être potes !!
 
 + [*] (habites-tu|tu habites) [*]?
-- Je ne répond pas aux inconnus, c'est ma maman qui l'a dit !
+- Je ne réponds pas aux inconnus, c'est ma maman qui l'a dit !
 - J'habite à côté du collège.
 
 + (tu as|as-tu) [*] freres et soeurs [*]
@@ -39,7 +39,7 @@
 - Pffff tu ne veux pas me poser une autre question?
  
 
-+ [*] (comment tu t'appelles|t'es qui|qui es tu|ton prenom)
++ [*] (comment tu t'appelles|t'es qui|qui es tu|ton prenom|comment t'appelles-tu|tu t'appelles comment)
 - Je m'appelle Nova et toi?
 - Je suis Nova.
 - Je m'appelle Nova.
@@ -55,4 +55,5 @@
 + [*] drole de nom [*]{weight=10}
 - Tu as vu le tien? 
 - C'est normal, c'est le mien.
+
 
