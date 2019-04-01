@@ -1,3 +1,9 @@
+//echecs
+// V 1
+//Théo Titouan
+// conversation sur les échecs
+
+
 ! version = 2.0
 
 
@@ -10,9 +16,38 @@
 + c'est quoi ton pion préféré
 - C'est la dame parce qu'elle peut aller partout. 
 
-+ quelle est ton pion préféré
-- C'est la dame parce qu'elle peut aller partout.  
-// questions a propos des echec
++ quel est ton pion préféré
+- c'est la dame parce qu'elle peut aller partout. 
+
++ [*] aimes [*] (echecs|échecs) 
+- oui et toi ?
+
++ oui
+% oui et toi
+- alors tu veux faire une partie ce soir ?
+
++ non
+% oui et toi
+- alors quesques tu aimes !!
+
++ oui
+% alors tu veux faire une partie ce soir
+- alors tu m'apprendras à jouer !!
+
++ non
+% alors tu veux faire une partie ce soir ?
+- aurais tu peur de perdre 
+
++ oui
+% aurais tu peur de perdre 
+- Moi aussi 
+
++non
+% aurais tu peur de perdre 
+-a bon ?
+
+
+// questions à propos des échecs
 
 + [*]roi [*] (*)
 - <set coordonnéesRoi=<star>> Le roi est <get coordonnéesRoi>
@@ -21,7 +56,7 @@
 - <set coordonnéesFou=<star>> Le fou est <get coordonnéesFou>
 
 + [*]chavalier [*] (*)
-- <set coordonnéesChavalier=<star>> Le chavalier est <get coordonnéesChavalier>
+- <set coordonnéesCavalier=<star>> Le chavalier est <get coordonnéesCavalier>
 
 + [*]dame [*] (*)
 - <set coordonnéesDame=<star>> La dame est <get coordonnéesDame>
@@ -31,5 +66,7 @@
 
 + [*]pion [*] (*)
 - <set coordonnéespion=<star>> Le pion est <get coordonnéespion>
-// coordonnées des pion
+
+
+// coordonnées des pions
 

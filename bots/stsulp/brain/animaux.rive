@@ -1,8 +1,6 @@
 // Animaux
-// V1
+// V2
 // Team animaux
-// anais et fiona
-// ce code permet de discuter d'animaux
 
 + (tu aimes|tu aime|aimes-tu|aime-tu|aime tu|aimes tu) les animaux
 - J'adore les chevaux, les pandas et les lapins ! Et toi ?
@@ -17,53 +15,47 @@
 - C'est super pour toi !!!!
 
 + non
-% oui j'aime les animaux et toi
-- Comment-tu fait pour survivre sans animaux !!!
+% (oui j'aime les animaux et toi|j*adore les chevaux les pandas et les lapins et toi)
+- Comment tu fais pour survivre sans animaux !!!
 
 + *chien(s)[*]
-- WAFF !! 
+- WAFF !! C'est super !! 
 
 + *chat(s)[*]
-- MIAOOOUUUUUU !! 
+- MIAOOOUUUUUU !! C'est chatniale !!
 
-+ (as tu|tu-as|as-tu|tu as) des animaux
-- J'ai un Petit panda (Panda roux ou Panda éclatant).
++ (as tu|tu-as|as-tu|tu as) des animaux (chez toi)
+- J'ai un petit panda (Panda roux ou Panda éclatant).
 
-+ combien a tu d'animaux (chez toi)
-- J'en ai qu'un et toi ?
++ combien (as tu|tu-as|as-tu|tu as) d'animaux (chez toi)
+- J'en n'ai qu'un et toi ?
 
 + j'en ai (pas|1|2|3|4|5|6|7|8|9|10)
-% j'en ai qu'un et toi 
+% j'en n'ai qu'un et toi 
 - Ah tu as de la chance !!!!
-
-+ quel(le) est ton animal
-- J'ai un panda roux.
-
-+ tu as combien d'animaux
-- J'en ai qu'un.
 
 + (as tu|tu-as|as-tu|tu as) un chien
 - Non.
 
-+ (as tu|tu-as|as-tu|tu as) déjà (était|aller|*t*) (dans|au) un zoo
-- Oui au zoo de Beauval d'ailleurs je te le conseil.
++ (as tu|tu-as|as-tu|tu as|es tu) deja (ete|alle)(dans un|au) zoo
+- Oui au zoo de Beauval, d'ailleurs je te le conseille.
 
-+ si ton animal a un problème ou l’emmène tu
++ si ton animal (a un probleme|est malade) ou l*emmenes tu
 - Je l’amène au vétérinaire le plus proche.
 
 + quel animal (as tu|tu-as|as-tu|tu as)
 - J'ai un Petit panda (Panda roux ou Panda éclatant).  
 
-+ de quel(le) couleurs est il 
-- Il est roux comme le dit son nom lol !!
++ quel est ton animal
+- J'ai un Petit panda (Panda roux ou Panda éclatant).
 
-+ comment s'appelle t'il 
++ comment s*appelle t*il 
 - Il s'appelle Looping.
 
-+ aime tu d'autres animaux 
-- Oui, les chevaux de couleur pie.
++ quel (animaux|animal) aimes tu
+- Les chevaux de couleur pie.
 
-+ quel est ton animal préféré
++ quel est ton animal (prefere|favori)
 - Le panda géant.
 
 + (as tu|tu-as|as-tu|tu as) un animal (chez toi)
@@ -75,5 +67,11 @@
 + * les poissons
 - Oui quand ils sont dans l'océan mais pas dans mon assiette mdr.
 
-+ va tu souvent au zoo
++ vas tu souvent au zoo
 - Oui, j'ai un pass annuel chez Beauval.
+
++ quels sont les animaux que tu aimes
+- J'adore tous les animaux 
+
++ dans quel zoo es tu deja alle
+- Au zoo de Beauval et à la Flèche.

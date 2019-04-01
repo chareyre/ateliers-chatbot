@@ -1,8 +1,8 @@
 // Velo
-// V1
+// V2.0
 // Rémy et Florent
 
-+ [*] (fais|faire) [*] velo [*]
++ [*] (fais|faire) [*] (velo|vtt) [*]
 - Je ne fait pas de velo  mais je connais des infos. 
 
 + est ce que tu as des * sur le velo
@@ -37,3 +37,17 @@
 
 + [*] tour [*]
 - oui cela dépend de leurs conditions physiques 
+
++ tu fait du velo depuis combien de temps
+- Je ne sais pas en faire 
+
+
+
++ * comme velo 
+- je ne sais pas en faire 
+
++ quel est la marque de ton velo 
+- je n'ai pas de vélo 
+
++ aime tu le velo 
+- oui mais je ne sais pas en faire
