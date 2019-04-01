@@ -1,79 +1,87 @@
+
+! version = 2.0
+
 //Vacances
-//V1
+//V2
 //Alicia et Hugo
 
-+ (vas|pars) tu en vacances
++ (vas tu|pars tu|tu pars|tu vas)  en vacances [*]
 - oui je vais en vacances
-- une année sur 2  
+- une année sur 2 
+- oui dans le sud 
 
-+ * a la mer ou a la montagne
-- a la montagne 
-- je vais dans les alpes faire du ski
++ * montagne [*]
+- non je vais a la plage
+- oui, je vais dans les alpes faire du ski
 
-+ tu pars combien de temps en vacances
++ * combien de temps en vacances [*]
 - je pars 7 jours
-- 3 jours
+- je pars 3 jours
 
-+ es tu deja parti a la mer
++ * deja parti a la mer [*]
 - oui a l'age de 8 ans
 - non pas encore
 
-+ aimes tu y aller
++ aime[s] tu y (aller|alle) [*]
 - oui j'aime bien car il y a des amies qui habitent la bas 
 
-+ aimes tu (etre en|les| partir en) vacances
++ aimes tu (etre en|les|partir en|aller en) vacances [*]
 - non car je préfère l’école 
 
-+ (tu fais quoi|que fais tu) (de tes vacances|en vacances)
++ (tu fais quoi|que fais tu|tfk|tfq) * vacances [*]
 - je vais aller skier, puis marcher mais également voir de la famille dans le sud
 - faire du VTT, je joues au jeux vidéos.
 
-+ fais tu du sport pendant les vacances 
++ fais tu du sport pendant les vacances [*]
 - oui je fais du foot 
 
-+ [*] combien de temps [(tu es|es tu)] [en vacances]
++ [*] combien de temps [tu es|es tu] [en vacances] [*]
 - pendant 2 semaines
 - pendant 3 jours 
 - pendant 1 semaines
 - pendant 2 semaines et toi
 
-+ (vas tu|pars tu|tu vas) a la mer (de fois|de temps en temps)
++ (vas tu|pars tu|tu vas) a la mer (de fois|de temps en temps) [*]
 - oui
 
-+ dans combien de temps c est (les vacances|le week end) 
++ dans combien de temps c est (les vacances|le week end) [*] 
 - dans 4 jours
 
-+ *pendant les vacances
++ *pendant les vacances [*]
 - oui  
 
-+ (vas tu|tu vas) a la piscine
++ (vas tu|tu vas) a la piscine [*]
 - oui !
 
-+ tu (vas|va) en (vacance|vacances)
++ tu (vas|va) en (vacance|vacances) [*]
 - oui!
 
-+ (t'aimes|t'aime) (le mer|la montagne|le camping)
++ (t'aimes|t'aime) (le mer|la montagne|le camping) [*]
 - oui beaucoup !
 
-+ tu préfère la mer ou la piscine
++ tu préfère la mer ou la piscine [*]
 - la (piscine|mer)
 
-+ tu (préfères|préfère) la tente ou les mobilhomes
++ tu (préfères|préfère) la tente ou les mobilhomes [*]
 - les mobilhomes
 
-+ raconte [*] une blague [*]
-- ~La première semaine, on a tout subi: la pluie, la neige, la grêle, le verglas, les   tempêtes... et la deuxième semaine, ça s'est gâté...~Et qu'est ce qui s'est passé ?~Ma belle-mère est venue...
+// + raconte [*] une blague [*]
+// - ~La première semaine, on a tout subi: la pluie, la neige, la grêle, le verglas, les   tempêtes... et la deuxième semaine, ça s'est gâté...~Et qu'est ce qui s'est passé ?~Ma belle-mère est venue...
 
-+ qu as  tu fais pendant tes vacances
++ qu as  tu fais pendant tes vacances [*]
 - j'ai été au ski
 
-+ (as tu| tu as) eu beau temps ?
++ (as tu| tu as) eu beau temps ? [*]
 - oui trés beau
 
-+ tes vacances se sont bien passees ?
++ tes vacances se sont bien (passees|paser|passer|passe|passee) ? [*]
 - oui trés bien !
 
-+ tu pars en vacances avec qui 
-- avec ma famille et des amis 
++ tu pars en vacances avec qui [*] 
+- avec ma famille et des amis
 
++ (c est|ces) a dire [*]
+- tu peux pas comprendre
 
++ cad
+- tu peux pas comprendre
