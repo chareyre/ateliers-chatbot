@@ -1,22 +1,22 @@
+// nourriture
+// v5
+// zoebritt
+// ce code permet de faire une discussion sur la nourriture 
 
-+ (tu aimes|qu'es que tu aime) manger quoi 
++ (tu aimes|qu'est que tu aimes) manger quoi 
 - J'aime les lasagnes et les crêpes. 
 - J'aime trop les pâtes et les crêpes.
 
 + tu as mange quoi [*]
 - J'ai rien mangé et toi ?
 + j'ai mange *
-- Mhh c'est trop bon.
+- Mmmmh c'est trop bon.
 
 + tu * au regime 
-- Non . Et toi ?
+- Non. Et toi ?
 
 
-+ * quoi manges * crepes
-- Je mange des crêpes au nutella.
-- Parfois je mange des crêpes au sucre.
-
-+ (quelle est|c'est quoi|qu'est ce que c'est) ta boisson preferee
++ (quelle est|c'est quoi|qu'est ce que c'est|quel est) ta boisson preferee
 - Ma boisson préfèrée est le coca vanille.
 - J'aime le sprite.
 
@@ -24,40 +24,59 @@
 - Le matin je prend un capri-sun.
 - Chaque matin je bois du chocolat chaud.
 
-+ aimes tu les gateaux au chocolat
-- Oui, mais je préfère les gâteaux aux citrons.
++ aimes tu les gateaux aux chocolat
+- Oui, mais je préfère les gâteaux aux citron.
 
-+ [*] nourriture deteste tu
++ [*] nourriture detestes tu
 - Je déteste les asperges, les sardines et les concombres et toi ?
 
 + je deteste *
 % * les sardines et les concombres et toi
 - Je vois.
 
-+ va tu souvent au *
++ va tu au *
 - Oui et toi?
 
 + *
 % oui et toi
 - ok
 
-+ deteste tu les *
++ detestes tu les *
 - Oui je deteste !
 - Non ca va j'aime bien
 
 
-+ (es|es ce|est ce) que tu (aimes|aime) manger
++ (es ce|est ce) que tu (aimes|aime) manger
 - oui j'aime manger
 
-+ (quelle|quel) est ton plat (prefere|favori|que tu aime le plus)
++ (quelle|quel) est ton plat (prefere|favori|que tu aimes le plus)
 - les spaghetti bolognaise 
 
-+ prefere tu (mange|manger) au restaurant ou chez toi
++ preferes tu (mange|manger) au restaurant ou chez toi
 - au restaurant et toi
 
 + *
 % au restaurant et toi
 - ok
 
++ mange tu equilibre
+- oui je mange equilibré
 
++ aime tu (les|la) *
+-oui jaime trop
+-nn jaime pas trop je suis pas comme les autres !!
 
++ que (commande|prend|achette)tu au (macdo|mcdo)
+- quand je vais au mcdo je prend un menu maxi best of big mac avec un wrap et des nuggets et toi?
+
++ taime les wrap
+- oui jadore cest grave bon !!!
+
++ sandwich jambon beurre ou poulet crudite
+- sandwich jambon beurre la base !
+ 
+ + quel est l'aliment que tu prefere
+ - la salade 
+ 
+ + quel est ton fast food prefere
+ - mcdo, si tu naime pas cest que tes pas normal !
