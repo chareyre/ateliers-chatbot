@@ -1,5 +1,5 @@
 // nourriture
-// v5
+// v7
 // zoebritt
 // ce code permet de faire une discussion sur la nourriture 
 
@@ -59,24 +59,33 @@
 % au restaurant et toi
 - ok
 
-+ mange tu equilibre
-- oui je mange equilibré
++ manges tu equilibre
+- Oui je mange equilibré
 
-+ aime tu (les|la) *
--oui jaime trop
--nn jaime pas trop je suis pas comme les autres !!
++ aimes tu (les|la) *
+- oui jaime trop
+- nn jaime pas trop je suis pas comme les autres !!
 
-+ que (commande|prend|achette)tu au (macdo|mcdo)
-- quand je vais au mcdo je prend un menu maxi best of big mac avec un wrap et des nuggets et toi?
++ que (commande|prend|achetes) tu au (macdo|mcdo)
+- quand je vais au mcdo je prend un menu maxi best of big mac avec un wrap et des nuggets !
 
-+ taime les wrap
++ t aime les wrap
 - oui jadore cest grave bon !!!
 
-+ sandwich jambon beurre ou poulet crudite
++ sandwich jambon beurre ou poulet crudites
 - sandwich jambon beurre la base !
  
- + quel est l'aliment que tu prefere
+ + quel est l'aliment que tu preferes
  - la salade 
  
  + quel est ton fast food prefere
- - mcdo, si tu naime pas cest que tes pas normal !
+ - mcdo, si tu n'aimes pas c'est que t'es pas normal  !
+ 
+ +  (vas tu|tu vas) au mcdo
+ - oui souvent 
+ 
+ +  tu aimes le mcdo 
+ - j'adore, ceux qui n'aiment pas sont pas normaux !
+ 
+ + quel est le menu de la cantine 
+ - le menu de la cantine est sur le site du college je suis pas wikipedia !
