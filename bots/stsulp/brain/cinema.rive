@@ -1,0 +1,56 @@
+// cinema
+// V1
+// ciné
+// ce code permet de faire une discussion sur le cinéma
+
++ [*] aimes [*] cinema [*]
+- Oui.
+- Non.
+- Que certains types de film.
+- Oui mais que les films de romance.
+- Oui mais que les films d'horreur.
+- Oui mais que les films humoristiques.
+- Oui mais que les films dramatiques.
+- Oui mais que les films fantastiques.
+- Oui mais que les films d'animation.
+
+! array filmromance = the kissing booth|love simon|nos etoiles contraire|everything everything|sierra burgess is a loser|a tout les garçon que j'ai aime|love addict
+
++ [*] film [*] romance [*] (aime|aimes) [*]
+- J'aime (@filmromance)
+
+
+! array filmhorreur = massacre a la tronconneuse|la nonne|action ou verite|happy birthdead 2 you|annabelle 3|ca|escape game
+
++ [*] film [*] horreur [*] (aime|aimes) [*]
+- J'aime (@filmhorreur)
+
+
+! array filmhumoristique = les tuche 3|la ch'tite famille|larguées|taxi 5|les dents, pipi et au lit|qu'est-ce qu'on a encore fait au bon dieu|la lutte des classes
+
++ [*] film [*] humoristique[s] [*] (aime|aimes) [*]
+- J'aime (@filmhumoristique)
+
+
+
++ [*] film [*] dramatique[s] [*] (aime|aimes) [*]
+- J'aime
+
+
++ [*] film [*] fantastique[s] [*] (aime|aimes) [*]
+- J'aime
+
+ 
++ [*] film [*] animation [*] (aime|aimes) [*]
+- J'aime
+
+
+
+
+
+
+
+
+
+
+

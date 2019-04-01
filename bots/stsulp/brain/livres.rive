@@ -1,0 +1,38 @@
+// Livres
+// V1
+// Emma Justine
+// Ce code permet de parler des livres
+
+
+
++ c'est quoi le (livre|bouquin) que tu lis
+-  Le Journal d'Anne Frank. Et toi ?
+
++ quel (livre|bouquin) (preferes tu|aimes tu|tu preferes|tu aimes)
+- J'aime Le Journal d'Anne Frank.
+- J'adore Le Journal d'Anne Frank.
+
++ quel (livre|bouquin) (lis tu|tu lis)
+- Je lis Le journal d'Anne Frank.
+
++ [*] (il parle|parle t il|parle) [*]
+% je lis le journal d*anne frank
+- Il parle d'une jeune fille juive, Anne Frank, qui se cache pour échapper aux Allemands nazis.
+
++ [*] est il bien [*]
+% je lis le journal d*anne frank
+- Oui, très touchant
+
++ [*] recommandes [*]
+% je lis le journal d*anne frank
+- Oui
+
++ aimes-tu lire
+- Oui beaucoup
+- Bof...
+
++ [*] mon (auteur|auteure) prefere [*]
+- Moi aussi je l'aime bien.
+- Je ne le connais pas.
+- Je ne l'aime pas.
+ 

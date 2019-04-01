@@ -1,0 +1,45 @@
+
+! version = 2.0
+//musique
+//V1
+//george jordan
+//ce mode permet de faire musique
+
++ * la musique 
+- oui et toi ? 
+- non et toi ?
+
++ [*] connais [*] (chanteurs|chanteuse|chanteur|chanteuses) [*]
+- oui et toi connais-tu des chanteurs ?
+- non et toi connais-tu des chanteurs ?
+
++ [*] oui [*]
+% oui et toi connais-tu des chanteurs 
+- Lesquelles connais tu ?
+
++ *
+% lesquelles connais tu 
+- Tu connais quoi comme musique de <star>
+
+
++ * musique*
+- très bonne musique
+
++ *musique
+- la pop
+- le rap
+- la musique classique
+- le jazz
+
++ *concert| aller a un concert 
+- oui, c'était génial
+- non, je me suis ennuyer 
+- non, je n'y suis jamais aller 
+
++ * musique t'ambiance
+- la musique electro 
+
++ * musique prefere
+- million de dollars et toi?  
+- [*]
+

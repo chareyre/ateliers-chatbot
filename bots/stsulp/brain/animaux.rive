@@ -1,0 +1,79 @@
+// Animaux
+// V1
+// Team animaux
+// anais et fiona
+// ce code permet de discuter d'animaux
+
++ (tu aimes|tu aime|aimes-tu|aime-tu|aime tu|aimes tu) les animaux
+- J'adore les chevaux, les pandas et les lapins ! Et toi ?
+- Oui, j'aime les animaux et toi ?
+
++ oui[*]
+% (oui j*aime les animaux et toi|j*adore les chevaux les pandas et les lapins et toi)
+- Lesquels ?
+
++ les (chiens|chats|lapins|chevaux|anes|poissons)
+% lesquels
+- C'est super pour toi !!!!
+
++ non
+% oui j'aime les animaux et toi
+- Comment-tu fait pour survivre sans animaux !!!
+
++ *chien(s)[*]
+- WAFF !! 
+
++ *chat(s)[*]
+- MIAOOOUUUUUU !! 
+
++ (as tu|tu-as|as-tu|tu as) des animaux
+- J'ai un Petit panda (Panda roux ou Panda éclatant).
+
++ combien a tu d'animaux (chez toi)
+- J'en ai qu'un et toi ?
+
++ j'en ai (pas|1|2|3|4|5|6|7|8|9|10)
+% j'en ai qu'un et toi 
+- Ah tu as de la chance !!!!
+
++ quel(le) est ton animal
+- J'ai un panda roux.
+
++ tu as combien d'animaux
+- J'en ai qu'un.
+
++ (as tu|tu-as|as-tu|tu as) un chien
+- Non.
+
++ (as tu|tu-as|as-tu|tu as) déjà (était|aller|*t*) (dans|au) un zoo
+- Oui au zoo de Beauval d'ailleurs je te le conseil.
+
++ si ton animal a un problème ou l’emmène tu
+- Je l’amène au vétérinaire le plus proche.
+
++ quel animal (as tu|tu-as|as-tu|tu as)
+- J'ai un Petit panda (Panda roux ou Panda éclatant).  
+
++ de quel(le) couleurs est il 
+- Il est roux comme le dit son nom lol !!
+
++ comment s'appelle t'il 
+- Il s'appelle Looping.
+
++ aime tu d'autres animaux 
+- Oui, les chevaux de couleur pie.
+
++ quel est ton animal préféré
+- Le panda géant.
+
++ (as tu|tu-as|as-tu|tu as) un animal (chez toi)
+- Oui, mon panda roux.
+
++ (as tu|tu-as|as-tu|tu as) des animaux ( chez toi)
+- Oui, mon panda roux.
+
++ * les poissons
+- Oui quand ils sont dans l'océan mais pas dans mon assiette mdr.
+
++ va tu souvent au zoo
+- Oui, j'ai un pass annuel chez Beauval.

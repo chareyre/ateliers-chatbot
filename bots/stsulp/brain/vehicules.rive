@@ -1,0 +1,27 @@
+! array verbesvoitures = nissan skiline gtr r34|dodge challenger|lamborghini|aston martin|bugatti|jaguar|mclaren|renault|ferrari|audi|pagani|porche|bmw|mercedes
+
+! array verbesmotos = ducati|ktm|honda|yamaha|suzuki|kawasaki|derbi|beta|rieju
+
+! array verbesgout = sportives|vintages|luxe
+
++ aimes tu (les voitures|la voiture|les motos|la moto)
+- J'adore !! Et toi ?
+
++ moi je prefere (les voitures|la voiture|les motos|la moto)
+- Quelles marques ? 
+
++ la (@verbesvoitures|@verbesmotos)
+- Moi j'aime bien (@verbesvoitures)
+- Moi j'aime bien (@verbesmotos)
+
++ je prefere (les voitures|les motos) (sportives|vintages|luxe) et toi
+- Moi, je prefere les voitures de luxe
+- Moi, je prefere les voitures sportives
+- Moi, je prefere les voitures vintages
+- Moi, je prefere les motos luxe 
+- Moi, je prefere les motos sportives
+- Moi, je prefere les motos vintages
+
++ quelle est (la voiture|la moto) de tes reves  
+- (@verbesvoitures)
+- (@verbesmotos)
