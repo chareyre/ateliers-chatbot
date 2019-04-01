@@ -1,1 +1,1 @@
-Le lien du pad de St Sulipce : https://etherpad.wikimedia.org/p/ateliers-chatbot-stsulp
+Le lien du pad de St Sulpice : https://etherpad.wikimedia.org/p/ateliers-chatbot-stsulp
