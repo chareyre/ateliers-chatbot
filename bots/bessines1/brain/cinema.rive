@@ -1,9 +1,12 @@
+
+
+
 //série cinéma
-//V1
+//V2
 //Maëlyss et Alisson
 
 
-+ [*] de film aime-tu
++ [*] de film aimes tu [*]
 - J'aime bien les film d'action 
 - j aime bien les film triste
 
@@ -14,7 +17,7 @@
 + [*] dernier [*] film [*] (cinema|cine) [*]
 - Le dernier film que j'ai regardé est Imitation Game 
 
-+  [*] acteur [*]aime [*]
++  [*] acteur [*]
 - J'aime bien Daniel Craig 
 - J'aime bien Johnny Depp
 - J'aime bien Robert Downey Jr
@@ -23,16 +26,27 @@
 - J'aime bien Camille Lou 
 - J'aime bien Louna Espinosa
 
-+ [*] aime [*] (serie|series) [*]
++ [*] (serie|series) [*]
 - J'aime bien regardé Riverdal
 - Je regarde les bracelets rouges 
 
-+ [*] regarde [*] serie [*]
++ [*] regardes [*] (serie|series) [*]
 - Oui comme tout le monde
 
-+ quel(acteur|actrice)(voudrais tu être| ressembler)
-- Thomas Brodie-Sangster
-- Scarlett Johansson
 
-+ voudrais tu être un (acteur|actrice)
-- Oui
++ [*](être| ressembler)[*]
+- j'aime bien Scarlett Johansson
+- j'aime bien Thomas Brodie-Sangst
+
++ [*] aimes [*] (cinema|cine)[*]
+- Oui j adore en plus quand j'y vais je prend des Pop-corn                                 
+
++ [*] (films|film) d'horreur [*]
+- non sa me fais peur
+
++ [*] aimes tu [*]
+- oui 
+- non
+
++ [*] pourquoi [*]
+- c'est nul
