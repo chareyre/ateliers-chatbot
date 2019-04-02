@@ -1,71 +1,40 @@
-//salutation
-//V1
-//carla vois pas le vert
+//salutations
+//v1
+//Emma et Laura
 
-+ (coucou|bonjour|hello|salut|wesh|hey|cc|slt) [*]
-- salut
+! array salutations=salut|bonjour|hello|hi|hola|hey|bonsoir|coucou
+                        
++ (comment|est ce que) (tu vas|vas-tu|vas tu|ca va)
+- Bien et toi
+- Pas très bien et toi
+- Très très très bien !
 
-+ (slt sa va|salut ca va)
-- salut sa va 
-- salut oui et toi 
-- slt sa va
-- oui et toi
++ salut mon ami
+- Salut ! 
+- Bonjour
+- Hey
 
-+ (oui|ouai|yes|bien|ouais|yep|ya|si) et toi
-% salut * va
-- oui tranquille 
-- oui trq
++ [*] bien [*] tu fais quoi
+- Je travail et toi
+- Je mange et toi
+- Je fais rien et toi
+- Je vais voir des amis et toi
+- Je vais voir un pote et toi
 
-+ (sa va|ca va|sv)
-- oui et toi
++ bien et toi
+- Bien et toi
+- Pas très bien
+- Très bien
 
-+ oui
-% oui et toi
--sa va bien
++ [*] (@salutations) [*]
+- (@salutations) comment vas tu 
 
-+ *
-% sa va bien
-- ok
++ bien
+% * comment vas tu
+- bien
+- mal
 
-
-+ (non|nn|nop)
-% salut * va
-- ta pas besoin de savoir
-
-+ * tu [*](appelle|appelles)[*]
-- je m appelle Natacha 
-- Natacha
-
-
- 
-+ (tu fais quoi|tfk|tfq|que fais tu)
-- rien et toi
-- je suis entrain de faire quelque chose que tu peux pas faire
-
-+ (c quoi|c k)
-% je suis entrain de faire quelque chose que tu peut pas faire
-- réflechir
-
-+ *
-% rien et toi
-- cool
-
-+ *
-% rien et toi
-- je pense qu on va bien s'entendre
-
-+ oui moi aussi
-- alors t en mieux
-
-+ (* quelle age|* quel age)
-- J'ai 15 ans et toi
-- 15 ans et demi et toi
-- pourquoi sa t'interesse 
-- sa te serviras a quoi
-- ce ne sont pas tes affaires 
-
-+ tu as peur de quoi
-- de ta tete 
-
-
-
++ mal
+% * comment vas tu
+- mal
+- bien

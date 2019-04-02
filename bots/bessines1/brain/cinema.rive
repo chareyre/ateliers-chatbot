@@ -1,56 +1,38 @@
-// cinema
-// V1
-// ciné
-// ce code permet de faire une discussion sur le cinéma
-
-+ [*] aimes [*] cinema [*]
-- Oui.
-- Non.
-- Que certains types de film.
-- Oui mais que les films de romance.
-- Oui mais que les films d'horreur.
-- Oui mais que les films humoristiques.
-- Oui mais que les films dramatiques.
-- Oui mais que les films fantastiques.
-- Oui mais que les films d'animation.
-
-! array filmromance = the kissing booth|love simon|nos etoiles contraire|everything everything|sierra burgess is a loser|a tout les garçon que j'ai aime|love addict
-
-+ [*] film [*] romance [*] (aime|aimes) [*]
-- J'aime (@filmromance)
+//série cinéma
+//V1
+//Maëlyss et Alisson
 
 
-! array filmhorreur = massacre a la tronconneuse|la nonne|action ou verite|happy birthdead 2 you|annabelle 3|ca|escape game
++ [*] de film aime-tu
+- J'aime bien les film d'action 
+- j aime bien les film triste
 
-+ [*] film [*] horreur [*] (aime|aimes) [*]
-- J'aime (@filmhorreur)
++ [*] film [*] prefere [*]
+- Mon film préféré est " à tous les garçons que j'ai aimé"
+- Mon film préféré est " L'école Buissonnière"
 
++ [*] dernier [*] film [*] (cinema|cine) [*]
+- Le dernier film que j'ai regardé est Imitation Game 
 
-! array filmhumoristique = les tuche 3|la ch'tite famille|larguées|taxi 5|les dents, pipi et au lit|qu'est-ce qu'on a encore fait au bon dieu|la lutte des classes
++  [*] acteur [*]aime [*]
+- J'aime bien Daniel Craig 
+- J'aime bien Johnny Depp
+- J'aime bien Robert Downey Jr
 
-+ [*] film [*] humoristique[s] [*] (aime|aimes) [*]
-- J'aime (@filmhumoristique)
++ [*] actrice [*]
+- J'aime bien Camille Lou 
+- J'aime bien Louna Espinosa
 
++ [*] aime [*] (serie|series) [*]
+- J'aime bien regardé Riverdal
+- Je regarde les bracelets rouges 
 
++ [*] regarde [*] serie [*]
+- Oui comme tout le monde
 
-+ [*] film [*] dramatique[s] [*] (aime|aimes) [*]
-- J'aime
++ quel(acteur|actrice)(voudrais tu être| ressembler)
+- Thomas Brodie-Sangster
+- Scarlett Johansson
 
-
-+ [*] film [*] fantastique[s] [*] (aime|aimes) [*]
-- J'aime
-
- 
-+ [*] film [*] animation [*] (aime|aimes) [*]
-- J'aime
-
-
-
-
-
-
-
-
-
-
-
++ voudrais tu être un (acteur|actrice)
+- Oui

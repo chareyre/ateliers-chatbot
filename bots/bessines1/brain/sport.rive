@@ -1,62 +1,54 @@
-! version = 2.0
-//sport
-//V2
-//Yoni Dorian
-//ce code répond a quelque question sur le foot
+//SPORT
+//V1
+//LORINE ET LEA
 
 
-+ * le sport
-- oui j'adore cela
 
-+ * sport
-- oui je le pratique
++ aimes tu le ski
+- oe j'adore
 
++ quelle est ton equipe preferee
+- l'équipe de France
 
-+ * sport prefere
-- j'adore le foot
++ quels sont tes loisirs
+- mes loisirs sont natation et la chasse
 
-+ depuis combien de temps en fais tu
-- depuis 7 ans 
++ sais-tu nager
+- bas oe
 
-+ * poste 
-- je suis buteuse
++ quelle nage (pratiques) [*] tu
+- le crawl et le papillon 
 
-+ * joueur prefere
-- C'est ruud gullit
++ quels sports detestes tu
+- le rugby et le curling
 
-+ * ruud guillit
-- C'est un joueur de foot néerlandais qui est né le 01/09/1962 à amsterdam 
++ quels sport pratiques tu le mercredi
+- le handball et toi
 
-+ pourquoi est t il ton joueur prefere
-- J'aime bien sa coupe de cheveux
++ parlez moi anglais ou espagnole
+- c'est d'accord
 
-+ * equipe favorite
-- C'est l'ajax amsterdam
++ what is your favorite sport
+- my favorite sport is hunting
 
-+ pratiques tu un autre sport hormis le foot 
-- Je faisais de la natation et du basket
++ y tu que deporte te gusta
+- balonmano y equitación
 
-+ pourquoi le foot
-- Car j'étais meilleure dans ce sport
++ ainsi que allemand et italian
+- ok
 
-+ tu connais @joueurfoot
-- Oui il est professionnel
-- Oui c'est un très grand joueur
++ bist du sportlich
+- ja enorm
 
-!array joueurfoot = neymar|mbappe|khazri|diony|cabella|verratti|messi|ronaldo|cavani|griezmann|pogba|modric
++ ti piace il calcio
+- no io odio
 
-+ * match de foot
-- Oui,j'y vais régulierement
-- Non, jamais
-- Non, mais prochainement
++ tres bien
+- merci
 
-+ * gagner la coupe du monde
-- C'est les bleus
-
-+ * pire equipe
-- C'est les marseillais
-
-+ * meilleure joueur
-- Lionel messi
-
-
++ au revoir
+- arrivederci
+- adiós
+- bye-bye
+- goodbye
+- auf wiedersehen

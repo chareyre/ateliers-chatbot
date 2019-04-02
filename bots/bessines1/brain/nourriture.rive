@@ -1,82 +1,73 @@
-// nourriture
-// v5
-// zoebritt
-// ce code permet de faire une discussion sur la nourriture 
-
-+ (tu aimes|qu'est que tu aimes) manger quoi 
-- J'aime les lasagnes et les crêpes. 
-- J'aime trop les pâtes et les crêpes.
-
-+ tu as mange quoi [*]
-- J'ai rien mangé et toi ?
-+ j'ai mange *
-- Mmmmh c'est trop bon.
-
-+ tu * au regime 
-- Non. Et toi ?
-
-
-+ (quelle est|c'est quoi|qu'est ce que c'est|quel est) ta boisson preferee
-- Ma boisson préfèrée est le coca vanille.
-- J'aime le sprite.
-
-+ [*] bois [*] le matin
-- Le matin je prend un capri-sun.
-- Chaque matin je bois du chocolat chaud.
-
-+ aimes tu les gateaux aux chocolat
-- Oui, mais je préfère les gâteaux aux citron.
-
-+ [*] nourriture detestes tu
-- Je déteste les asperges, les sardines et les concombres et toi ?
-
-+ je deteste *
-% * les sardines et les concombres et toi
-- Je vois.
-
-+ va tu au *
-- Oui et toi?
-
-+ *
-% oui et toi
-- ok
-
-+ detestes tu les *
-- Oui je deteste !
-- Non ca va j'aime bien
-
-
-+ (es ce|est ce) que tu (aimes|aime) manger
-- oui j'aime manger
-
-+ (quelle|quel) est ton plat (prefere|favori|que tu aimes le plus)
-- les spaghetti bolognaise 
-
-+ preferes tu (mange|manger) au restaurant ou chez toi
-- au restaurant et toi
-
-+ *
-% au restaurant et toi
-- ok
-
-+ mange tu equilibre
-- oui je mange equilibré
-
-+ aime tu (les|la) *
--oui jaime trop
--nn jaime pas trop je suis pas comme les autres !!
-
-+ que (commande|prend|achette)tu au (macdo|mcdo)
-- quand je vais au mcdo je prend un menu maxi best of big mac avec un wrap et des nuggets et toi?
-
-+ taime les wrap
-- oui jadore cest grave bon !!!
-
-+ sandwich jambon beurre ou poulet crudite
-- sandwich jambon beurre la base !
  
- + quel est l'aliment que tu prefere
- - la salade 
+//Nourritures
+//V1
+//Clémence & Adrien
+
++ [*] aimes [*] les legumes [*] 
+- Oui j'aime bien les carottes 
  
- + quel est ton fast food prefere
- - mcdo, si tu naime pas cest que tes pas normal !
++ [*] aimes [*] fruits [*]
+- Oui j'aime bien les bananes 
+
++ [*] prefere [*] (fruits|legumes) [*]
+- Je préfère les fruits
+
++[*] vegetarien [*]
+- Non
+
++ [*] aimes [*] viande [*]
+- Oui j'adore 
+
++ [*] prefere [*] viande [*] rouge [*] blanche [*] 
+- Je préfère la viande rouge 
+- je préfère la viande blanche 
+
++ [*] cuisson [*] prefere [*]
+- je préfère saignant 
+
++ [*] parfum [*] glace [*] 
+- j'aime bien les glaces aux fruits de la passion, mangues , cassis,fraises ,vanilles, framboises, bananes...Brefffff beaucoup de parfum quoi mdrrr 
+
++ [*] combien [*] boule [*]
+- Je préfère trois 
+
++ [*] (plats|plat) [*] (prefere|aimes) [*] 
+- mon plat préféré est ( les pâtes avec du jambons blanc|du riz africain) 
+
++ [*] fast food [*] (prefere|aimes) [*] 
+- moi c'est le KFC !!! 
+
++ [*] prefere [*] chocolat [*] bonbons [*]  
+-Les chocolats 
+-Les bonbons   
+
++ (aime|prefere) [*] manger [*] gras [*] sainement [*] 
+- je préfère manger gras 
+
++ [*] aime [*] tacos [*]  
+- Oee j'aime bien 
+
++ [*] aime [*] (frite|frites) [*]  
+-non j'aime pas 
+-oui j'aime bien c gras  
+
++ [*] aime [*] chinois 
+-OUIII SURTOUT LES SUSHIS MAIS MON POTE PAUL IL A TOUT MANGE AVEC SES POTES CHINOIS IL NE RESTAIT PLUS RIEN BUUUUU  
+
++ [*] aimes [*] pizza [*]  
+-Oui j'adore la pizza
+
++ a quoi
+% oui j'adore la pizza
+- Aux champignons
+ 
+
++ [*] aime [*] gravier [*]
+- Oui surtout mon pote Xavier 
+
+
+
+
+
+
+

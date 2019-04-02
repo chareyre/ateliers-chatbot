@@ -2,23 +2,21 @@
 
 const riveList = [
 "brain/special.rive",
-  "brain/animaux.rive",
-	"brain/bip.rive",
-	"brain/cinema.rive",
-	"brain/echec.rive",
-	"brain/jeuxvideos.rive",
-	"brain/livres.rive",
-	"brain/metier.rive",
-	"brain/mode.rive",
-	"brain/musique.rive",
-	"brain/nourriture.rive",
-	"brain/peche.rive",
-	"brain/salutations.rive",
-	"brain/special.rive",
-	"brain/sport.rive",
-	"brain/vacances.rive",
-	"brain/vehicules.rive",
-	"brain/velo.rive"
+"/brain/musique.rive",
+"/brain/animaux.rive",
+"/brain/special.rive",
+"/brain/ecologie.rive",
+"/brain/voyages.rive",
+"/brain/sport.rive",
+"/brain/arts.rive",
+"/brain/internet.rive",
+"/brain/gouts.rive",
+"/brain/betise.rive",
+"/brain/jeuxvideos.rive",
+"/brain/nourriture.rive",
+"/brain/salutations.rive",
+"/brain/cinema.rive",
+"/brain/presentation.rive"
 ];
 
 

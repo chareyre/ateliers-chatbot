@@ -1,56 +1,38 @@
-! version = 2.0
 //musique
-//V2
-//george jordan
-//ce mode permet de faire musique
-
-+ (aime tu|tu aime|tu apprecie|apprecie tu) la musique 
-- Ah en parlons de la musique parlons en  ?  
-
-+ bah parlons en 
-- c est parti engage
-
-+ [*] connais [*] (chanteurs|chanteuse|chanteur|chanteuses) [*]
-- oui et toi connais-tu des chanteurs ?
-- non et toi connais-tu des chanteurs ?
-
-+ [*] oui [*]
-% oui et toi connais-tu des chanteurs 
-- Lesquelles connais tu ?
-
-+ *
-% lesquelles connais tu 
-- Tu connais quoi comme musique de <star>
-
-+ [*]style musique
-- la pop
-- le rap
-- la musique classique
-- le jazz
-
-+ [*]aller a un concert 
-- oui, c'était génial
-- non, je me suis ennuyer 
-- non, je n'y suis jamais aller 
-
-+ [*] musique t'ambiance
-- la musique electro 
-
-+ [*] musique prefere
-- Pnl au dd et toi?  
-
-+ musique du moment 
-- pnl au dd 
-
-+ [*] style de musique du moment 
-- rap
-
-+ [*] chanteur prefere 
-- RK
+//V1
+//ksk
 
 
-+ [*] sais [*] chanter
--   un  peu
 
-+ [*] groupe prefere 
-- mon groupe prefere est Djadja Dinaz et Pnl 
++ (connais tu|tu connais|sais tu qui est) joyca
+- Ouais sa reprise de musique préférer est "ramener le grec a la maison". 
+
++ quel est ton style de musique 
+- Le rap us.
+
++ quel est ton rappeur preferer
+- mon rappeur préférer est 6ix9nine.
+
++ (tu connais|connais tu|sais tu qui est) jason darulo
+- Oui j'aime ce rappeur.
+
++ (as tu une musique preferer|quelle est ta musique preferer) de 6ix9nine
+- Ma musique préférer est FEFE.
+
++ (tu connais|connais tu|sais tu qui est) le chanteur riles
+- Ma chanson préférer de ce chanteur est Brother
+
++ (connais tu|tu connais|sais tu qui est) xxxtentacion 
+- Ouais miskinne mais il est mort(toz).
+
++ (as tu une musique preferer|quelle est ta musique preferer) de xxxtentacion
+- Ma musique préférer est moonlight.
+
++ (sais tu|tu sais|connais tu|tu connais) quel age a lilpump
+- Ouais il a 18 ans.
+
++ (ecoute|aimes tu|tu aimes) tu du rock
+- Ouais surtout du ACDC.
+
++ (connais tu|sais tu|tu sais|tu connais tu) bob marley 
+- Oui ma musique préférer de bob marley est Three Little Birds.

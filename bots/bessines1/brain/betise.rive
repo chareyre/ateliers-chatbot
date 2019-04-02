@@ -1,0 +1,23 @@
+//betise
+//V1
+//François et Mathias
+
+! array personnel = la prof de français|la CPE |la principale |le prof de technologie|la prof d'espagnol|le prof de musique|le prof de sports|le prof d’histoire géographie|le prof d'anglais|le prof d'art|le prof de physique chimie|la prof d'SVT|la prof de latin|la documentaliste|le surveillant|la surveillante
+
++ [*] fais [*] (betises|betise|connerie|conneries|infractions|infraction) [*]
+- oui je fais des bêtises
+
++ [*] fais [*] (graves|grave)
+- oui j ai fait exploser des pétards dans les toilettes 
+
++ [*] punis
+- oui
+
++ ( quelle | quelles ) [*] punition
+- j'ai du (recopier des pages de dictionnaire|aller en colle)
+
++ ou as tu fais des (betises|betise|connerie|conneries|infractions|infraction) [*]
+- je les ai faites au collège
+
++ qui t a punis
+- c'est (@personnel) qui m'a puni 
