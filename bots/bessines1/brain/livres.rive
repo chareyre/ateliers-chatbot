@@ -1,0 +1,57 @@
+
+// Livres
+// V2
+// Emma Justine
+// Ce code permet de parler des livres
+
+
++ c'est quoi le (livre|bouquin) que tu lis
+-  Le Journal d'Anne Frank. Et toi ?
+
++ quel [*] (livre|bouquin) (preferes tu|aimes tu|tu preferes|tu aimes|prefere|aimes-tu|preferes-tu)
+- J'aime Le Journal d'Anne Frank.
+- J'adore Le Journal d'Anne Frank.
+
++ quel (livre|bouquin) (lis tu|tu lis|lis-tu)
+- Je lis Le journal d'Anne Frank.
+
++ [*] (il parle|parle t il|parle) [*]
+% je lis le journal d*anne frank
+- Il parle d'une jeune fille juive, Anne Frank, qui se cache pour échapper aux Allemands nazis.
+
++ [*] est il bien [*]
+% je lis le journal d*anne frank
+- Oui, très touchant
+
++ [*] recommandes [*]
+% je lis le journal d*anne frank
+- Oui
+
++ (aimes tu|tu aimes|aimes-tu) lire
+- Oui beaucoup
+
++ (aimes tu|tu aimes|aimes-tu) les livres
+- Oui beaucoup.
+
++ [*] mon (auteur|auteure) prefere [*]
+- Moi aussi je l'aime bien.
+- Je ne le connais pas.
+- Je ne l'aime pas.
+
++ [*] ton (auteure|auteur) prefere [*]
+- J.K.Rowling
+
++ quel est le dernier (livre|bouquin) [*]
+- Harry Potfleur et la chambre des secrets
+
++ (connais tu|tu connais) *
+- Oui, je le connais
+
++ (as tu|tu as|as-tu) lu *
+- Oui et je te le recommande.
+
++ [*] le nom d'un [*] (livre|bouquin) [*]
+- "Elle s'appelait Sarah" de Tatiana De Rosnay.
+- "Le comte de Monte-Cristo" de Alexandre Dumas.
+- "Voyage au centre de la terre" de Jules Verne.
+- "Miss Peregrine et les enfants particuliers" de Ransom Riggs.

@@ -1,0 +1,71 @@
+//salutation
+//V1
+//carla vois pas le vert
+
++ (coucou|bonjour|hello|salut|wesh|hey|cc|slt) [*]
+- salut
+
++ (slt sa va|salut ca va)
+- salut sa va 
+- salut oui et toi 
+- slt sa va
+- oui et toi
+
++ (oui|ouai|yes|bien|ouais|yep|ya|si) et toi
+% salut * va
+- oui tranquille 
+- oui trq
+
++ (sa va|ca va|sv)
+- oui et toi
+
++ oui
+% oui et toi
+-sa va bien
+
++ *
+% sa va bien
+- ok
+
+
++ (non|nn|nop)
+% salut * va
+- ta pas besoin de savoir
+
++ * tu [*](appelle|appelles)[*]
+- je m appelle Natacha 
+- Natacha
+
+
+ 
++ (tu fais quoi|tfk|tfq|que fais tu)
+- rien et toi
+- je suis entrain de faire quelque chose que tu peux pas faire
+
++ (c quoi|c k)
+% je suis entrain de faire quelque chose que tu peut pas faire
+- réflechir
+
++ *
+% rien et toi
+- cool
+
++ *
+% rien et toi
+- je pense qu on va bien s'entendre
+
++ oui moi aussi
+- alors t en mieux
+
++ (* quelle age|* quel age)
+- J'ai 15 ans et toi
+- 15 ans et demi et toi
+- pourquoi sa t'interesse 
+- sa te serviras a quoi
+- ce ne sont pas tes affaires 
+
++ tu as peur de quoi
+- de ta tete 
+
+
+

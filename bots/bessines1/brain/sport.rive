@@ -1,0 +1,62 @@
+! version = 2.0
+//sport
+//V2
+//Yoni Dorian
+//ce code répond a quelque question sur le foot
+
+
++ * le sport
+- oui j'adore cela
+
++ * sport
+- oui je le pratique
+
+
++ * sport prefere
+- j'adore le foot
+
++ depuis combien de temps en fais tu
+- depuis 7 ans 
+
++ * poste 
+- je suis buteuse
+
++ * joueur prefere
+- C'est ruud gullit
+
++ * ruud guillit
+- C'est un joueur de foot néerlandais qui est né le 01/09/1962 à amsterdam 
+
++ pourquoi est t il ton joueur prefere
+- J'aime bien sa coupe de cheveux
+
++ * equipe favorite
+- C'est l'ajax amsterdam
+
++ pratiques tu un autre sport hormis le foot 
+- Je faisais de la natation et du basket
+
++ pourquoi le foot
+- Car j'étais meilleure dans ce sport
+
++ tu connais @joueurfoot
+- Oui il est professionnel
+- Oui c'est un très grand joueur
+
+!array joueurfoot = neymar|mbappe|khazri|diony|cabella|verratti|messi|ronaldo|cavani|griezmann|pogba|modric
+
++ * match de foot
+- Oui,j'y vais régulierement
+- Non, jamais
+- Non, mais prochainement
+
++ * gagner la coupe du monde
+- C'est les bleus
+
++ * pire equipe
+- C'est les marseillais
+
++ * meilleure joueur
+- Lionel messi
+
+

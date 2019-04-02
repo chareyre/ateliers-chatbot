@@ -1,0 +1,80 @@
+//Véhicules
+//v2
+// Fanchon Clément
+
+! array verbesvoitures = nissan skiline gtr r34|dodge challenger|lamborghini|aston martin|bugatti|jaguar|mclaren|renault|ferrari|audi|pagani|porche|bmw|mercedes
+
+! array verbesmotos = ducati|ktm|honda|yamaha|suzuki|kawasaki|derbi|beta|rieju
+
+! array verbesgout = sportives|vintages|luxe
+
++ aimes tu (les voitures|la voiture|les motos|la moto)
+- J'adore !! Et toi ?
+
++ * prefere [*](les voitures|la voiture|les motos|la moto)
+- Quelles marques ? 
+
++ la (@verbesvoitures|@verbesmotos)
+- Moi j'aime bien (@verbesvoitures)
+- Moi j'aime bien (@verbesmotos)
+
++ * beaucoup (les voitures|les motos) (sportives|vintages|luxe) et toi
++ * bien (les voitures|les motos) (sportives|vintages|luxe) et toi
+- Moi, je préfère les voitures de luxe
+- Moi, je prefere les voitures sportives
+- Moi, je prefere les voitures vintages
+- Moi, je prefere les motos luxe 
+- Moi, je prefere les motos sportives
+- Moi, je prefere les motos vintages
+
++ quelle est la voiture de tes reves  
+- (@verbesvoitures)
+
++ quelle est la moto de tes reves
+- (@verbesmotos)
+
++ [*] as * voiture [*] 
+- Non, car j'ai 16 ans.
+
++ [*] voiture * (rapide|vite) [*]
+- La bugatti chiron 
+
++ [*] voitures * chères [*]
+- Les voitures de luxe et de sport
+
++ [*] voiture * chere [*]
+- C'est la bugatti Divo avec 5 000 000 000 d'euros
+
++ [*] (nulle|pire) voiture [*]
+- La fiat multipla. AHAHAHAHAH !!!!
+
++ * voiture * puissante [*]
+- C'est la Devel Sixteen avec 5 007 ch
+
++ [*] as * moto [*] 
+- Non, car j'ai 16 ans.
+
++ [*] moto  * (rapide|vite) [*]
+- la la Kawasaki Ninja H2R
+
++ [*] moto * chere [*]
+- C'est la ES1 superbike avec 3 000 000 d'euros
+
++ [*] (nulle|pire) moto [*]
+- C'est la Aprilia La Motó 6.5 de 1996. AHAHAHAHAH !!!!
+
++ * moto * puissante [*]
+- C'est la Y2K TURBINE SUPERBIKE de 2001 avec 320 ch. 
+
+
+
+
+
+
+
+
+
+
+
+
+
