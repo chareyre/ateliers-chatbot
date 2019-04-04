@@ -1,0 +1,16 @@
+//Passions
+//V1
+//Marine et Emma 
+
+
+! array like = aimes-tu|tu aimes|est-ce que tu-aime
+
++ [*] (passion|passions)[*]
+- En parlant de passion, j'aime bien le sport.
+- En parlant de passion, j'aime bien les araignées mais j'ai la phobie des serpents !!
+- En parlant de passion, j'aime bien les jeux de sociétés car je suis le meilleur joueur du monde entier et que personne peut me battre !!
+- J'aime bien la cuisine mais le problème c'est que j'ai deux mains gauches.
+
++ (@like) les films netflix
+- Oui, j'ai un gros coup de coeur pour les films d'horreurs sur netflix.
+- Oui mais j'aime bien aussi les séries netflix.

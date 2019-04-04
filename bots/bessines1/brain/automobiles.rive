@@ -1,0 +1,11 @@
+\\automobile
+\\v1
+\\Victor Florian 
++ [*] (marques|marque) [*] (voiture|voitures) [*]
+- J'adore la nouvelle maserati en SUV et toi ?
+- Moi je n'ai pas de voitures mais mes parents ont une peugeot 206 break.
+- Je n'ai jamais aimé l'automobile .
+
++ [*] (ton pere|ta mere|ton frere|quelqu'un de ta famille) [*] (automobiles|automobile)
+- Oui ma mère et parfois un peu mon père.
+- Non mais j'aime bien moi, ducoup j'essaie de connaitre un maximum de choses ;)
