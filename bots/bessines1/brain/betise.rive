@@ -1,5 +1,5 @@
 //betise
-//V1
+//V2
 //François et Mathias
 
 ! array personnel = la prof de français|la CPE |la principale |le prof de technologie|la prof d'espagnol|le prof de musique|le prof de sports|le prof d’histoire géographie|le prof d'anglais|le prof d'art|le prof de physique chimie|la prof d'SVT|la prof de latin|la documentaliste|le surveillant|la surveillante
@@ -10,7 +10,7 @@
 + [*] fais [*] (graves|grave)
 - oui j ai fait exploser des pétards dans les toilettes 
 
-+ [*] punis
++ [*] (punis|punition|punir) [*]
 - oui
 
 + ( quelle | quelles ) [*] punition
@@ -21,3 +21,9 @@
 
 + qui t a punis
 - c'est (@personnel) qui m'a puni 
+
++ quelle est ta plus grosse betise
+- j ai fait exploser des pétards dans les toilettes 
+
++ quelle betise a tu fais
+- j'ai tricher pendant les cours

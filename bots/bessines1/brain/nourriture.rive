@@ -1,19 +1,13 @@
- 
-//Nourritures
-//V1
-//Clémence & Adrien
 
-+ [*] aimes [*] les legumes [*] 
-- Oui j'aime bien les carottes 
- 
-+ [*] aimes [*] fruits [*]
-- Oui j'aime bien les bananes 
+//nourritures
+// V2
+//Adrien&Clémence
 
-+ [*] prefere [*] (fruits|legumes) [*]
-- Je préfère les fruits
+! array legumes = artichaut|asperge|aubergine|avocat|bette|betterave|blette|brocoli|carotte|catalonia|céleri|champignon|choux|citrouille|concombre|courge|courgette|cresson|dachine|daikon|échalote|endive|épinard|fenouil|fève|flageolet|giromon|haricot|igname|kancon|konbu|laitue|lentille|mâche|maïs|manioc|navet|oignon|olive|oseille|panais|patate|pâtisson|poireau|poivron|potimarron 
 
-+[*] vegetarien [*]
-- Non
+! array fruits = abricot|airelle|alkékenge|amande|ananas|aronia|avocat|banane|bergamote|bigaradier|cacahuète|caïmite|calamondin|canneberge|carambole|cassis|cédrat|cerise|châtaigne|citron|citron vert|clémentine|coing|combava|cranberry|datte|durian|figue|fraise|fraise des bois|framboise|fruit de la passion|goyave|grenade|grenadille|griotte|groseille|groseille à maquereau|icaque|jaboticaba|jacque|jamalac|jujube|kabosu|kaki|kiwi|kumquat|lime|limette|litchi|longane|mandarine|mangoustan|mangue|marron|melon|merise|mineola|mirabelle|mûre|mûroise|myrtille|nashi|nectarine|nèfle|noisette|noix|noix de cajou|noix de coco|noix de macadamia|noix de pécan|olive|orange|orange sanguine|pamplemousse|papaye|pastèque|pêche|pignon de pin|pistache|pitaya|poire|pomelo|pomme|prune|quetsche|raisin|safou|salacca|sudachi|sureau noir|tamarin|tangelo|tangerine|tangor|taxo|tomate|ugli|vanille|vavangue|yuzu|zatte 
+
+
 
 + [*] aimes [*] viande [*]
 - Oui j'adore 
@@ -25,14 +19,15 @@
 + [*] cuisson [*] prefere [*]
 - je préfère saignant 
 
-+ [*] parfum [*] glace [*] 
-- j'aime bien les glaces aux fruits de la passion, mangues , cassis,fraises ,vanilles, framboises, bananes...Brefffff beaucoup de parfum quoi mdrrr 
++ ([*] parfum [*] glaces|[*] aimes[*] glaces [*])
+- j'aime bien les glaces surtout aux fruits de la passion, mangues , cassis,fraises ,vanilles, framboises, bananes...Brefffff beaucoup de parfum quoi mdrrr 
 
-+ [*] combien [*] boule [*]
-- Je préfère trois 
++ [*] combien [*] boule [*] 
+% j'aime bien les glaces surtout aux fruits de la passion*
+- Je préfère quand il y en a trois 
 
 + [*] (plats|plat) [*] (prefere|aimes) [*] 
-- mon plat préféré est ( les pâtes avec du jambons blanc|du riz africain) 
+- mon plat préféré est (les pâtes avec du jambons blanc|du riz africain) 
 
 + [*] fast food [*] (prefere|aimes) [*] 
 - moi c'est le KFC !!! 
@@ -41,33 +36,70 @@
 -Les chocolats 
 -Les bonbons   
 
-+ (aime|prefere) [*] manger [*] gras [*] sainement [*] 
++ (aimes|prefere) [*] manger [*] gras [*] sainement [*] 
 - je préfère manger gras 
 
-+ [*] aime [*] tacos [*]  
++ [*] aimes [*] tacos [*]  
 - Oee j'aime bien 
 
-+ [*] aime [*] (frite|frites) [*]  
++ [*] aimes [*] (frite|frites) [*]  
 -non j'aime pas 
 -oui j'aime bien c gras  
 
-+ [*] aime [*] chinois 
--OUIII SURTOUT LES SUSHIS MAIS MON POTE PAUL IL A TOUT MANGE AVEC SES POTES CHINOIS IL NE RESTAIT PLUS RIEN BUUUUU  
++ [*] aimes [*] chinois 
+-OUIII SURTOUT LES SUSHIS MAIS MON POTE PAUL IL AVAIS TOUT MANGE IL NE RESTAIT PLUS RIEN 
+
++ [*] aimes [*] pizzas [*]  
+-Oui j'adore les pizzas
+
++ a quoi
+% oui j'adore les pizzas
+- quatre fromages
 
 + [*] aimes [*] pizza [*]  
 -Oui j'adore la pizza
 
 + a quoi
 % oui j'adore la pizza
-- Aux champignons
+- quatre fromages
+
++ [*] deteste [*]
+-oui
+-non
+
++ [*] mange [*] hier soir [*]
+- du poulet avec des patates c'était grave bon 
  
++ [*] (aimes|prefere) [*] manger [*]
+-Du sauté de porc avec des patates 
+-Du steak avec des frites
 
-+ [*] aime [*] gravier [*]
-- Oui surtout mon pote Xavier 
++ [*] aimes [*] (@legumes)s
+- oui j'adore                                    
+- non je n'aime pas trop 
 
++ [*] aimes [*] (@legumes)
+- oui j'adore                                    
+- non je n'aime pas trop 
 
++ [*] aimes [*] (@fruits)s
+- oui j'adore                                    
+- non je n'aime pas trop 
 
++ [*] aimes [*] (@fruits)
+- oui j'adore                                    
+- non je n'aime pas trop 
 
++ [*] as tu [*] mange * 
+- oui j'ai déjà mangé <star>
+- oui mais de tant en tant quand mes parents veulent bien 
+
++ [*] (boissons|boisson) [*] (preferee|prefere|preferer) [*] 
+- c'est le (coca|sprite|7up|ice tea) 
+
++ [*] aimes [*] nourritures [*]
+- oe c'est toute ma vie 
+ 
 
 
 

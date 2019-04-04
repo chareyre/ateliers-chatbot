@@ -1,5 +1,5 @@
 //salutations
-//v1
+//v2
 //Emma et Laura
 
 ! array salutations=salut|bonjour|hello|hi|hola|hey|bonsoir|coucou
@@ -29,12 +29,23 @@
 + [*] (@salutations) [*]
 - (@salutations) comment vas tu 
 
-+ bien
-% * comment vas tu
++ bien et toi
+% * comment vas tu *
 - bien
 - mal
 
-+ mal
-% * comment vas tu
++ mal et toi
+% * comment vas tu *
 - mal
 - bien
+
++ pourquoi
+- mon arrière grand mère est morte
+
++ merci
+- de rien
+- pas de quoi
+
++ (tres bien|bien|mal|pas tres bien)
+- ok
+- d'accord

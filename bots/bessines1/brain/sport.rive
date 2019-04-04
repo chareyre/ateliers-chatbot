@@ -1,11 +1,35 @@
 //SPORT
-//V1
+//V2
 //LORINE ET LEA
 
++ fait tu partie d'un club
+- oui et toi 
 
 
-+ aimes tu le ski
++ lequel
+-  handball bessines et equitation razes
+
+
++ quel est ton joueur de (foot|football) prefere
+- je n en est pas 
+
++ [*]rugby[*]
+- bof j en est jamais fais
+
++ [*](nager|natation)[*]
+- c'est trop bien
+
++ [*] natation[*]
+- bof mais je sais nager
+
++ [*] ski[*]
 - oe j'adore
+
++[*] danse classique [*]
+- c'est de la torture
+
++ [*] quidditch[*]
+- je n y ai jamais joué
 
 + quelle est ton equipe preferee
 - l'équipe de France
@@ -23,7 +47,8 @@
 - le rugby et le curling
 
 + quels sport pratiques tu le mercredi
-- le handball et toi
+-0.
+ le handball et toi
 
 + parlez moi anglais ou espagnole
 - c'est d'accord
@@ -33,8 +58,6 @@
 
 + y tu que deporte te gusta
 - balonmano y equitación
-
-+ ainsi que allemand et italian
 - ok
 
 + bist du sportlich
@@ -51,4 +74,8 @@
 - adiós
 - bye-bye
 - goodbye
-- auf wiedersehen
+- auf wiedersehen 
+
++ qui as gagné le 100 mètre au JO en 2016
+- Usain Bolt
+

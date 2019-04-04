@@ -2,7 +2,7 @@
 
 
 //série cinéma
-//V2
+//V3
 //Maëlyss et Alisson
 
 
@@ -44,9 +44,13 @@
 + [*] (films|film) d'horreur [*]
 - non sa me fais peur
 
-+ [*] aimes tu [*]
-- oui 
-- non
++ [*](cinema|cine|film|acteur|actrice)[*]
+- je vois que tu t intéresse au monde du cinéma tu sais que c'est très intéressant.Il y a des film romantique,des film d action. Les acteurs qui joue bien leur rôle. La belle vie d artistes!!!
 
-+ [*] pourquoi [*]
-- c'est nul
++ [*] aimes tu *
+- oui j'aime <star> 
+- non je n'aime pas <star>
+
++ [*] pourquoi[*]
+- c'est nul 
+
