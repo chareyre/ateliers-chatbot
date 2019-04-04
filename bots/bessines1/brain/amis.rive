@@ -4,7 +4,7 @@
 // VERSION V1
 // Emma-Lou et Clémence
                 
-+ [*] as [*] (un meilleur ami|une meilleure amie) [*]
++ [*] as [*] ( meilleur ami| meilleure amie) [*]
 - oui il s'appelle Alexis
 
 + combien [*] as [*] d'amis 
@@ -17,7 +17,7 @@
 - oui j'en ai une elle s'appelle Marie-Antoinette et elle est soulante
 
 + [*] as [*] un ami fidele
-- oui mon chien il s'appelle Maël
+- oui mon chien il s'appelle Rex
 
 + aimes [*] tes camarades [*]
 - oui ils sont tous gentils sauf Marie-Antoinette
@@ -25,10 +25,19 @@
 + [*] qui [*] marie-antoinette [*]
 - c'est ma pire ennemie
 
-+ fais-tu souvent des sorties avec tes amis
++ fais [*] des sorties avec tes amis
 - oui on va au cinema et au mcdo
 
 + [*] te disputes [*] avec [*] (amis|amies)
 - ils sont très gentils
 % non je m'entends bien avec eux
 
++ vas [*] voir tes amis [*]
+- oui evidemment
+
+
++ [*] as [*] des amis
+- mais evidemment
+
++ [*] bizzare
+- non pas du tout
