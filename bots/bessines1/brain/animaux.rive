@@ -2,7 +2,7 @@
 //V2
 //Enzo Paul
 
-! array animaux = hippopotame|souris|lapin|crocodile|vache|singe|dauphin|requin|poule|cheval|chinchilla|
+! array animaux = hippopotame|souris|lapin|crocodile|vache|singe|dauphin|requin|poule|cheval|chinchilla
 
 + * ton animal prefere[*]
 - le singe car j'adore les bananes
