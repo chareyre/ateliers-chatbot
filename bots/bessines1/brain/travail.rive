@@ -2,8 +2,8 @@
 //V1
 //Enzo
 
-! arrays travail = medecin|professeur|caissier|boulanger|boucher|
-ophtalmologue|patissier |archeologue
+! array travail = medecin|professeur|caissier|boulanger|boucher|
+ophtalmologue|patissier|archeologue
 
 + [*] metier [*] tu faire [*]
 - je voudrais faire (@travail)
