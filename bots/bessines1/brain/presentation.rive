@@ -1,10 +1,8 @@
-
-
 //présentation
-//v3
+//v4
 //Megane et Amélie
 
-+ [*] (fr*res|fr*re|soeurs|soeur|age|t'appele|lucas) [*] 
++ [*] (fr*res|fr*re|soeurs|soeur|age|t'appele|Lucas) [*] 
 - Je vois que tu t'interesses a moi, c'est gentil.
 
 + comment (tu t'appelles|t'appelles tu) 
@@ -76,7 +74,7 @@
 % je voudrais *tre militaire
 - Car je veux sauver des vies. 
 
-+ [*] quelles langues [*]
++ [*] langues [*]
 - Je parle Français, I speak bien English very bien même and un peu español.
 
 + quel est ton pays pr*f*r*s
