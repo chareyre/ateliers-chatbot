@@ -34,5 +34,6 @@ const riveList = [
 "brain/phobies.rive",
 "brain/cinema.rive",
 "brain/presentation.rive",
+"brain/sante.rive"
 "brain/defauts.rive"
 ]
