@@ -1,0 +1,16 @@
+//travail
+//V1
+//Enzo
+
+! arrays travail = medecin|professeur|caissier|boulanger|boucher|
+ophtalmologue|patissier |archeologue
+
++ [*] metier [*] tu faire [*]
+- je voudrais faire (@travail)
+
++ [*] metier font tes parents
+- Ils sont (@travail)
+
++ [*] (devoir|devoirs) [*]
+- oui tout le temps
+- non pas du tout
