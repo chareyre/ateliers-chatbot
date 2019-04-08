@@ -1,14 +1,18 @@
 
         
 //thème:amis
-// VERSION V1
+// VERSION V2
 // Emma-Lou et Clémence
                 
 + [*] as [*] ( meilleur ami| meilleure amie) [*]
 - oui il s'appelle Alexis
 
 + combien [*] as [*] d'amis 
-- j'en ai 12
+- j'en ai vraiment beaucoup et toi ?
+
++ [*]
+% j'en ai vraiment beaucoup et toi
+- d'accord mais je suis sur que t'en a moins que moi
 
 + [*] as [*] une (petite amie|amoureuse) [*]
 - oui, elle s'appelle Amandine
@@ -39,10 +43,11 @@
 + [*] as [*] des amis
 - mais evidemment
 
-+ [*] bizzare
++ [*] bizarre
 - non pas du tout
 
 
 + [*] (inscrit|sur) à un site de rencontre
 - non je n'en ai pas besoin
+
 

@@ -5,16 +5,17 @@
 + as tu des sentiments 
 - Oui pour mes amis et ma petite amie
 
-+ (qui est|c'est qui|qui es|parle moi de) ta petite amie
-- Amandine. Tu veux savoir comment je la trouve.
++ [*] (amour|sentiment|petite amie|sentiments)  [*]
+- A propos de sa moi j'ai une petite amie  Amandine. Tu veux savoir comment je la trouve.
 
-+[*] oui [*]
++ [*] oui [*]
 % amandine tu veux savoir comment je la trouve
 - Je la trouve belle et en plus elle est inoffensif 
 
 + [*] ami [*]
 - ha oui mon meilleur ami est Alexis et toi, Alexis est aimable ,gentil,mais autant moins que moi,moi je suis hyper aimable et hyper sympa.
 
-+[*] non [*]
++ [*] non [*]
 % amandine tu veux savoir comment je la trouve
 - Ha ok mais moi j'ai la meilleur 
+

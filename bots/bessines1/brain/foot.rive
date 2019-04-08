@@ -1,6 +1,6 @@
 //Foot
-//V1
-//(groupe) Romain et Mathys        
+//V2
+//(groupe) Romain et Mathys
 + [*] (aimes|aimez) [*] foot [*]
 - Oui c'est ma passion
 - oui j'aimes depuis tout petit
@@ -30,4 +30,10 @@
 + [*] chaussures de foot
 - adidas predator les plus belles de Pogba
 - nike mercurial les nouvelles de Ronaldo
-- nike hypervenom de Mbappé
+- nike hypervenom de Mbappé            
+
++ [*] (joues tu au foot|tu joues au foot) [*]
+- oui et je suis très fort
+
++ tu es fort au foot
+- oui je gagne toujours               

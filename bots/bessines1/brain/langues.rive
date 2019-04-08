@@ -1,0 +1,11 @@
+//theme (langue)
+//version (v1)
+// groupe (hippolyte et maxence)
+
++ (conbeint|conbient|conbien|conbiens|conbeins|quelle|quelles|quel) [*] (langue|langues|lengue|lengues) [*] 
+- le Français, l'Espagnol,l'Allemand 
+
++ [*] (langue|langues|lengue|lengues) (apprendre|aprendre|apprend|appren|aprend|apren)  [*] 
+- l'Espagnol,l'Allemand et je veux apprendre le Russe
+
+
