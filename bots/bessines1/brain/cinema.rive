@@ -1,8 +1,9 @@
 
 
 
+
 //série cinéma
-//V3
+//V4
 //Maëlyss et Alisson
 
 
@@ -34,23 +35,26 @@
 - Oui comme tout le monde
 
 
-+ [*](être| ressembler)[*]
-- j'aime bien Scarlett Johansson
-- j'aime bien Thomas Brodie-Sangst
++ [*]être[*]
+- J'aime bien Scarlett Johansson
+- J'aime bien Thomas Brodie-Sangst
 
 + [*] aimes [*] (cinema|cine)[*]
-- Oui j adore en plus quand j'y vais je prend des Pop-corn                                 
+- Oui j adore en plus quand j'y vais je prend des Pop-corns                                 
 
 + [*] (films|film) d'horreur [*]
-- non sa me fais peur
+- Non sa me fais peur
 
-+ [*](cinema|cine|film|acteur|actrice)[*]
-- je vois que tu t intéresse au monde du cinéma tu sais que c'est très intéressant.Il y a des film romantique,des film d action. Les acteurs qui joue bien leur rôle. La belle vie d artistes!!!
++ [*](cinema|cine|film|séries série)[*]
+- Je vois que tu t intéresse au monde du cinéma tu sais que c'est très intéressant.Il y a des film romantique,des film d action. Les acteurs qui joue bien leur rôle. La belle vie d artistes!!!
 
 + [*] aimes tu *
-- oui j'aime <star> 
-- non je n'aime pas <star>
+- Oui j'aime <star> 
+- Non je n'aime pas <star>
 
 + [*] pourquoi[*]
-- c'est nul 
+- C'est nul                                 
 
++ [*] voudrais[*] ressembler *
+- Oui  j'aimerais ressembler <star>
+- Non je n aimerais pas ressembler <star>
